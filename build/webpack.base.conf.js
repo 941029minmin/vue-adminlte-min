@@ -1,15 +1,24 @@
+var webpack=require('webpack')
 'use strict'
 const path = require('path')
 const utils = require('./utils')
 const config = require('../config')
 const vueLoaderConfig = require('./vue-loader.conf')
-var webpack = require('webpack')
 
 function resolve (dir) {
   return path.join(__dirname, '..', dir)
 }
 
-
+// const createLintingRule = () => ({
+//   test: /\.(js|vue)$/,
+//   loader: 'eslint-loader',
+//   enforce: 'pre',
+//   include: [resolve('src'), resolve('test')],
+//   options: {
+//     formatter: require('eslint-friendly-formatter'),
+//     emitWarning: !config.dev.showEslintErrorsInOverlay
+//   }
+// })
 
 module.exports = {
   context: path.resolve(__dirname, '../'),
@@ -26,13 +35,13 @@ module.exports = {
   resolve: {
     extensions: ['.js', '.vue', '.json'],
     alias: {
-      'vue$': 'vue/dist/vue.esm.js',
+      'vue$': 'vue/dist/vue.esm.js', //esm语法检测
       '@': resolve('src'),
-      'jquery': 'jquery' 
     }
   },
   module: {
     rules: [
+      // ...(config.dev.useEslint ? [createLintingRule()] : []),
       {
         test: /\.vue$/,
         loader: 'vue-loader',
@@ -69,6 +78,13 @@ module.exports = {
       }
     ]
   },
+  plugins: [
+   // new webpack.optimize.CommonsChunkPlugin('common.js'),  //（改动过）整合js到一个单入口js
+   new webpack.ProvidePlugin({
+       jQuery: "jquery",
+       $: "jquery"
+   })
+  ],
   node: {
     // prevent webpack from injecting useless setImmediate polyfill because Vue
     // source contains it (although only uses it if it's native).
@@ -80,11 +96,5 @@ module.exports = {
     net: 'empty',
     tls: 'empty',
     child_process: 'empty'
-  },
-  plugins: [
-    new webpack.ProvidePlugin({
-        $: "jquery",
-        jQuery: "jquery"
-    })
-  ]
+  }
 }
