@@ -1,4 +1,4 @@
-webpackJsonp([0],{
+webpackJsonp([1],{
 
 /***/ "+2Ke":
 /***/ (function(module, exports) {
@@ -39,6 +39,20 @@ exports.SOURCE_FORMAT_UNKNOWN = SOURCE_FORMAT_UNKNOWN;
 exports.SOURCE_FORMAT_TYPED_ARRAY = SOURCE_FORMAT_TYPED_ARRAY;
 exports.SERIES_LAYOUT_BY_COLUMN = SERIES_LAYOUT_BY_COLUMN;
 exports.SERIES_LAYOUT_BY_ROW = SERIES_LAYOUT_BY_ROW;
+
+/***/ }),
+
+/***/ "+5KW":
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__("cCuA");
+if(typeof content === 'string') content = [[module.i, content, '']];
+if(content.locals) module.exports = content.locals;
+// add the styles to the DOM
+var update = __webpack_require__("rjj0")("bd1f4d4c", content, true, {});
 
 /***/ }),
 
@@ -20521,13 +20535,6 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "AZej":
-/***/ (function(module, exports) {
-
-module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAZlBMVEX///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////+rG8stAAAAIXRSTlMAAgMKpAGhnbmVnpi4CaqInATAiqKfloSQq6aSB5u9mrT+kbbIAAAAZklEQVR4XqXNNw7DQAxEUXKDcs7Onvtf0uTCwEqFKv2KryCGLsZlZQ/ugGzvFEAR3Tfi3FPt2mCTiBNDNACjehLPLNcCYCXj9F9NrOd2E6dije8IPTz9e2bqF8dB+wY+4pj9yv5ZPz3IB4i29NtOAAAAAElFTkSuQmCC"
-
-/***/ }),
-
 /***/ "AbHi":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -27535,6 +27542,17 @@ echarts.registerPreprocessor(parallelPreprocessor);
 
 /***/ }),
 
+/***/ "FvYu":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('section',{staticClass:"content"},[_c('div',{staticClass:"row"},[_c('div',{staticClass:"col-md-12"},[_c('div',{staticClass:"box box-success"},[_vm._m(0),_vm._v(" "),_c('div',{staticClass:"box-body"},[_c('div',{staticClass:"row"},[_c('div',{staticClass:"col-md-6"},[_vm._m(1),_vm._v(" "),_c('div',{staticClass:"chart"},[_c('div',{style:({height:'300px'}),attrs:{"id":"myCharts1"}})])]),_vm._v(" "),_vm._m(2)])])])])]),_vm._v(" "),_c('div',{staticClass:"row"},[_c('div',{staticClass:"col-md-6"},[_c('div',{staticClass:"box box-success"},[_vm._m(3),_vm._v(" "),_c('div',{staticClass:"box-body"},[_c('div',{staticClass:"row"},[_c('div',{staticClass:"chart"},[_c('div',{style:({height:'250px'}),attrs:{"id":"myCharts3"}})])])])])]),_vm._v(" "),_c('div',{staticClass:"col-md-6"},[_c('div',{staticClass:"box box-success"},[_vm._m(4),_vm._v(" "),_c('div',{staticClass:"box-body"},[_c('div',{staticClass:"row"},[_c('div',{staticClass:"chart"},[_c('div',{style:({height:'250px'}),attrs:{"id":"myCharts4"}})])])])])])]),_vm._v(" "),_c('div',{staticClass:"row"},[_c('div',{staticClass:"col-md-12"},[_c('div',{staticClass:"box box-success"},[_vm._m(5),_vm._v(" "),_c('div',{staticClass:"box-body"},[_c('div',{staticClass:"row"},[_c('div',{staticClass:"col-md-6"},[_vm._m(6),_vm._v(" "),_c('div',{staticClass:"chart"},[_c('div',{style:({height:'250px'}),attrs:{"id":"myCharts5"}})])]),_vm._v(" "),_vm._m(7)])])])])]),_vm._v(" "),_c('div',{staticClass:"row"},[_c('div',{staticClass:"col-md-12"},[_c('div',{staticClass:"box box-success"},[_vm._m(8),_vm._v(" "),_c('div',{staticClass:"box-body"},[_c('div',{staticClass:"row"},[_c('div',{staticClass:"col-md-6"},[_vm._m(9),_vm._v(" "),_c('div',{staticClass:"chart"},[_c('div',{style:({height:'300px'}),attrs:{"id":"myCharts7"}})])]),_vm._v(" "),_vm._m(10)])])])])]),_vm._v(" "),_c('div',{staticClass:"row"},[_c('div',{staticClass:"col-md-12"},[_c('div',{staticClass:"box box-success"},[_vm._m(11),_vm._v(" "),_c('div',{staticClass:"box-body"},[_c('table',{staticClass:"table table-bordered table-striped",attrs:{"id":"example1"}},[_vm._m(12),_vm._v(" "),_c('tbody',[_c('tr',[_c('th',[_vm._v("设计艺术学院")]),_vm._v(" "),_c('th',[_vm._v("数字音乐在数字娱乐中的重要地位")]),_vm._v(" "),_c('th',{class:[_vm.teacherID],on:{"click":function($event){_vm.goParam(_vm.teacherID+1)}}},[_vm._v("张薇")]),_vm._v(" "),_c('th',[_vm._v("秦丽娜:1234567;李伟:1345678;李华:1456789")]),_vm._v(" "),_c('th',[_vm._v("2015年9月")]),_vm._v(" "),_c('th',[_vm._v("2015年12月")])]),_vm._v(" "),_c('tr',[_c('th',[_vm._v("设计艺术学院")]),_vm._v(" "),_c('th',[_vm._v("数字音乐在数字娱乐中的重要地位")]),_vm._v(" "),_c('th',{class:[_vm.teacherID],on:{"click":function($event){_vm.goParam(_vm.teacherID+2)}}},[_vm._v("张薇")]),_vm._v(" "),_c('th',[_vm._v("秦丽娜:1234567;李伟:1345678;李华:1456789")]),_vm._v(" "),_c('th',[_vm._v("2015年9月")]),_vm._v(" "),_c('th',[_vm._v("2015年12月")])]),_vm._v(" "),_c('tr',[_c('th',[_vm._v("设计艺术学院")]),_vm._v(" "),_c('th',[_vm._v("数字音乐在数字娱乐中的重要地位")]),_vm._v(" "),_c('th',{class:[_vm.teacherID],on:{"click":function($event){_vm.goParam(_vm.teacherID+2)}}},[_vm._v("张薇")]),_vm._v(" "),_c('th',[_vm._v("秦丽娜:1234567;李伟:1345678;李华:1456789")]),_vm._v(" "),_c('th',[_vm._v("2015年9月")]),_vm._v(" "),_c('th',[_vm._v("2015年12月")])]),_vm._v(" "),_c('tr',[_c('th',[_vm._v("设计艺术学院")]),_vm._v(" "),_c('th',[_vm._v("数字音乐在数字娱乐中的重要地位")]),_vm._v(" "),_c('th',{class:[_vm.teacherID],on:{"click":function($event){_vm.goParam(_vm.teacherID+2)}}},[_vm._v("张薇")]),_vm._v(" "),_c('th',[_vm._v("秦丽娜:1234567;李伟:1345678;李华:1456789")]),_vm._v(" "),_c('th',[_vm._v("2015年9月")]),_vm._v(" "),_c('th',[_vm._v("2015年12月")])]),_vm._v(" "),_c('tr',[_c('th',[_vm._v("设计艺术学院")]),_vm._v(" "),_c('th',[_vm._v("数字音乐在数字娱乐中的重要地位")]),_vm._v(" "),_c('th',{class:[_vm.teacherID],on:{"click":function($event){_vm.goParam(_vm.teacherID+2)}}},[_vm._v("张薇")]),_vm._v(" "),_c('th',[_vm._v("秦丽娜:1234567;李伟:1345678;李华:1456789")]),_vm._v(" "),_c('th',[_vm._v("2015年9月")]),_vm._v(" "),_c('th',[_vm._v("2015年12月")])])])])])])])])])}
+var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"box-header with-border"},[_c('h3',{staticClass:"box-title"},[_vm._v("科研人员构成")]),_vm._v(" "),_c('div',{staticClass:"box-tools pull-right"},[_c('button',{staticClass:"btn btn-box-tool",attrs:{"type":"button","data-widget":"collapse"}},[_c('i',{staticClass:"fa fa-minus"})]),_vm._v(" "),_c('button',{staticClass:"btn btn-box-tool",attrs:{"type":"button","data-widget":"remove"}},[_c('i',{staticClass:"fa fa-times"})])])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('p',{staticClass:"text-center"},[_c('strong',[_vm._v("人员类型")])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"col-md-6"},[_c('p',{staticClass:"text-center"},[_c('strong',[_vm._v("学历分布")])]),_vm._v(" "),_c('div',{staticClass:"chart"},[_c('div',{staticStyle:{"height":"300px"},attrs:{"id":"myCharts2"}})])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"box-header with-border"},[_c('h3',{staticClass:"box-title"},[_vm._v("职称分布")]),_vm._v(" "),_c('div',{staticClass:"box-tools pull-right"},[_c('button',{staticClass:"btn btn-box-tool",attrs:{"type":"button","data-widget":"collapse"}},[_c('i',{staticClass:"fa fa-minus"})]),_vm._v(" "),_c('button',{staticClass:"btn btn-box-tool",attrs:{"type":"button","data-widget":"remove"}},[_c('i',{staticClass:"fa fa-times"})])])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"box-header with-border"},[_c('h3',{staticClass:"box-title"},[_vm._v("项目分类")]),_vm._v(" "),_c('div',{staticClass:"box-tools pull-right"},[_c('button',{staticClass:"btn btn-box-tool",attrs:{"type":"button","data-widget":"collapse"}},[_c('i',{staticClass:"fa fa-minus"})]),_vm._v(" "),_c('button',{staticClass:"btn btn-box-tool",attrs:{"type":"button","data-widget":"remove"}},[_c('i',{staticClass:"fa fa-times"})])])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"box-header with-border"},[_c('h3',{staticClass:"box-title"},[_vm._v("科研项目构成")]),_vm._v(" "),_c('div',{staticClass:"box-tools pull-right"},[_c('button',{staticClass:"btn btn-box-tool",attrs:{"type":"button","data-widget":"collapse"}},[_c('i',{staticClass:"fa fa-minus"})]),_vm._v(" "),_c('button',{staticClass:"btn btn-box-tool",attrs:{"type":"button","data-widget":"remove"}},[_c('i',{staticClass:"fa fa-times"})])])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('p',{staticClass:"text-center"},[_c('strong',[_vm._v("项目性质")])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"col-md-6"},[_c('p',{staticClass:"text-center"},[_c('strong',[_vm._v("项目来源")])]),_vm._v(" "),_c('div',{staticClass:"chart"},[_c('div',{staticStyle:{"height":"250px"},attrs:{"id":"myCharts6"}})])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"box-header with-border"},[_c('h3',{staticClass:"box-title"},[_vm._v("科研产出分布")]),_vm._v(" "),_c('div',{staticClass:"box-tools pull-right"},[_c('button',{staticClass:"btn btn-box-tool",attrs:{"type":"button","data-widget":"collapse"}},[_c('i',{staticClass:"fa fa-minus"})]),_vm._v(" "),_c('button',{staticClass:"btn btn-box-tool",attrs:{"type":"button","data-widget":"remove"}},[_c('i',{staticClass:"fa fa-times"})])])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('p',{staticClass:"text-center"},[_c('strong',[_vm._v("科研产出")])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"col-md-6"},[_c('p',{staticClass:"text-center"},[_c('strong',[_vm._v("获奖等级")])]),_vm._v(" "),_c('div',{staticClass:"chart"},[_c('div',{staticStyle:{"height":"300px"},attrs:{"id":"myCharts8"}})])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"box-header with-border"},[_c('h3',{staticClass:"box-title"},[_vm._v("重点学科")]),_vm._v(" "),_c('div',{staticClass:"box-tools pull-right"},[_c('button',{staticClass:"btn btn-box-tool",attrs:{"type":"button","data-widget":"collapse"}},[_c('i',{staticClass:"fa fa-minus"})]),_vm._v(" "),_c('button',{staticClass:"btn btn-box-tool",attrs:{"type":"button","data-widget":"remove"}},[_c('i',{staticClass:"fa fa-times"})])])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('thead',[_c('tr',[_c('th',[_vm._v("科研单位")]),_vm._v(" "),_c('th',[_vm._v("科研名称")]),_vm._v(" "),_c('th',[_vm._v("学科带头人")]),_vm._v(" "),_c('th',[_vm._v("科研组成员")]),_vm._v(" "),_c('th',[_vm._v("开始时间")]),_vm._v(" "),_c('th',[_vm._v("结束时间")])])])}]
+var esExports = { render: render, staticRenderFns: staticRenderFns }
+/* harmony default export */ __webpack_exports__["a"] = (esExports);
+
+/***/ }),
+
 /***/ "FvdC":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -28330,13 +28348,6 @@ var RadarSeries = SeriesModel.extend({
 });
 var _default = RadarSeries;
 module.exports = _default;
-
-/***/ }),
-
-/***/ "Gfon":
-/***/ (function(module, exports) {
-
-module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAG1BMVEX///+1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tbWBfVZBAAAACHRSTlMABoiJkJHt7nfRUnAAAAAmSURBVHheYyARMIaVCoAZLB0dCmAGW0dHApwBkzKAKA4HKyYFAAD+EwceuqwZiQAAAABJRU5ErkJggg=="
 
 /***/ }),
 
@@ -49124,6 +49135,45 @@ exports.buildPath = buildPath;
 
 /***/ }),
 
+/***/ "Sob5":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_scientific_vue__ = __webpack_require__("uBcT");
+/* empty harmony namespace reexport */
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_7d7b126f_hasScoped_true_transformToRequire_video_src_source_src_img_src_image_xlink_href_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_scientific_vue__ = __webpack_require__("FvYu");
+function injectStyle (ssrContext) {
+  __webpack_require__("+5KW")
+}
+var normalizeComponent = __webpack_require__("VU/8")
+/* script */
+
+
+/* template */
+
+/* template functional */
+var __vue_template_functional__ = false
+/* styles */
+var __vue_styles__ = injectStyle
+/* scopeId */
+var __vue_scopeId__ = "data-v-7d7b126f"
+/* moduleIdentifier (server only) */
+var __vue_module_identifier__ = null
+var Component = normalizeComponent(
+  __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_scientific_vue__["a" /* default */],
+  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_7d7b126f_hasScoped_true_transformToRequire_video_src_source_src_img_src_image_xlink_href_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_scientific_vue__["a" /* default */],
+  __vue_template_functional__,
+  __vue_styles__,
+  __vue_scopeId__,
+  __vue_module_identifier__
+)
+
+/* harmony default export */ __webpack_exports__["default"] = (Component.exports);
+
+
+/***/ }),
+
 /***/ "T6W2":
 /***/ (function(module, exports) {
 
@@ -51298,21 +51348,6 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "WLW3":
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__("FZ+f")(false);
-// imports
-exports.i(__webpack_require__("iNFW"), "");
-
-// module
-exports.push([module.i, ".teaLable[data-v-65645ddc]{float:left;padding:5px 10px}", ""]);
-
-// exports
-
-
-/***/ }),
-
 /***/ "WO3U":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -53030,17 +53065,6 @@ function _default(seriesType, actionInfos) {
 }
 
 module.exports = _default;
-
-/***/ }),
-
-/***/ "XYIc":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('section',{staticClass:"content"},[_c('div',{staticClass:"row"},[_c('div',{staticClass:"col-md-12"},[_c('div',{staticClass:"box box-success"},[_vm._m(0),_vm._v(" "),_c('div',{staticClass:"box-body"},[_c('div',{staticClass:"row"},[_c('div',{staticClass:"col-md-12"},[_c('div',{staticClass:"teaLable"},[_c('input',{directives:[{name:"model",rawName:"v-model",value:(_vm.name),expression:"name"}],staticClass:"form-control",attrs:{"type":"checkbox","name":"checkbox","data-labelauty":"老当益壮"},domProps:{"checked":Array.isArray(_vm.name)?_vm._i(_vm.name,null)>-1:(_vm.name)},on:{"change":function($event){var $$a=_vm.name,$$el=$event.target,$$c=$$el.checked?(true):(false);if(Array.isArray($$a)){var $$v=null,$$i=_vm._i($$a,$$v);if($$el.checked){$$i<0&&(_vm.name=$$a.concat([$$v]))}else{$$i>-1&&(_vm.name=$$a.slice(0,$$i).concat($$a.slice($$i+1)))}}else{_vm.name=$$c}}}})]),_vm._v(" "),_vm._m(1),_vm._v(" "),_vm._m(2),_vm._v(" "),_vm._m(3),_vm._v(" "),_vm._m(4),_vm._v(" "),_vm._m(5),_vm._v(" "),_vm._m(6),_vm._v(" "),_vm._m(7)])])]),_vm._v(" "),_vm._m(8)])])]),_vm._v(" "),_vm._m(9),_vm._v(" "),_c('div',{staticClass:"row"},[_c('div',{staticClass:"col-md-12"},[_c('div',{staticClass:"box box-success"},[_vm._m(10),_vm._v(" "),_c('div',{staticClass:"box-body"},[_c('div',{staticClass:"row"},[_c('div',{staticClass:"chart"},[_c('div',{style:({height:'300px'}),attrs:{"id":"TeaCharts1"}})])])])])])]),_vm._v(" "),_c('div',{staticClass:"row"},[_c('div',{staticClass:"col-md-6"},[_c('div',{staticClass:"box box-success"},[_vm._m(11),_vm._v(" "),_c('div',{staticClass:"box-body"},[_c('div',{staticClass:"row"},[_c('div',{staticClass:"chart"},[_c('div',{style:({height:'250px'}),attrs:{"id":"TeaCharts2"}})])])])])]),_vm._v(" "),_c('div',{staticClass:"col-md-6"},[_c('div',{staticClass:"box box-success"},[_vm._m(12),_vm._v(" "),_c('div',{staticClass:"box-body"},[_c('div',{staticClass:"row"},[_c('div',{staticClass:"chart"},[_c('div',{style:({height:'250px'}),attrs:{"id":"TeaCharts3"}})])])])])])]),_vm._v(" "),_c('div',{staticClass:"row"},[_c('div',{staticClass:"col-md-6"},[_c('div',{staticClass:"box box-success"},[_vm._m(13),_vm._v(" "),_c('div',{staticClass:"box-body"},[_c('div',{staticClass:"row"},[_c('div',{staticClass:"chart"},[_c('div',{style:({height:'250px'}),attrs:{"id":"TeaCharts4"}})])])])])]),_vm._v(" "),_c('div',{staticClass:"col-md-6"},[_c('div',{staticClass:"box box-success"},[_vm._m(14),_vm._v(" "),_c('div',{staticClass:"box-body"},[_c('div',{staticClass:"row"},[_c('div',{staticClass:"chart"},[_c('div',{style:({height:'250px'}),attrs:{"id":"TeaCharts5"}})])])])])])]),_vm._v(" "),_c('div',{staticClass:"row"},[_c('div',{staticClass:"col-md-12"},[_c('div',{staticClass:"box box-success"},[_vm._m(15),_vm._v(" "),_c('div',{staticClass:"box-body"},[_c('div',{staticClass:"row"},[_c('div',{staticClass:"chart"},[_c('div',{style:({height:'300px'}),attrs:{"id":"TeaCharts6"}})])])])])])]),_vm._v(" "),_c('div',{staticClass:"row"},[_c('div',{staticClass:"col-md-6"},[_c('div',{staticClass:"box box-success"},[_vm._m(16),_vm._v(" "),_c('div',{staticClass:"box-body"},[_c('div',{staticClass:"row"},[_c('div',{staticClass:"chart"},[_c('div',{style:({height:'250px'}),attrs:{"id":"TeaCharts7"}})])])])])]),_vm._v(" "),_c('div',{staticClass:"col-md-6"},[_c('div',{staticClass:"box box-success"},[_vm._m(17),_vm._v(" "),_c('div',{staticClass:"box-body"},[_c('div',{staticClass:"row"},[_c('div',{staticClass:"chart"},[_c('div',{style:({height:'250px'}),attrs:{"id":"TeaCharts8"}})])])])])])]),_vm._v(" "),_c('div',{staticClass:"row"},[_c('div',{staticClass:"col-md-12"},[_c('div',{staticClass:"box box-success"},[_vm._m(18),_vm._v(" "),_c('div',{staticClass:"box-body"},[_c('div',{staticClass:"row"},[_c('div',{staticClass:"chart"},[_c('div',{style:({height:'300px'}),attrs:{"id":"TeaCharts9"}})])])])])])]),_vm._v(" "),_vm._m(19)])}
-var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"box-header with-border"},[_c('h3',{staticClass:"box-title"},[_vm._v("标签")]),_vm._v(" "),_c('div',{staticClass:"box-tools pull-right"},[_c('button',{staticClass:"btn btn-box-tool",attrs:{"type":"button","data-widget":"collapse"}},[_c('i',{staticClass:"fa fa-minus"})]),_vm._v(" "),_c('button',{staticClass:"btn btn-box-tool",attrs:{"type":"button","data-widget":"remove"}},[_c('i',{staticClass:"fa fa-times"})])])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"teaLable"},[_c('input',{attrs:{"type":"checkbox","name":"checkbox","data-labelauty":"发明家"}})])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"teaLable"},[_c('input',{attrs:{"type":"checkbox","name":"checkbox","data-labelauty":"完美主义"}})])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"teaLable"},[_c('input',{attrs:{"type":"checkbox","name":"checkbox","data-labelauty":"交际能手"}})])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"teaLable"},[_c('input',{attrs:{"type":"checkbox","name":"checkbox","data-labelauty":"硕学通儒"}})])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"teaLable"},[_c('input',{attrs:{"type":"checkbox","name":"checkbox","data-labelauty":"雷厉风行"}})])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"teaLable"},[_c('input',{attrs:{"type":"checkbox","name":"checkbox","data-labelauty":"发明家"}})])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"teaLable"},[_c('input',{attrs:{"type":"checkbox","name":"checkbox","data-labelauty":"青年才俊"}})])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"box-footer text-black"},[_c('div',{staticClass:"row"},[_c('div',{staticClass:"col-xs-2 pull-right"},[_c('div',{staticClass:"btn btn-primary "},[_c('i',{staticClass:"fa fa-search"}),_vm._v(" 标签检索\n                   ")])])])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"row"},[_c('div',{staticClass:"col-lg-4 col-xs-12"},[_c('div',{staticClass:"small-box bg-aqua"},[_c('div',{staticClass:"inner"},[_c('h3',[_vm._v("1505")]),_vm._v(" "),_c('p',[_vm._v("总教职工人数")])]),_vm._v(" "),_c('div',{staticClass:"icon"},[_c('i',{staticClass:"ion ion-bag"})])])]),_vm._v(" "),_c('div',{staticClass:"col-lg-4 col-xs-12"},[_c('div',{staticClass:"small-box bg-green"},[_c('div',{staticClass:"inner"},[_c('h3',[_vm._v("53"),_c('sup',{staticStyle:{"font-size":"20px"}},[_vm._v("%")])]),_vm._v(" "),_c('p',[_vm._v("在编在岗")])]),_vm._v(" "),_c('div',{staticClass:"icon"},[_c('i',{staticClass:"ion ion-stats-bars"})])])]),_vm._v(" "),_c('div',{staticClass:"col-lg-4 col-xs-12"},[_c('div',{staticClass:"small-box bg-yellow"},[_c('div',{staticClass:"inner"},[_c('h3',[_vm._v("44")]),_vm._v(" "),_c('p',[_vm._v("外聘教师")])]),_vm._v(" "),_c('div',{staticClass:"icon"},[_c('i',{staticClass:"ion ion-person-add"})])])])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"box-header with-border"},[_c('h3',{staticClass:"box-title"},[_vm._v("教职工分布")]),_vm._v(" "),_c('div',{staticClass:"box-tools pull-right"},[_c('button',{staticClass:"btn btn-box-tool",attrs:{"type":"button","data-widget":"collapse"}},[_c('i',{staticClass:"fa fa-minus"})]),_vm._v(" "),_c('button',{staticClass:"btn btn-box-tool",attrs:{"type":"button","data-widget":"remove"}},[_c('i',{staticClass:"fa fa-times"})])])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"box-header with-border"},[_c('h3',{staticClass:"box-title"},[_vm._v("编制类别分布")]),_vm._v(" "),_c('div',{staticClass:"box-tools pull-right"},[_c('button',{staticClass:"btn btn-box-tool",attrs:{"type":"button","data-widget":"collapse"}},[_c('i',{staticClass:"fa fa-minus"})]),_vm._v(" "),_c('button',{staticClass:"btn btn-box-tool",attrs:{"type":"button","data-widget":"remove"}},[_c('i',{staticClass:"fa fa-times"})])])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"box-header with-border"},[_c('h3',{staticClass:"box-title"},[_vm._v("性别分布")]),_vm._v(" "),_c('div',{staticClass:"box-tools pull-right"},[_c('button',{staticClass:"btn btn-box-tool",attrs:{"type":"button","data-widget":"collapse"}},[_c('i',{staticClass:"fa fa-minus"})]),_vm._v(" "),_c('button',{staticClass:"btn btn-box-tool",attrs:{"type":"button","data-widget":"remove"}},[_c('i',{staticClass:"fa fa-times"})])])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"box-header with-border"},[_c('h3',{staticClass:"box-title"},[_vm._v("学历分布")]),_vm._v(" "),_c('div',{staticClass:"box-tools pull-right"},[_c('button',{staticClass:"btn btn-box-tool",attrs:{"type":"button","data-widget":"collapse"}},[_c('i',{staticClass:"fa fa-minus"})]),_vm._v(" "),_c('button',{staticClass:"btn btn-box-tool",attrs:{"type":"button","data-widget":"remove"}},[_c('i',{staticClass:"fa fa-times"})])])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"box-header with-border"},[_c('h3',{staticClass:"box-title"},[_vm._v("职称分布")]),_vm._v(" "),_c('div',{staticClass:"box-tools pull-right"},[_c('button',{staticClass:"btn btn-box-tool",attrs:{"type":"button","data-widget":"collapse"}},[_c('i',{staticClass:"fa fa-minus"})]),_vm._v(" "),_c('button',{staticClass:"btn btn-box-tool",attrs:{"type":"button","data-widget":"remove"}},[_c('i',{staticClass:"fa fa-times"})])])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"box-header with-border"},[_c('h3',{staticClass:"box-title"},[_vm._v("年龄分布")]),_vm._v(" "),_c('div',{staticClass:"box-tools pull-right"},[_c('button',{staticClass:"btn btn-box-tool",attrs:{"type":"button","data-widget":"collapse"}},[_c('i',{staticClass:"fa fa-minus"})]),_vm._v(" "),_c('button',{staticClass:"btn btn-box-tool",attrs:{"type":"button","data-widget":"remove"}},[_c('i',{staticClass:"fa fa-times"})])])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"box-header with-border"},[_c('h3',{staticClass:"box-title"},[_vm._v("工龄校龄分布")]),_vm._v(" "),_c('div',{staticClass:"box-tools pull-right"},[_c('button',{staticClass:"btn btn-box-tool",attrs:{"type":"button","data-widget":"collapse"}},[_c('i',{staticClass:"fa fa-minus"})]),_vm._v(" "),_c('button',{staticClass:"btn btn-box-tool",attrs:{"type":"button","data-widget":"remove"}},[_c('i',{staticClass:"fa fa-times"})])])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"box-header with-border"},[_c('h3',{staticClass:"box-title"},[_vm._v("本学期代课情况分析")]),_vm._v(" "),_c('div',{staticClass:"box-tools pull-right"},[_c('button',{staticClass:"btn btn-box-tool",attrs:{"type":"button","data-widget":"collapse"}},[_c('i',{staticClass:"fa fa-minus"})]),_vm._v(" "),_c('button',{staticClass:"btn btn-box-tool",attrs:{"type":"button","data-widget":"remove"}},[_c('i',{staticClass:"fa fa-times"})])])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"box-header with-border"},[_c('h3',{staticClass:"box-title"},[_vm._v("教学质量分析")]),_vm._v(" "),_c('div',{staticClass:"box-tools pull-right"},[_c('button',{staticClass:"btn btn-box-tool",attrs:{"type":"button","data-widget":"collapse"}},[_c('i',{staticClass:"fa fa-minus"})]),_vm._v(" "),_c('button',{staticClass:"btn btn-box-tool",attrs:{"type":"button","data-widget":"remove"}},[_c('i',{staticClass:"fa fa-times"})])])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"row"},[_c('div',{staticClass:"col-md-12"},[_c('div',{staticClass:"box box-success"},[_c('div',{staticClass:"box-header with-border"},[_c('h3',{staticClass:"box-title"},[_vm._v("教师业绩排名")]),_vm._v(" "),_c('div',{staticClass:"box-tools pull-right"},[_c('button',{staticClass:"btn btn-box-tool",attrs:{"type":"button","data-widget":"collapse"}},[_c('i',{staticClass:"fa fa-minus"})]),_vm._v(" "),_c('button',{staticClass:"btn btn-box-tool",attrs:{"type":"button","data-widget":"remove"}},[_c('i',{staticClass:"fa fa-times"})])])]),_vm._v(" "),_c('div',{staticClass:"box-body"},[_c('table',{staticClass:"table table-bordered table-hover",attrs:{"id":"example2"}},[_c('thead',[_c('tr',[_c('th',[_vm._v("教师业绩")]),_vm._v(" "),_c('th',[_vm._v("本单位排名")]),_vm._v(" "),_c('th',[_vm._v("全校排名")]),_vm._v(" "),_c('th',[_vm._v("任职单位")]),_vm._v(" "),_c('th',[_vm._v("单位编号")]),_vm._v(" "),_c('th',[_vm._v("姓名")]),_vm._v(" "),_c('th',[_vm._v("工号")]),_vm._v(" "),_c('th',[_vm._v("来校日期")]),_vm._v(" "),_c('th',[_vm._v("最高学历")]),_vm._v(" "),_c('th',[_vm._v("编制类型")]),_vm._v(" "),_c('th',[_vm._v("联系方式")])])]),_vm._v(" "),_c('tbody',[_c('tr',[_c('td',[_vm._v("89.5")]),_vm._v(" "),_c('td',[_vm._v("5")]),_vm._v(" "),_c('td',[_vm._v("15")]),_vm._v(" "),_c('td',[_vm._v("马克思主义学院（社会科学部）")]),_vm._v(" "),_c('td',[_vm._v("1150000")]),_vm._v(" "),_c('td',[_vm._v("张薇")]),_vm._v(" "),_c('td',[_vm._v("20080759")]),_vm._v(" "),_c('td',[_vm._v("2011/7/1")]),_vm._v(" "),_c('td',[_vm._v("硕士研究生")]),_vm._v(" "),_c('td',[_vm._v("在编在岗")]),_vm._v(" "),_c('td',[_vm._v("13890758975")])]),_vm._v(" "),_c('tr',[_c('td',[_vm._v("89.5")]),_vm._v(" "),_c('td',[_vm._v("5")]),_vm._v(" "),_c('td',[_vm._v("15")]),_vm._v(" "),_c('td',[_vm._v("马克思主义学院（社会科学部）")]),_vm._v(" "),_c('td',[_vm._v("1150000")]),_vm._v(" "),_c('td',[_vm._v("张薇")]),_vm._v(" "),_c('td',[_vm._v("20080759")]),_vm._v(" "),_c('td',[_vm._v("2011/7/1")]),_vm._v(" "),_c('td',[_vm._v("硕士研究生")]),_vm._v(" "),_c('td',[_vm._v("在编在岗")]),_vm._v(" "),_c('td',[_vm._v("13890758975")])])])])])])])])}]
-var esExports = { render: render, staticRenderFns: staticRenderFns }
-/* harmony default export */ __webpack_exports__["a"] = (esExports);
 
 /***/ }),
 
@@ -56570,6 +56594,21 @@ lineProto.setLinePoints = function (points) {
 zrUtil.inherits(Line, graphic.Group);
 var _default = Line;
 module.exports = _default;
+
+/***/ }),
+
+/***/ "cCuA":
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__("FZ+f")(true);
+// imports
+
+
+// module
+exports.push([module.i, "", "", {"version":3,"sources":[],"names":[],"mappings":"","file":"scientific.vue","sourceRoot":""}]);
+
+// exports
+
 
 /***/ }),
 
@@ -61891,20 +61930,6 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "fa11":
-/***/ (function(module, exports, __webpack_require__) {
-
-// style-loader: Adds some css to the DOM by adding a <style> tag
-
-// load the styles
-var content = __webpack_require__("WLW3");
-if(typeof content === 'string') content = [[module.i, content, '']];
-if(content.locals) module.exports = content.locals;
-// add the styles to the DOM
-var update = __webpack_require__("rjj0")("8212bd2c", content, true, {});
-
-/***/ }),
-
 /***/ "fgF4":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -66259,22 +66284,6 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "iNFW":
-/***/ (function(module, exports, __webpack_require__) {
-
-var escape = __webpack_require__("kxFB");
-exports = module.exports = __webpack_require__("FZ+f")(false);
-// imports
-
-
-// module
-exports.push([module.i, "/*!\n * LABELAUTY jQuery Plugin Styles\n *\n * @file: jquery-labelauty.css\n * @author: Francisco Neves (@fntneves)\n * @site: www.francisconeves.com\n * @license: MIT License\n */input.labelauty+label ::selection{background-color:hsla(0,0%,100%,0)}input.labelauty+label ::-moz-selection{background-color:hsla(0,0%,100%,0)}input.labelauty{display:none!important}input.labelauty+label{display:table;font-size:11px;padding:10px;background-color:#efefef;color:#b3b3b3;cursor:pointer;border-radius:3px 3px 3px 3px;-moz-border-radius:3px 3px 3px 3px;-webkit-border-radius:3px 3px 3px 3px;transition:background-color .25s;-moz-transition:background-color .25s;-webkit-transition:background-color .25s;-o-transition:background-color .25s;-moz-user-select:none;-khtml-user-select:none;-webkit-user-select:none;-o-user-select:none}input.labelauty+label>span.labelauty-checked,input.labelauty+label>span.labelauty-unchecked{display:inline-block;line-height:16px;vertical-align:bottom}input.labelauty+label>span.labelauty-checked-image,input.labelauty+label>span.labelauty-unchecked-image{display:inline-block;width:16px;height:16px;vertical-align:bottom;background-repeat:no-repeat;background-position:0;transition:background-image .5s linear;-moz-transition:background-image .5s linear;-webkit-transition:background-image .5s linear;-o-transition:background-image .5s linear}input.labelauty+label>span.labelauty-checked-image+span.labelauty-checked,input.labelauty+label>span.labelauty-unchecked-image+span.labelauty-unchecked{margin-left:7px}input.labelauty:not(:checked):not([disabled])+label:hover{background-color:#eaeaea;color:#a7a7a7}input.labelauty:not(:checked)+label>span.labelauty-checked,input.labelauty:not(:checked)+label>span.labelauty-checked-image{display:none}input.labelauty:checked+label{background-color:#3498db;color:#fff}input.labelauty:checked:not([disabled])+label:hover{background-color:#72c5fd}input.labelauty:checked+label>span.labelauty-unchecked,input.labelauty:checked+label>span.labelauty-unchecked-image{display:none}input.labelauty:checked+label>span.labelauty-checked{display:inline-block}input.labelauty.no-label:checked+label>span.labelauty-checked{display:block}input.labelauty[disabled]+label{opacity:.5}input.labelauty+label>span.labelauty-unchecked-image{background-image:url(" + escape(__webpack_require__("Gfon")) + ")}input.labelauty+label>span.labelauty-checked-image{background-image:url(" + escape(__webpack_require__("AZej")) + ")}", ""]);
-
-// exports
-
-
-/***/ }),
-
 /***/ "iNHu":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -69274,45 +69283,6 @@ exports.getSource = getSource;
 exports.resetSourceDefaulter = resetSourceDefaulter;
 exports.prepareSource = prepareSource;
 exports.guessOrdinal = guessOrdinal;
-
-/***/ }),
-
-/***/ "l0eI":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_TeacherPortrait_vue__ = __webpack_require__("zomx");
-/* empty harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_65645ddc_hasScoped_true_transformToRequire_video_src_source_src_img_src_image_xlink_href_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_TeacherPortrait_vue__ = __webpack_require__("XYIc");
-function injectStyle (ssrContext) {
-  __webpack_require__("fa11")
-}
-var normalizeComponent = __webpack_require__("VU/8")
-/* script */
-
-
-/* template */
-
-/* template functional */
-var __vue_template_functional__ = false
-/* styles */
-var __vue_styles__ = injectStyle
-/* scopeId */
-var __vue_scopeId__ = "data-v-65645ddc"
-/* moduleIdentifier (server only) */
-var __vue_module_identifier__ = null
-var Component = normalizeComponent(
-  __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_TeacherPortrait_vue__["a" /* default */],
-  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_65645ddc_hasScoped_true_transformToRequire_video_src_source_src_img_src_image_xlink_href_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_TeacherPortrait_vue__["a" /* default */],
-  __vue_template_functional__,
-  __vue_styles__,
-  __vue_scopeId__,
-  __vue_module_identifier__
-)
-
-/* harmony default export */ __webpack_exports__["default"] = (Component.exports);
-
 
 /***/ }),
 
@@ -82377,6 +82347,1074 @@ module.exports = _default;
 
 /***/ }),
 
+/***/ "uBcT":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+var echarts = __webpack_require__("XLwt");
+/* harmony default export */ __webpack_exports__["a"] = ({
+	data() {
+		return {
+			// msg:"123"
+			teacherID: '123'
+		};
+	},
+	mounted() {
+		this.drawMyCharts1();
+		this.drawMyCharts2();
+		this.drawMyCharts3();
+		this.drawMyCharts4();
+		this.drawMyCharts5();
+		this.drawMyCharts6();
+		this.drawMyCharts7();
+		this.drawMyCharts8();
+	},
+	methods: {
+		goParam: function (ID) {
+			this.$router.push({ name: "TeacherFiles", path: '/teacher/TeacherFiles', params: { 'teacherID': ID } });
+		},
+		drawMyCharts1() {
+			var myChart1 = echarts.init(document.getElementById('myCharts1'));
+			var option1 = {
+				color: ['#2ec7c9', '#ffa701', '#90b8e0'],
+				tooltip: {
+					trigger: 'axis',
+					axisPointer: { // 坐标轴指示器，坐标轴触发有效
+						type: 'shadow' // 默认为直线，可选为：'line' | 'shadow'
+					}
+				},
+				legend: {
+					data: ['外校老师', '本校老师', '本校学生'],
+					textStyle: {
+						fontSize: 14
+					},
+					top: "250"
+				},
+				grid: {
+					left: '3%',
+					right: '4%',
+					top: "5%",
+					bottom: '20%',
+					containLabel: true
+				},
+				xAxis: [{
+					type: 'category',
+					data: ['第一发明', '著作作者类型', '获奖人类型', '艺术作品作者类型', 'Other'],
+					axisLabel: {
+						interval: 0,
+						rotate: 30
+						// textStyle: {
+						// 	color:"#dfdfdf"
+						// }
+
+					}
+				}],
+				yAxis: [{
+					type: 'value',
+					splitLine: {
+						lineStyle: {
+							color: '#ccc',
+							type: 'dashed'
+						}
+					}
+				}],
+				series: [{
+					name: '外校老师',
+					type: 'bar',
+					barWidth: '15',
+					data: [70, 80, 90, 50, 11]
+				}, {
+					name: '本校老师',
+					type: 'bar',
+					barWidth: '15',
+					data: [50, 10, 50, 80, 40]
+				}, {
+					name: '本校学生',
+					type: 'bar',
+					barWidth: '15',
+					data: [5, 50, 50, 40, 30]
+				}]
+			};
+			myChart1.setOption(option1);
+		},
+		drawMyCharts2() {
+			var myChart2 = echarts.init(document.getElementById('myCharts2'));
+			var dataTime = ['第一发明', '著作作者类型', '获奖人类型', '艺术作品作者类型', 'Other'];
+			var dataName5 = ['博士毕业', '硕士毕业', '本科毕业', '大专毕业', '中专毕业', '其他'];
+			var dataColor5 = ['#ffa701', '#8dfcf8', '#fc989a', '#ffeeba', '#07c997', '#90b8e0'];
+			var option2 = {
+				tooltip: {
+					trigger: 'axis',
+					axisPointer: { // 坐标轴指示器，坐标轴触发有效
+						type: 'shadow' // 默认为直线，可选为：'line' | 'shadow'
+					}
+				},
+				legend: {
+					data: dataName5,
+					orient: 'vertical',
+					textStyle: {
+						// color: '#dfdfdf',
+						fontSize: 14
+					},
+					height: "50",
+					top: '250'
+				},
+				grid: {
+					left: '3%',
+					right: '4%',
+					top: "5%",
+					bottom: '15%',
+					containLabel: true
+				},
+				yAxis: {
+					name: '',
+					type: 'value',
+					nameLocation: 'middle',
+					axisLabel: {
+						formatter: '{value}',
+						textStyle: {
+							fontSize: 14
+						}
+					},
+					// axisLine: {
+					// 	show: false
+					// },
+					splitLine: {
+						lineStyle: {
+							color: '#ccc',
+							type: 'dashed'
+						}
+					}
+				},
+				xAxis: {
+					type: 'category',
+					data: dataTime,
+					axisLabel: {
+						// formatter: '{value}',
+						textStyle: {
+							// color: '#dfdfdf',
+							fontSize: 14
+						},
+						rotate: 30,
+						interval: 0,
+						margin: 30
+					},
+					axisTick: {
+						inside: false,
+						length: 15
+						// lineStyle: {
+						// 	color: '#222b73'
+						// }
+					}
+				},
+				series: [{
+					name: dataName5[0],
+					type: 'bar',
+					stack: '总量',
+					barWidth: 40,
+					label: {
+						normal: {
+							show: false,
+							position: 'insideRight'
+						}
+					},
+					itemStyle: {
+						normal: {
+							color: dataColor5[0]
+						},
+						emphasis: {
+							shadowBlur: 10,
+							shadowOffsetX: 0,
+							shadowColor: 'rgba(0, 0, 0, 0.5)'
+						}
+					},
+					data: [3, 2, 1, 3, 4]
+				}, {
+					name: dataName5[1],
+					type: 'bar',
+					stack: '总量',
+					barWidth: 40,
+					label: {
+						normal: {
+							show: false,
+							position: 'insideRight'
+						}
+					},
+					itemStyle: {
+						normal: {
+							color: dataColor5[1]
+						},
+						emphasis: {
+							shadowBlur: 10,
+							shadowOffsetX: 0,
+							shadowColor: 'rgba(0, 0, 0, 0.5)'
+						}
+					},
+					data: [3, 2, 1, 2, 1]
+				}, {
+					name: dataName5[2],
+					type: 'bar',
+					stack: '总量',
+					barWidth: 40,
+					label: {
+						normal: {
+							show: false,
+							position: 'insideRight'
+						}
+					},
+					itemStyle: {
+						normal: {
+							color: dataColor5[2]
+						},
+						emphasis: {
+							shadowBlur: 10,
+							shadowOffsetX: 0,
+							shadowColor: 'rgba(0, 0, 0, 0.5)'
+						}
+					},
+					data: [3, 2, 1, 1, 2]
+				}, {
+					name: dataName5[3],
+					type: 'bar',
+					stack: '总量',
+					barWidth: 40,
+					label: {
+						normal: {
+							show: false,
+							position: 'insideRight'
+						}
+					},
+					itemStyle: {
+						normal: {
+							color: dataColor5[3]
+						},
+						emphasis: {
+							shadowBlur: 10,
+							shadowOffsetX: 0,
+							shadowColor: 'rgba(0, 0, 0, 0.5)'
+						}
+					},
+					data: [4, 1, 1, 1, 1]
+				}, {
+					name: dataName5[4],
+					type: 'bar',
+					stack: '总量',
+					barWidth: 40,
+					label: {
+						normal: {
+							show: false,
+							position: 'insideRight'
+						}
+					},
+					itemStyle: {
+						normal: {
+							color: dataColor5[4]
+						},
+						emphasis: {
+							shadowBlur: 10,
+							shadowOffsetX: 0,
+							shadowColor: 'rgba(0, 0, 0, 0.5)'
+						}
+					},
+					data: [2, 2, 1, 2, 1]
+				}, {
+					name: dataName5[5],
+					type: 'bar',
+					stack: '总量',
+					barWidth: 40,
+					label: {
+						normal: {
+							show: false,
+							position: 'insideRight'
+						}
+					},
+					itemStyle: {
+						normal: {
+							color: dataColor5[5]
+						},
+						emphasis: {
+							shadowBlur: 10,
+							shadowOffsetX: 0,
+							shadowColor: 'rgba(0, 0, 0, 0.5)'
+						}
+					},
+					data: [3, 2, 2, 1, 1]
+				}],
+				dataZoom: {
+					type: 'inside',
+					filterMode: 'filter'
+				}
+			};
+			myChart2.setOption(option2);
+		},
+		drawMyCharts3() {
+			var myChart3 = echarts.init(document.getElementById('myCharts3'));
+			var option3 = {
+				tooltip: {
+					trigger: 'item',
+					formatter: "{a} <br/>{b} : {c} ({d}%)"
+				},
+				legend: {
+					orient: 'vertical',
+					data: ['著作作者', '专利发明', '获奖人', '艺术作品作者', '论文作者'],
+
+					height: "50",
+					top: "180"
+				},
+				series: [{
+					name: '职称分布',
+					type: 'pie',
+					radius: '60%',
+					center: ['50%', '35%'],
+					labelLine: {
+						normal: {
+							show: false
+						}
+					},
+					label: {
+						normal: {
+							show: false
+						}
+					},
+					data: [{
+						value: 600,
+						itemStyle: {
+							normal: {
+								color: '#39c9bc'
+							}
+						},
+						name: '著作作者'
+					}, {
+						value: 150,
+						itemStyle: {
+							normal: {
+								color: '#fad02f'
+							}
+						},
+						name: '专利发明'
+					}, {
+						value: 250,
+						itemStyle: {
+							normal: {
+								color: '#b1d781'
+							}
+						},
+						name: '获奖人'
+					}, {
+						value: 150,
+						itemStyle: {
+							normal: {
+								color: '#ffb980'
+							}
+						},
+						name: '艺术作品作者'
+					}, {
+						value: 250,
+						itemStyle: {
+							normal: {
+								color: '#d87a80'
+							}
+						},
+						name: '论文作者'
+					}],
+					itemStyle: {
+						emphasis: {
+							shadowBlur: 10,
+							shadowOffsetX: 0,
+							shadowColor: 'rgba(0, 0, 0, 0.5)'
+						}
+					}
+				}]
+			};
+			myChart3.setOption(option3);
+		},
+		drawMyCharts4() {
+			var myChart4 = echarts.init(document.getElementById('myCharts4'));
+			var option4 = {
+				tooltip: {
+					trigger: 'item',
+					formatter: "{a} <br/>{b} : {c} ({d}%)"
+				},
+				legend: {
+					orient: 'vertical',
+					data: ['省科技厅计划项目', '省社联项目', '国家广电总局项目', '重点项目', '校园项目'],
+					// textStyle:{
+					// 	color:"#dfdfdf"
+					// },
+					height: "50",
+					top: "180"
+				},
+				series: [{
+					name: '项目分类',
+					type: 'pie',
+					radius: '60%',
+					center: ['50%', '35%'],
+					labelLine: {
+						normal: {
+							show: false
+						}
+					},
+					label: {
+						normal: {
+							show: false
+						}
+					},
+					data: [{
+						value: 600,
+						itemStyle: {
+							normal: {
+								color: '#93b7e3'
+							}
+						},
+						name: '省科技厅计划项目'
+					}, {
+						value: 150,
+						itemStyle: {
+							normal: {
+								color: '#2ec7c9'
+							}
+						},
+						name: '省社联项目'
+					}, {
+						value: 250,
+						itemStyle: {
+							normal: {
+								color: '#ff846b'
+							}
+						},
+						name: '国家广电总局项目'
+					}, {
+						value: 150,
+						itemStyle: {
+							normal: {
+								color: '#5ab1ef'
+							}
+						},
+						name: '重点项目'
+					}, {
+						value: 250,
+						itemStyle: {
+							normal: {
+								color: '#ffb980'
+							}
+						},
+						name: '校园项目'
+					}],
+					itemStyle: {
+						emphasis: {
+							shadowBlur: 10,
+							shadowOffsetX: 0,
+							shadowColor: 'rgba(0, 0, 0, 0.5)'
+						}
+					}
+				}]
+			};
+			myChart4.setOption(option4);
+		},
+		drawMyCharts5() {
+			var myChart5 = echarts.init(document.getElementById('myCharts5'));
+			var option5 = {
+				tooltip: {
+					trigger: 'item',
+					formatter: "{a} <br/>{b} : {c} ({d}%)"
+				},
+				legend: {
+					orient: 'vertical',
+					data: ['横向', '校级', '纵向'],
+					height: "20",
+					top: "200"
+				},
+				series: [{
+					name: '科研项目构成',
+					type: 'pie',
+					radius: '60%',
+					center: ['50%', '35%'],
+					labelLine: {
+						normal: {
+							show: false
+						}
+					},
+					label: {
+						normal: {
+							show: false
+						}
+					},
+					data: [{
+						value: 600,
+						itemStyle: {
+							normal: {
+								color: '#ff846b'
+							}
+						},
+						name: '横向'
+					}, {
+						value: 150,
+						itemStyle: {
+							normal: {
+								color: '#b1d781'
+							}
+						},
+						name: '校级'
+					}, {
+						value: 250,
+						itemStyle: {
+							normal: {
+								color: '#fad02f'
+							}
+						},
+						name: '纵向'
+					}],
+					itemStyle: {
+						emphasis: {
+							shadowBlur: 10,
+							shadowOffsetX: 0,
+							shadowColor: 'rgba(0, 0, 0, 0.5)'
+						}
+					}
+				}]
+			};
+			myChart5.setOption(option5);
+		},
+		drawMyCharts6() {
+			var myChart6 = echarts.init(document.getElementById('myCharts6'));
+			var option6 = {
+				tooltip: {
+					trigger: 'item',
+					formatter: "{a} <br/>{b} : {c} ({d}%)"
+				},
+				legend: {
+					orient: 'vertical',
+					data: ['政府部门', '中央其他部门', '浙江省政府'],
+					height: "20",
+					top: "200"
+				},
+				series: [{
+					name: '科研项目构成',
+					type: 'pie',
+					radius: '60%',
+					center: ['50%', '35%'],
+					labelLine: {
+						normal: {
+							show: false
+						}
+					},
+					label: {
+						normal: {
+							show: false
+						}
+					},
+					data: [{
+						value: 600,
+						itemStyle: {
+							normal: {
+								color: '#f2bfbb'
+							}
+						},
+						name: '政府部门'
+					}, {
+						value: 150,
+						itemStyle: {
+							normal: {
+								color: '#13b0a5'
+							}
+						},
+						name: '中央其他部门'
+					}, {
+						value: 250,
+						itemStyle: {
+							normal: {
+								color: '#f8f2ab'
+							}
+						},
+						name: '浙江省政府'
+					}],
+					itemStyle: {
+						emphasis: {
+							shadowBlur: 10,
+							shadowOffsetX: 0,
+							shadowColor: 'rgba(0, 0, 0, 0.5)'
+						}
+					}
+				}]
+			};
+			myChart6.setOption(option6);
+		},
+		drawMyCharts7() {
+			var myChart7 = echarts.init(document.getElementById('myCharts7'));
+			var option7 = {
+				grid: {
+					containLabel: true,
+					top: '15%',
+					bottom: '15%'
+				},
+				tooltip: {
+					trigger: 'axis',
+					axisPointer: {
+						type: 'cross',
+						crossStyle: {
+							color: '#222b73'
+						}
+					}
+				},
+				xAxis: [{
+					type: 'category',
+					axisTick: {
+						alignWithLabel: true
+					},
+					axisLabel: {
+						interval: 0
+
+						// textStyle: {
+						// 	color:"#dfdfdf"
+						// }						
+					},
+					data: ['著作', '艺术', '论文', '专利']
+				}],
+				yAxis: [{}, {
+					type: 'value',
+					min: 0,
+					name: '科研量',
+					// nameTextStyle:{
+					//      color:"#dfdfdf",
+					//    },
+					position: 'left',
+					axisLabel: {
+						interval: 0
+
+						// textStyle: {
+						// 	color:"#dfdfdf"
+						// }						
+					},
+					splitLine: {
+						lineStyle: {
+							color: '#ccc',
+							type: 'dashed'
+						}
+					}
+				}],
+				series: [{
+					name: '科研产出',
+					type: 'bar',
+					barWidth: '30',
+					yAxisIndex: 1,
+					label: {
+						normal: {
+							show: true,
+							position: 'top'
+						}
+					},
+					data: [{
+						value: 22,
+						itemStyle: {
+							normal: {
+								color: '#e8f018'
+							}
+						}
+					}, {
+						value: 33,
+						itemStyle: {
+							normal: {
+								color: '#7060b8'
+							}
+						}
+					}, {
+						value: 44,
+						itemStyle: {
+							normal: {
+								color: '#f8a0ff'
+							}
+						}
+					}, {
+						value: 55,
+						itemStyle: {
+							normal: {
+								color: '#90b0e0'
+							}
+						}
+					}]
+				}]
+			};
+			myChart7.setOption(option7);
+		},
+		drawMyCharts8() {
+			var myChart8 = echarts.init(document.getElementById('myCharts8'));
+			var option8 = {
+				grid: {
+					containLabel: true,
+					top: '15%',
+					bottom: '15%'
+				},
+				tooltip: {
+					trigger: 'axis',
+					axisPointer: {
+						type: 'cross',
+						crossStyle: {
+							color: '#222b73'
+						}
+					}
+				},
+				xAxis: [{
+					type: 'category',
+					axisTick: {
+						alignWithLabel: true
+					},
+					axisLabel: {
+						interval: 0
+					},
+					data: ['省级奖', '国家级', '市级奖', '部级奖', '校级奖', '其他']
+				}],
+				yAxis: [{}, {
+					type: 'value',
+					min: 0,
+					name: '获奖次数',
+					// nameTextStyle:{
+					//      color:"#dfdfdf",
+					//    },
+					position: 'left',
+					axisLabel: {
+						interval: 0
+
+						// textStyle: {
+						// 	color:"#dfdfdf"
+						// }						
+					},
+					splitLine: {
+						lineStyle: {
+							color: '#ccc',
+							type: 'dashed'
+						}
+					}
+				}],
+				series: [{
+					name: '获奖等级',
+					type: 'bar',
+					barWidth: '30',
+					yAxisIndex: 1,
+					label: {
+						normal: {
+							show: true,
+							position: 'top'
+						}
+					},
+					data: [{
+						value: 15,
+						itemStyle: {
+							normal: {
+								color: '#f2bfbb'
+							}
+						}
+					}, {
+						value: 12,
+						itemStyle: {
+							normal: {
+								color: '#ffe500'
+							}
+						}
+					}, {
+						value: 25,
+						itemStyle: {
+							normal: {
+								color: '#58c0e0'
+							}
+						}
+					}, {
+						value: 10,
+						itemStyle: {
+							normal: {
+								color: '#03b8a4'
+							}
+						}
+					}, {
+						value: 14,
+						itemStyle: {
+							normal: {
+								color: '#60a1f9'
+							}
+						}
+					}, {
+						value: 13,
+						itemStyle: {
+							normal: {
+								color: '#f66a73'
+							}
+						}
+					}]
+				}]
+			};
+			myChart8.setOption(option8);
+		}
+
+	}
+
+});
+
+/***/ }),
+
 /***/ "uJBW":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -82509,208 +83547,6 @@ echarts.extendChartView({
   },
   dispose: function () {}
 });
-
-/***/ }),
-
-/***/ "ueia":
-/***/ (function(module, exports, __webpack_require__) {
-
-/* WEBPACK VAR INJECTION */(function(jQuery) {/*!
- * LABELAUTY jQuery Plugin
- *
- * @file: jquery-labelauty.js
- * @author: Francisco Neves (@fntneves)
- * @site: www.francisconeves.com
- * @license: MIT License
- */
-
-(function ($) {
-
-	$.fn.labelauty = function (options) {
-		/*
-   * Our default settings
-   * Hope you don't need to change anything, with these settings
-   */
-		var settings = $.extend({
-			// Development Mode
-			// This will activate console debug messages
-			development: false,
-
-			// Trigger Class
-			// This class will be used to apply styles
-			class: "labelauty",
-
-			// Use text label ?
-			// If false, then only an icon represents the input
-			label: true,
-
-			// Separator between labels' messages
-			// If you use this separator for anything, choose a new one
-			separator: "|",
-
-			// Default Checked Message
-			// This message will be visible when input is checked
-			checked_label: "Checked",
-
-			// Default UnChecked Message
-			// This message will be visible when input is unchecked
-			unchecked_label: "Unchecked",
-
-			// Minimum Label Width
-			// This value will be used to apply a minimum width to the text labels
-			minimum_width: false,
-
-			// Use the greatest width between two text labels ?
-			// If this has a true value, then label width will be the greatest between labels
-			same_width: true
-		}, options);
-
-		/*
-   * Let's create the core function
-   * It will try to cover all settings and mistakes of using
-   */
-		return this.each(function () {
-			var $object = $(this);
-			var use_labels = true;
-			var labels;
-			var labels_object;
-			var input_id;
-
-			// Test if object is a check input
-			// Don't mess me up, come on
-			if ($object.is(":checkbox") === false && $object.is(":radio") === false) return this;
-
-			// Add "labelauty" class to all checkboxes
-			// So you can apply some custom styles
-			$object.addClass(settings.class);
-
-			// Get the value of "data-labelauty" attribute
-			// Then, we have the labels for each case (or not, as we will see)
-			labels = $object.attr("data-labelauty");
-
-			use_labels = settings.label;
-
-			// It's time to check if it's going to the right way
-			// Null values, more labels than expected or no labels will be handled here
-			if (use_labels === true) {
-				if (labels == null || labels.length === 0) {
-					// If attribute has no label and we want to use, then use the default labels
-					labels_object = new Array();
-					labels_object[0] = settings.unchecked_label;
-					labels_object[1] = settings.checked_label;
-				} else {
-					// Ok, ok, it's time to split Checked and Unchecked labels
-					// We split, by the "settings.separator" option
-					labels_object = labels.split(settings.separator);
-
-					// Now, let's check if exist _only_ two labels
-					// If there's more than two, then we do not use labels :(
-					// Else, do some additional tests
-					if (labels_object.length > 2) {
-						use_labels = false;
-						debug(settings.development, "There's more than two labels. LABELAUTY will not use labels.");
-					} else {
-						// If there's just one label (no split by "settings.separator"), it will be used for both cases
-						// Here, we have the possibility of use the same label for both cases
-						if (labels_object.length === 1) debug(settings.development, "There's just one label. LABELAUTY will use this one for both cases.");
-					}
-				}
-			}
-
-			/*
-    * Let's begin the beauty
-    */
-
-			// Start hiding ugly checkboxes
-			// Obviously, we don't need native checkboxes :O
-			$object.css({ display: "none" });
-
-			// We don't need more data-labelauty attributes!
-			// Ok, ok, it's just for beauty improvement
-			$object.removeAttr("data-labelauty");
-
-			// Now, grab checkbox ID Attribute for "label" tag use
-			// If there's no ID Attribute, then generate a new one
-			input_id = $object.attr("id");
-
-			if (input_id == null) {
-				var input_id_number = 1 + Math.floor(Math.random() * 1024000);
-				input_id = "labelauty-" + input_id_number;
-
-				// Is there any element with this random ID ?
-				// If exists, then increment until get an unused ID
-				while ($(input_id).length !== 0) {
-					input_id_number++;
-					input_id = "labelauty-" + input_id_number;
-					debug(settings.development, "Holy crap, between 1024 thousand numbers, one raised a conflict. Trying again.");
-				}
-
-				$object.attr("id", input_id);
-			}
-
-			// Now, add necessary tags to make this work
-			// Here, we're going to test some control variables and act properly
-			$object.after(create(input_id, labels_object, use_labels));
-
-			// Now, add "min-width" to label
-			// Let's say the truth, a fixed width is more beautiful than a variable width
-			if (settings.minimum_width !== false) $object.next("label[for=" + input_id + "]").css({ "min-width": settings.minimum_width });
-
-			// Now, add "min-width" to label
-			// Let's say the truth, a fixed width is more beautiful than a variable width
-			if (settings.same_width != false && settings.label == true) {
-				var label_object = $object.next("label[for=" + input_id + "]");
-				var unchecked_width = getRealWidth(label_object.find("span.labelauty-unchecked"));
-				var checked_width = getRealWidth(label_object.find("span.labelauty-checked"));
-
-				if (unchecked_width > checked_width) label_object.find("span.labelauty-checked").width(unchecked_width);else label_object.find("span.labelauty-unchecked").width(checked_width);
-			}
-		});
-	};
-
-	/*
-  * Tricky code to work with hidden elements, like tabs.
-  * Note: This code is based on jquery.actual plugin.
-  * https://github.com/dreamerslab/jquery.actual
-  */
-	function getRealWidth(element) {
-		var width = 0;
-		var $target = element;
-		var style = 'position: absolute !important; top: -1000 !important; ';
-
-		$target = $target.clone().attr('style', style).appendTo('body');
-		width = $target.width(true);
-		$target.remove();
-
-		return width;
-	}
-
-	function debug(debug, message) {
-		if (debug && window.console && window.console.log) window.console.log("jQuery-LABELAUTY: " + message);
-	};
-
-	function create(input_id, messages_object, label) {
-		var block;
-		var unchecked_message;
-		var checked_message;
-
-		if (messages_object == null) unchecked_message = checked_message = "";else {
-			unchecked_message = messages_object[0];
-
-			// If checked message is null, then put the same text of unchecked message
-			if (messages_object[1] == null) checked_message = unchecked_message;else checked_message = messages_object[1];
-		}
-
-		if (label == true) {
-			block = '<label for="' + input_id + '">' + '<span class="labelauty-unchecked-image"></span>' + '<span class="labelauty-unchecked">' + unchecked_message + '</span>' + '<span class="labelauty-checked-image"></span>' + '<span class="labelauty-checked">' + checked_message + '</span>' + '</label>';
-		} else {
-			block = '<label for="' + input_id + '">' + '<span class="labelauty-unchecked-image"></span>' + '<span class="labelauty-checked-image"></span>' + '</label>';
-		}
-
-		return block;
-	};
-})(jQuery);
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__("7t+N")))
 
 /***/ }),
 
@@ -90709,1165 +91545,6 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "zomx":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* WEBPACK VAR INJECTION */(function($) {/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__assets_js_jquery_labelauty_js__ = __webpack_require__("ueia");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__assets_js_jquery_labelauty_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__assets_js_jquery_labelauty_js__);
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-
-
-var echarts = __webpack_require__("XLwt");
-/* harmony default export */ __webpack_exports__["a"] = ({
-  data() {
-    return {
-      // msg:"123"
-      name: ""
-    };
-  },
-  created() {
-    console.log(this.name);
-  },
-  mounted() {
-    $(':input').labelauty();
-    this.drawTeaCharts1();
-    this.drawTeaCharts2();
-    this.drawTeaCharts3();
-    this.drawTeaCharts4();
-    this.drawTeaCharts5();
-    this.drawTeaCharts6();
-    this.drawTeaCharts7();
-    this.drawTeaCharts8();
-    this.drawTeaCharts9();
-  },
-  methods: {
-    drawTeaCharts1() {
-      var myChart1 = echarts.init(document.getElementById('TeaCharts1'));
-      var option1 = {
-        color: ['#3398DB', '#675bba'],
-        tooltip: {
-          trigger: 'axis',
-          formatter: "{a}<br>{b} : {c}人",
-          axisPointer: {
-            type: 'cross'
-          }
-        },
-        grid: {
-          left: '3%',
-          right: '4%',
-          top: '5%',
-          bottom: '10%',
-          containLabel: true
-        },
-        xAxis: [{
-          type: 'category',
-          name: '',
-          data: ['播音主持艺术学院', '电视艺术学院', '电影学院', '电子信息学院', '动画学院', '管理学院', '国际文化传播学院', '设计艺术学院', '文化创意学院', '文学院'],
-          axisTick: {
-            alignWithLabel: true
-          },
-          axisLabel: {
-            interval: 0
-            // rotate: 30,
-          }
-        }],
-        yAxis: [{
-          type: 'value',
-          name: '教师人数',
-          nameTextStyle: {
-            // color:"#dfdfdf",
-          },
-          axisLabel: {},
-          splitLine: {
-            lineStyle: {
-              color: '#ccc'
-              // type: 'dashed'
-            }
-          }
-        }],
-        series: [{
-          name: '教师人数',
-          type: 'bar',
-          barWidth: '20',
-          data: [10, 52, 100, 60, 50, 58, 69, 35, 96, 100],
-          itemStyle: {
-            normal: {
-              color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [{ offset: 0, color: '#eb65f9' }, { offset: 1, color: '#8417bd' }])
-
-            }
-          }
-        }]
-      };
-      myChart1.setOption(option1);
-    },
-    drawTeaCharts2() {
-      var myChart2 = echarts.init(document.getElementById('TeaCharts2'));
-      var option2 = {
-        grid: {
-          containLabel: true,
-          top: '15%',
-          bottom: '15%'
-        },
-        tooltip: {
-          trigger: 'axis',
-          axisPointer: {
-            type: 'cross',
-            crossStyle: {
-              color: '#222b73'
-            }
-          }
-        },
-        xAxis: [{
-          type: 'category',
-          axisTick: {
-            alignWithLabel: true
-          },
-          axisLabel: {
-            interval: 0
-          },
-          data: ['在编在岗', '校聘人员', '外籍教师', '院聘人员']
-        }],
-        yAxis: [{}, {
-          type: 'value',
-          min: 0,
-          name: '人数',
-          position: 'left',
-          axisLabel: {
-            interval: 0
-          },
-          splitLine: {
-            lineStyle: {
-              color: '#ccc',
-              type: 'dashed'
-            }
-          }
-        }],
-        series: [{
-          name: '编制类别分类',
-          type: 'bar',
-          barWidth: '30',
-          yAxisIndex: 1,
-          label: {
-            normal: {
-              show: true,
-              position: 'top'
-            }
-          },
-          data: [{
-            value: 22,
-            itemStyle: {
-              normal: {
-                color: '#e8f018'
-              }
-            }
-          }, {
-            value: 33,
-            itemStyle: {
-              normal: {
-                color: '#7060b8'
-              }
-            }
-          }, {
-            value: 44,
-            itemStyle: {
-              normal: {
-                color: '#f8a0ff'
-              }
-            }
-          }, {
-            value: 55,
-            itemStyle: {
-              normal: {
-                color: '#90b0e0'
-              }
-            }
-          }]
-        }]
-      };
-      myChart2.setOption(option2);
-    },
-    drawTeaCharts3() {
-      var myChart3 = echarts.init(document.getElementById('TeaCharts3'));
-      var option3 = {
-        tooltip: {
-          trigger: 'item',
-          formatter: "{a} <br/>{b} : {c} ({d}%)"
-        },
-        legend: {
-          data: ['男', '女', 'null'],
-          height: "40",
-          top: "190"
-        },
-        series: [{
-          name: '性别分布',
-          type: 'pie',
-          radius: '60%',
-          center: ['50%', '35%'],
-          labelLine: {
-            normal: {
-              show: false
-            }
-          },
-          label: {
-            normal: {
-              show: false
-            }
-          },
-          data: [{
-            value: 600,
-            itemStyle: {
-              normal: {
-                color: '#90B0E0'
-              }
-            },
-            name: '男'
-          }, {
-            value: 400,
-            itemStyle: {
-              normal: {
-                color: '#F8A0FF'
-              }
-            },
-            name: '女'
-          }, {
-            value: 100,
-            itemStyle: {
-              normal: {
-                color: '#DBE050'
-              }
-            },
-            name: 'null'
-          }],
-          itemStyle: {
-            emphasis: {
-              shadowBlur: 10,
-              shadowOffsetX: 0,
-              shadowColor: 'rgba(0, 0, 0, 0.5)'
-            }
-          }
-        }]
-      };
-      myChart3.setOption(option3);
-    },
-    drawTeaCharts4() {
-      var myChart4 = echarts.init(document.getElementById('TeaCharts4'));
-      var option4 = {
-        tooltip: {
-          trigger: 'item',
-          formatter: "{a} <br/>{b} : {c} ({d}%)"
-        },
-        legend: {
-          // orient: 'vertical',
-          data: ['硕士研究生', '博士研究生', '本科', '专科', '高中及以下', '其他'],
-
-          height: "50",
-          top: "190"
-        },
-        series: [{
-          name: '学历分布',
-          type: 'pie',
-          radius: '60%',
-          center: ['50%', '35%'],
-          labelLine: {
-            normal: {
-              show: false
-            }
-          },
-          label: {
-            normal: {
-              show: false
-            }
-          },
-          data: [{
-            value: 200,
-            itemStyle: {
-              normal: {
-                color: '#8dfcf8'
-              }
-            },
-            name: '硕士研究生'
-          }, {
-            value: 150,
-            itemStyle: {
-              normal: {
-                color: '#f3a67a'
-              }
-            },
-            name: '博士研究生'
-          }, {
-            value: 600,
-            itemStyle: {
-              normal: {
-                color: '#07c997'
-              }
-            },
-            name: '本科'
-          }, {
-            value: 50,
-            itemStyle: {
-              normal: {
-                color: '#e6b600'
-              }
-            },
-            name: '专科'
-          }, {
-            value: 30,
-            itemStyle: {
-              normal: {
-                color: '#f06060'
-              }
-            },
-            name: '高中及以下'
-          }, {
-            value: 10,
-            itemStyle: {
-              normal: {
-                color: '#ffeeba'
-              }
-            },
-            name: '其他'
-          }],
-          itemStyle: {
-            emphasis: {
-              shadowBlur: 10,
-              shadowOffsetX: 0,
-              shadowColor: 'rgba(0, 0, 0, 0.5)'
-            }
-          }
-        }]
-      };
-      myChart4.setOption(option4);
-    },
-    drawTeaCharts5() {
-      var myChart5 = echarts.init(document.getElementById('TeaCharts5'));
-      var option5 = {
-        tooltip: {
-          trigger: 'item',
-          formatter: "{a} <br/>{b} : {c} ({d}%)"
-        },
-        legend: {
-          data: ['高级教师', '一级教师', '二级教师', '三级教师'],
-          height: "50",
-          top: "190"
-        },
-        series: [{
-          name: '职称分布',
-          type: 'pie',
-          radius: '60%',
-          center: ['50%', '35%'],
-          labelLine: {
-            normal: {
-              show: false
-            }
-          },
-          label: {
-            normal: {
-              show: false
-            }
-          },
-          data: [{
-            value: 400,
-            itemStyle: {
-              normal: {
-                color: '#7bd9a5'
-              }
-            },
-            name: '高级教师'
-          }, {
-            value: 150,
-            itemStyle: {
-              normal: {
-                color: '#8597f2'
-              }
-            },
-            name: '一级教师'
-          }, {
-            value: 180,
-            itemStyle: {
-              normal: {
-                color: '#22c3aa'
-              }
-            },
-            name: '二级教师'
-          }, {
-            value: 250,
-            itemStyle: {
-              normal: {
-                color: '#1af4e2'
-              }
-            },
-            name: '三级教师'
-          }],
-          itemStyle: {
-            emphasis: {
-              shadowBlur: 10,
-              shadowOffsetX: 0,
-              shadowColor: 'rgba(0, 0, 0, 0.5)'
-            }
-          }
-        }]
-      };
-      myChart5.setOption(option5);
-    },
-    drawTeaCharts6() {
-      var myChart6 = echarts.init(document.getElementById('TeaCharts6'));
-      var dataColor = ["#2ec7c9", "#b6a2de", "#5ab1ef", "#ffb980", "#d87a80", "#d87a80", "#f2ebbf", "#8cbeb2", "#f3b562", "#f06060", '#5ab1ef'];
-      var dataName = ['初级', '中级', '未定级', '其他', '副高', '正高', '员级', '见习', '普通工', '高级工', '技师'];
-      var option6 = {
-        tooltip: {
-          trigger: 'axis',
-          axisPointer: {
-            type: 'cross'
-          },
-          position: function (p) {
-            //其中p为当前鼠标的位置 
-            return [p[0] + 10, p[1] - 80];
-          }
-
-        },
-        grid: {
-          top: 30,
-          bottom: 80
-        },
-        legend: {
-          data: dataName,
-          textStyle: {
-            fontSize: 14
-          },
-          bottom: "20"
-        },
-        xAxis: [{
-          type: 'category',
-          data: ['小于30', '30-35', '35-40', '40-45', '45-50', '50-55', '55-60', '大于60'],
-          axisLabel: {
-            // formatter: '{value}',
-            textStyle: {
-              fontSize: 14
-            }
-          }
-        }],
-        yAxis: [{
-          type: 'value',
-          nameLocation: 'end',
-          nameTextStyle: {
-            color: "#dfdfdf"
-          },
-          axisLabel: {
-            formatter: '{value}',
-            textStyle: {
-              fontSize: 14
-            }
-          },
-          axisLine: {
-            show: false
-          },
-          splitLine: {
-            lineStyle: {
-              color: '#3f7098',
-              type: 'dashed'
-            }
-          }
-        }],
-        series: [{
-          name: '初级',
-          type: 'bar',
-          itemStyle: {
-            normal: {
-              color: dataColor[0]
-            }
-          },
-          data: [2, 4.9, 7.0, 23.2, 25.6, 80.7, 115.6, 2]
-        }, {
-          name: '中级',
-          type: 'bar',
-          itemStyle: {
-            normal: {
-              color: dataColor[1]
-            }
-          },
-          data: [4, 5, 6, 7, 5, 6, 10, 4]
-        }, {
-          name: '未定级',
-          type: 'bar',
-          itemStyle: {
-            normal: {
-              color: dataColor[2]
-            }
-          },
-          data: [8, 6, 7, 4, 3, 2, 2, 8]
-        }, {
-          name: '其他',
-          type: 'bar',
-          itemStyle: {
-            normal: {
-              color: dataColor[3]
-            }
-          },
-          data: [2, 3, 4, 10, 3, 2, 2, 8]
-        }, {
-          name: '副高',
-          type: 'bar',
-          itemStyle: {
-            normal: {
-              color: dataColor[4]
-            }
-          },
-          data: [8, 6, 7, 4, 3, 2, 2, 8]
-        }, {
-          name: '正高',
-          type: 'bar',
-          itemStyle: {
-            normal: {
-              color: dataColor[5]
-            }
-          },
-          data: [8, 6, 7, 4, 3, 2, 2, 8]
-        }, {
-          name: '员级',
-          type: 'bar',
-          itemStyle: {
-            normal: {
-              color: dataColor[6]
-            }
-          },
-          data: [4, 2, 3, 8, 2, 2, 3, 6]
-        }, {
-          name: '见习',
-          type: 'bar',
-          itemStyle: {
-            normal: {
-              color: dataColor[7]
-            }
-          },
-          data: [4, 2, 3, 8, 2, 2, 3, 6]
-        }, {
-          name: '普通工',
-          type: 'bar',
-          itemStyle: {
-            normal: {
-              color: dataColor[8]
-            }
-          },
-          data: [8, 7, 3, 7, 2, 2, 3, 6]
-        }, {
-          name: '高级工',
-          type: 'bar',
-          itemStyle: {
-            normal: {
-              color: dataColor[9]
-            }
-          },
-          data: [4, 2, 3, 2, 8, 6, 3, 6]
-        }, {
-          name: '技师',
-          type: 'bar',
-          itemStyle: {
-            normal: {
-              color: dataColor[10]
-            }
-          },
-          data: [8, 6, 7, 4, 3, 2, 2, 8]
-        }]
-      };
-      myChart6.setOption(option6);
-    },
-    drawTeaCharts7() {
-      var myChart7 = echarts.init(document.getElementById('TeaCharts7'));
-      var option7 = {
-        color: ['#f06060', '#f3b562'],
-        tooltip: {
-          trigger: 'axis',
-          axisPointer: { // 坐标轴指示器，坐标轴触发有效
-            type: 'shadow' // 默认为直线，可选为：'line' | 'shadow'
-          }
-        },
-        legend: {
-          data: ['工龄', '校龄'],
-          textStyle: {
-            fontSize: 14
-          },
-          bottom: "20"
-        },
-        grid: {
-          left: '3%',
-          right: '4%',
-          top: '10%',
-          bottom: '30%',
-          containLabel: true
-        },
-        xAxis: [{
-          type: 'category',
-          data: ['小于10', '10-20', '20-30', '30-40', '大于40'],
-          axisLabel: {
-            interval: 0
-
-          }
-        }],
-        yAxis: [{
-          type: 'value',
-          axisLabel: {},
-          splitLine: {
-            lineStyle: {
-              // color: ['#222b73']
-            }
-          }
-        }],
-        series: [{
-          name: '工龄',
-          type: 'bar',
-          barWidth: '10',
-          data: [320, 332, 301, 334, 390]
-        }, {
-          name: '校龄',
-          type: 'bar',
-          barWidth: '10',
-          data: [120, 132, 101, 134, 90]
-        }]
-      };
-      myChart7.setOption(option7);
-    },
-    drawTeaCharts8() {
-      var myChart8 = echarts.init(document.getElementById('TeaCharts8'));
-      var option8 = {
-        tooltip: {
-          trigger: 'item',
-          formatter: "{a} <br/>{b} : {c} ({d}%)"
-        },
-        legend: {
-          // orient: 'vertical',
-          data: ['1门课', '2门课', '3门课', '4门课'],
-          height: "40",
-          top: "200"
-        },
-        series: [{
-          name: '本学期代课情况分析',
-          type: 'pie',
-          radius: '60%',
-          center: ['50%', '35%'],
-          labelLine: {
-            normal: {
-              show: false
-            }
-          },
-          label: {
-            normal: {
-              show: false
-            }
-          },
-          data: [{
-            value: 600,
-            itemStyle: {
-              normal: {
-                color: '#db9200'
-              }
-            },
-            name: '1门课'
-          }, {
-            value: 400,
-            itemStyle: {
-              normal: {
-                color: '#6ddbaa'
-              }
-            },
-            name: '2门课'
-          }, {
-            value: 250,
-            itemStyle: {
-              normal: {
-                color: '#24b6aa'
-              }
-            },
-            name: '3门课'
-          }, {
-            value: 50,
-            itemStyle: {
-              normal: {
-                color: '#f06060'
-              }
-            },
-            name: '4门课'
-
-          }],
-          itemStyle: {
-            emphasis: {
-              shadowBlur: 10,
-              shadowOffsetX: 0,
-              shadowColor: 'rgba(0, 0, 0, 0.5)'
-            }
-          }
-        }]
-      };
-      myChart8.setOption(option8);
-    },
-    drawTeaCharts9() {
-      var myChart9 = echarts.init(document.getElementById('TeaCharts9'));
-      var option9 = {
-        color: ['#3398DB', '#675bba'],
-        tooltip: {
-          trigger: 'axis',
-          formatter: "{a}<br>{b} : {c}课时",
-          axisPointer: {
-            type: 'cross'
-          }
-        },
-        grid: {
-          left: '3%',
-          right: '4%',
-          top: "5%",
-          bottom: '15%',
-          containLabel: true
-        },
-        xAxis: [{
-          type: 'category',
-          name: '',
-          data: ['播音主持艺术学院', '电视艺术学院', '电影学院', '电子信息学院', '动画学院', '管理学院', '国际文化传播学院', '设计艺术学院', '文化创意学院', '文学院'],
-          axisTick: {
-            alignWithLabel: true
-          },
-          axisLabel: {
-            interval: 0,
-            rotate: 30
-          }
-        }],
-        yAxis: [{
-          type: 'value',
-          name: '任课时长',
-          nameTextStyle: {
-            // color:"#dfdfdf",
-          },
-          axisLabel: {},
-          splitLine: {
-            lineStyle: {
-              color: '#ccc'
-              // type: 'dashed'
-            }
-          }
-        }],
-        series: [{
-          name: '任课时长',
-          type: 'bar',
-          barWidth: '20',
-          data: [10, 52, 100, 60, 50, 58, 69, 35, 96, 100],
-          itemStyle: {
-            normal: {
-              color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [{ offset: 0, color: '#6193ff' }, { offset: 1, color: '#24459e' }])
-
-            }
-          }
-        }]
-      };
-      myChart9.setOption(option9);
-    }
-  }
-
-});
-/* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__("7t+N")))
-
-/***/ }),
-
 /***/ "zz1u":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -91878,3 +91555,4 @@ __webpack_require__("s48c");
 /***/ })
 
 });
+//# sourceMappingURL=1.4ff0dbb18987034ea8ca.js.map

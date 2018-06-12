@@ -1,4 +1,4 @@
-webpackJsonp([3],{
+webpackJsonp([4],{
 
 /***/ "+2Ke":
 /***/ (function(module, exports) {
@@ -380,21 +380,6 @@ var _default = Path.extend({
 });
 
 module.exports = _default;
-
-/***/ }),
-
-/***/ "+VI9":
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__("FZ+f")(false);
-// imports
-
-
-// module
-exports.push([module.i, "", ""]);
-
-// exports
-
 
 /***/ }),
 
@@ -1296,112 +1281,6 @@ function addChild(child, node) {
 
 var _default = Tree;
 module.exports = _default;
-
-/***/ }),
-
-/***/ "+k/L":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-
-//import 'bootstrap-daterangepicker/daterangepicker.js'
-/* harmony default export */ __webpack_exports__["a"] = ({
-	data() {
-		return {
-			district: {
-				'130000': {
-					'name': '校本部',
-					'child': {
-						'130100': {
-							'name': '计算机学院'
-						},
-						'130200': {
-							'name': '文学院'
-						},
-						'130300': {
-							'name': '化学化工学院'
-						}
-					}
-				},
-				'140000': {
-					'name': '第二校区',
-					'child': {
-						'140100': {
-							'name': '管理学院',
-							'child': []
-						},
-						'140200': {
-							'name': '设计艺术学院',
-							'child': []
-						},
-						'140300': {
-							'name': '建筑学院',
-							'child': []
-						},
-						'140400': {
-							'name': '外语学院',
-							'child': []
-						},
-						'140500': {
-							'name': '生物学院',
-							'child': []
-						}
-					}
-				}
-			},
-			citys: {},
-			area: {},
-			selectProv: '',
-			selectCity: '',
-			objSearch: {}
-		};
-	},
-	components: {},
-	mounted() {
-		/**$('#reservation').daterangepicker({
-   	timePicker: true, timePickerIncrement: 7, format: 'YYYY-MM-DD' 
-  })*/
-	},
-	methods: {
-		getProv: function (prov) {
-			this.citys = this.district[this.selectProv].child;
-			this.selectCity = '';
-		},
-		getSearch: function () {
-			// $('#reservation').daterangepicker()
-			this.objSearch = {
-				selectProv: this.selectProv,
-				selectCity: this.selectCity
-			};
-			this.$emit('searchEvent', this.selectProv, this.selectCity);
-		}
-	}
-});
 
 /***/ }),
 
@@ -10008,6 +9887,17 @@ module.exports = _default;
 
 /***/ }),
 
+/***/ "2uxy":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{},[_c('section',{staticClass:"content"},[_c('div',{staticClass:"row"},[_c('div',{staticClass:"col-md-12"},[_c('div',{staticClass:"box box-success"},[_vm._m(0),_vm._v(" "),_c('div',{staticClass:"box-body"},[_c('table',{staticClass:"table table-bordered table-striped",attrs:{"id":"example1"}},[_vm._m(1),_vm._v(" "),_c('tbody',[_c('tr',[_c('th',[_vm._v("设计艺术学院")]),_vm._v(" "),_c('th',[_vm._v("数字音乐在数字娱乐中的重要地位")]),_vm._v(" "),_c('th',[_vm._v("已完结")]),_vm._v(" "),_c('th',{class:[_vm.teacherID],on:{"click":function($event){_vm.goParam(_vm.teacherID+2)}}},[_vm._v("张薇")]),_vm._v(" "),_c('th',[_vm._v("秦丽娜:1234567;李伟:1345678;李华:1456789")]),_vm._v(" "),_c('th',[_vm._v("2015年9月")]),_vm._v(" "),_c('th',[_vm._v("2015年12月")])]),_vm._v(" "),_c('tr',[_c('th',[_vm._v("设计艺术学院")]),_vm._v(" "),_c('th',[_vm._v("数字音乐在数字娱乐中的重要地位")]),_vm._v(" "),_c('th',[_vm._v("已完结")]),_vm._v(" "),_c('th',{class:[_vm.teacherID],on:{"click":function($event){_vm.goParam(_vm.teacherID+2)}}},[_vm._v("张薇")]),_vm._v(" "),_c('th',[_vm._v("秦丽娜:1234567;李伟:1345678;李华:1456789")]),_vm._v(" "),_c('th',[_vm._v("2015年9月")]),_vm._v(" "),_c('th',[_vm._v("2015年12月")])]),_vm._v(" "),_c('tr',[_c('th',[_vm._v("设计艺术学院")]),_vm._v(" "),_c('th',[_vm._v("数字音乐在数字娱乐中的重要地位")]),_vm._v(" "),_c('th',[_vm._v("已完结")]),_vm._v(" "),_c('th',{class:[_vm.teacherID],on:{"click":function($event){_vm.goParam(_vm.teacherID+2)}}},[_vm._v("张薇")]),_vm._v(" "),_c('th',[_vm._v("秦丽娜:1234567;李伟:1345678;李华:1456789")]),_vm._v(" "),_c('th',[_vm._v("2015年9月")]),_vm._v(" "),_c('th',[_vm._v("2015年12月")])]),_vm._v(" "),_c('tr',[_c('th',[_vm._v("设计艺术学院")]),_vm._v(" "),_c('th',[_vm._v("数字音乐在数字娱乐中的重要地位")]),_vm._v(" "),_c('th',[_vm._v("已完结")]),_vm._v(" "),_c('th',{class:[_vm.teacherID],on:{"click":function($event){_vm.goParam(_vm.teacherID+2)}}},[_vm._v("张薇")]),_vm._v(" "),_c('th',[_vm._v("秦丽娜:1234567;李伟:1345678;李华:1456789")]),_vm._v(" "),_c('th',[_vm._v("2015年9月")]),_vm._v(" "),_c('th',[_vm._v("2015年12月")])]),_vm._v(" "),_c('tr',[_c('th',[_vm._v("设计艺术学院")]),_vm._v(" "),_c('th',[_vm._v("数字音乐在数字娱乐中的重要地位")]),_vm._v(" "),_c('th',[_vm._v("已完结")]),_vm._v(" "),_c('th',{class:[_vm.teacherID],on:{"click":function($event){_vm.goParam(_vm.teacherID+2)}}},[_vm._v("张薇")]),_vm._v(" "),_c('th',[_vm._v("秦丽娜:1234567;李伟:1345678;李华:1456789")]),_vm._v(" "),_c('th',[_vm._v("2015年9月")]),_vm._v(" "),_c('th',[_vm._v("2015年12月")])])])])])])])]),_vm._v(" "),_c('div',{staticClass:"row"},[_c('div',{staticClass:"col-md-5"},[_c('div',{staticClass:"box box-success"},[_vm._m(2),_vm._v(" "),_c('div',{staticClass:"box-body"},[_c('div',{staticClass:"row"},[_c('div',{staticClass:"chart"},[_c('div',{style:({height:'300px'}),attrs:{"id":"TeaCharts1"}})])])])])]),_vm._v(" "),_vm._m(3)]),_vm._v(" "),_vm._m(4),_vm._v(" "),_c('div',{staticClass:"row"},[_c('div',{staticClass:"col-md-6"},[_c('div',{staticClass:"box box-success"},[_vm._m(5),_vm._v(" "),_c('div',{staticClass:"box-body"},[_c('Table',{attrs:{"stripe":"","columns":_vm.columns1,"data":_vm.data1,"loading":_vm.loading}}),_vm._v(" "),_c('Page',{staticStyle:{"margin-top":"15px"},attrs:{"total":_vm.pageTotal,"current":_vm.pageNum,"page-size":_vm.pageSize,"show-total":"","size":"small","show-elevator":""},on:{"on-change":_vm.handlePage}})],1)])]),_vm._v(" "),_c('div',{staticClass:"col-md-6"},[_c('div',{staticClass:"box box-success"},[_vm._m(6),_vm._v(" "),_c('div',{staticClass:"box-body"},[_c('div',{staticClass:"row"},[_c('div',{staticClass:"chart"},[_c('div',{style:({height:'330px'}),attrs:{"id":"TeaCharts2"}})])])])])])])])])}
+var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"box-header with-border"},[_c('h3',{staticClass:"box-title"},[_vm._v("个人研究成果展示")]),_vm._v(" "),_c('div',{staticClass:"box-tools pull-right"},[_c('button',{staticClass:"btn btn-box-tool",attrs:{"type":"button","data-widget":"collapse"}},[_c('i',{staticClass:"fa fa-minus"})]),_vm._v(" "),_c('button',{staticClass:"btn btn-box-tool",attrs:{"type":"button","data-widget":"remove"}},[_c('i',{staticClass:"fa fa-times"})])])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('thead',[_c('tr',[_c('th',[_vm._v("科研单位")]),_vm._v(" "),_c('th',[_vm._v("科研名称")]),_vm._v(" "),_c('th',[_vm._v("当前状态")]),_vm._v(" "),_c('th',[_vm._v("学科带头人")]),_vm._v(" "),_c('th',[_vm._v("科研组成员")]),_vm._v(" "),_c('th',[_vm._v("开始时间")]),_vm._v(" "),_c('th',[_vm._v("结束时间")])])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"box-header with-border"},[_c('h3',{staticClass:"box-title"},[_vm._v("科研产出统计")]),_vm._v(" "),_c('div',{staticClass:"box-tools pull-right"},[_c('button',{staticClass:"btn btn-box-tool",attrs:{"type":"button","data-widget":"collapse"}},[_c('i',{staticClass:"fa fa-minus"})]),_vm._v(" "),_c('button',{staticClass:"btn btn-box-tool",attrs:{"type":"button","data-widget":"remove"}},[_c('i',{staticClass:"fa fa-times"})])])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"col-md-7"},[_c('div',{staticClass:"box box-success"},[_c('div',{staticClass:"box-header with-border"},[_c('h3',{staticClass:"box-title"},[_vm._v("科研资料推荐")]),_vm._v(" "),_c('div',{staticClass:"box-tools pull-right"},[_c('button',{staticClass:"btn btn-box-tool",attrs:{"type":"button","data-widget":"collapse"}},[_c('i',{staticClass:"fa fa-minus"})]),_vm._v(" "),_c('button',{staticClass:"btn btn-box-tool",attrs:{"type":"button","data-widget":"remove"}},[_c('i',{staticClass:"fa fa-times"})])])]),_vm._v(" "),_c('div',{staticClass:"box-body"},[_c('table',{staticClass:"table table-bordered table-striped",attrs:{"id":"example1"}},[_c('thead',[_c('tr',[_c('th',[_vm._v("排名")]),_vm._v(" "),_c('th',[_vm._v("题目")]),_vm._v(" "),_c('th',[_vm._v("作者")]),_vm._v(" "),_c('th',[_vm._v("所属高校")]),_vm._v(" "),_c('th',[_vm._v("发表年份")])])]),_vm._v(" "),_c('tbody',[_c('tr',[_c('th',[_vm._v("0001")]),_vm._v(" "),_c('th',[_vm._v("有机马克思主义与生态马克思主义")]),_vm._v(" "),_c('th',[_vm._v("谢芳/管锦绣")]),_vm._v(" "),_c('th',[_vm._v("武汉工程大学")]),_vm._v(" "),_c('th',[_vm._v("2017")])]),_vm._v(" "),_c('tr',[_c('th',[_vm._v("0001")]),_vm._v(" "),_c('th',[_vm._v("有机马克思主义与生态马克思主义")]),_vm._v(" "),_c('th',[_vm._v("谢芳/管锦绣")]),_vm._v(" "),_c('th',[_vm._v("武汉工程大学")]),_vm._v(" "),_c('th',[_vm._v("2017")])]),_vm._v(" "),_c('tr',[_c('th',[_vm._v("0001")]),_vm._v(" "),_c('th',[_vm._v("有机马克思主义与生态马克思主义")]),_vm._v(" "),_c('th',[_vm._v("谢芳/管锦绣")]),_vm._v(" "),_c('th',[_vm._v("武汉工程大学")]),_vm._v(" "),_c('th',[_vm._v("2017")])]),_vm._v(" "),_c('tr',[_c('th',[_vm._v("0001")]),_vm._v(" "),_c('th',[_vm._v("有机马克思主义与生态马克思主义")]),_vm._v(" "),_c('th',[_vm._v("谢芳/管锦绣")]),_vm._v(" "),_c('th',[_vm._v("武汉工程大学")]),_vm._v(" "),_c('th',[_vm._v("2017")])]),_vm._v(" "),_c('tr',[_c('th',[_vm._v("0001")]),_vm._v(" "),_c('th',[_vm._v("有机马克思主义与生态马克思主义")]),_vm._v(" "),_c('th',[_vm._v("谢芳/管锦绣")]),_vm._v(" "),_c('th',[_vm._v("武汉工程大学")]),_vm._v(" "),_c('th',[_vm._v("2017")])])])])])])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"row"},[_c('div',{staticClass:"col-md-12"},[_c('div',{staticClass:"box box-primary"},[_c('div',{staticClass:"box-header with-border"},[_c('h3',{staticClass:"box-title"},[_vm._v("优秀科研项目推荐")]),_vm._v(" "),_c('div',{staticClass:"box-tools pull-right"},[_c('button',{staticClass:"btn btn-box-tool",attrs:{"type":"button","data-widget":"collapse"}},[_c('i',{staticClass:"fa fa-minus"})]),_vm._v(" "),_c('button',{staticClass:"btn btn-box-tool",attrs:{"type":"button","data-widget":"remove"}},[_c('i',{staticClass:"fa fa-times"})])])]),_vm._v(" "),_c('div',{staticClass:"box-body"},[_c('table',{staticClass:"table table-bordered table-striped",attrs:{"id":"example1"}},[_c('thead',[_c('tr',[_c('th',[_vm._v("排名")]),_vm._v(" "),_c('th',[_vm._v("项目名称")]),_vm._v(" "),_c('th',[_vm._v("项目来源")]),_vm._v(" "),_c('th',[_vm._v("承担单位/负责人")]),_vm._v(" "),_c('th',[_vm._v("学科范围")]),_vm._v(" "),_c('th',[_vm._v("所获奖励")]),_vm._v(" "),_c('th',[_vm._v("立项年份")])])]),_vm._v(" "),_c('tbody',[_c('tr',[_c('th',[_vm._v("0001")]),_vm._v(" "),_c('th',[_vm._v("马克思技术哲学与现时代研究")]),_vm._v(" "),_c('th',[_vm._v("2014年湖北省社科基金一般项目")]),_vm._v(" "),_c('th',[_vm._v("武汉工程大学/管锦绣")]),_vm._v(" "),_c('th',[_vm._v("哲学")]),_vm._v(" "),_c('th',[_vm._v("第二届马克思主义理论研讨会论文优秀奖")]),_vm._v(" "),_c('th',[_vm._v("2015")])]),_vm._v(" "),_c('tr',[_c('th',[_vm._v("0001")]),_vm._v(" "),_c('th',[_vm._v("马克思技术哲学与现时代研究")]),_vm._v(" "),_c('th',[_vm._v("2014年湖北省社科基金一般项目")]),_vm._v(" "),_c('th',[_vm._v("武汉工程大学/管锦绣")]),_vm._v(" "),_c('th',[_vm._v("哲学")]),_vm._v(" "),_c('th',[_vm._v("第二届马克思主义理论研讨会论文优秀奖")]),_vm._v(" "),_c('th',[_vm._v("2015")])]),_vm._v(" "),_c('tr',[_c('th',[_vm._v("0001")]),_vm._v(" "),_c('th',[_vm._v("马克思技术哲学与现时代研究")]),_vm._v(" "),_c('th',[_vm._v("2014年湖北省社科基金一般项目")]),_vm._v(" "),_c('th',[_vm._v("武汉工程大学/管锦绣")]),_vm._v(" "),_c('th',[_vm._v("哲学")]),_vm._v(" "),_c('th',[_vm._v("第二届马克思主义理论研讨会论文优秀奖")]),_vm._v(" "),_c('th',[_vm._v("2015")])]),_vm._v(" "),_c('tr',[_c('th',[_vm._v("0001")]),_vm._v(" "),_c('th',[_vm._v("马克思技术哲学与现时代研究")]),_vm._v(" "),_c('th',[_vm._v("2014年湖北省社科基金一般项目")]),_vm._v(" "),_c('th',[_vm._v("武汉工程大学/管锦绣")]),_vm._v(" "),_c('th',[_vm._v("哲学")]),_vm._v(" "),_c('th',[_vm._v("第二届马克思主义理论研讨会论文优秀奖")]),_vm._v(" "),_c('th',[_vm._v("2015")])]),_vm._v(" "),_c('tr',[_c('th',[_vm._v("0001")]),_vm._v(" "),_c('th',[_vm._v("马克思技术哲学与现时代研究")]),_vm._v(" "),_c('th',[_vm._v("2014年湖北省社科基金一般项目")]),_vm._v(" "),_c('th',[_vm._v("武汉工程大学/管锦绣")]),_vm._v(" "),_c('th',[_vm._v("哲学")]),_vm._v(" "),_c('th',[_vm._v("第二届马克思主义理论研讨会论文优秀奖")]),_vm._v(" "),_c('th',[_vm._v("2015")])])])])])])])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"box-header with-border"},[_c('h3',{staticClass:"box-title"},[_vm._v("科研热度排名")]),_vm._v(" "),_c('div',{staticClass:"box-tools pull-right"},[_c('button',{staticClass:"btn btn-box-tool",attrs:{"type":"button","data-widget":"collapse"}},[_c('i',{staticClass:"fa fa-minus"})]),_vm._v(" "),_c('button',{staticClass:"btn btn-box-tool",attrs:{"type":"button","data-widget":"remove"}},[_c('i',{staticClass:"fa fa-times"})])])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"box-header with-border"},[_c('h3',{staticClass:"box-title"},[_vm._v("科研热点词云")]),_vm._v(" "),_c('div',{staticClass:"box-tools pull-right"},[_c('button',{staticClass:"btn btn-box-tool",attrs:{"type":"button","data-widget":"collapse"}},[_c('i',{staticClass:"fa fa-minus"})]),_vm._v(" "),_c('button',{staticClass:"btn btn-box-tool",attrs:{"type":"button","data-widget":"remove"}},[_c('i',{staticClass:"fa fa-times"})])])])}]
+var esExports = { render: render, staticRenderFns: staticRenderFns }
+/* harmony default export */ __webpack_exports__["a"] = (esExports);
+
+/***/ }),
+
 /***/ "3h1/":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -11627,21 +11517,6 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "4NZO":
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__("FZ+f")(false);
-// imports
-
-
-// module
-exports.push([module.i, ".daterangepicker{position:absolute;color:inherit;background-color:#fff;border-radius:4px;border:1px solid #ddd;width:278px;max-width:none;padding:0;margin-top:7px;top:100px;left:20px;z-index:3001;display:none;font-family:arial;font-size:15px;line-height:1em}.daterangepicker:after,.daterangepicker:before{position:absolute;display:inline-block;border-bottom-color:rgba(0,0,0,.2);content:\"\"}.daterangepicker:before{top:-7px;border-right:7px solid transparent;border-left:7px solid transparent;border-bottom:7px solid #ccc}.daterangepicker:after{top:-6px;border-right:6px solid transparent;border-bottom:6px solid #fff;border-left:6px solid transparent}.daterangepicker.opensleft:before{right:9px}.daterangepicker.opensleft:after{right:10px}.daterangepicker.openscenter:after,.daterangepicker.openscenter:before{left:0;right:0;width:0;margin-left:auto;margin-right:auto}.daterangepicker.opensright:before{left:9px}.daterangepicker.opensright:after{left:10px}.daterangepicker.drop-up{margin-top:-7px}.daterangepicker.drop-up:before{top:auto;bottom:-7px;border-bottom:initial;border-top:7px solid #ccc}.daterangepicker.drop-up:after{top:auto;bottom:-6px;border-bottom:initial;border-top:6px solid #fff}.daterangepicker.single .daterangepicker .ranges,.daterangepicker.single .drp-calendar{float:none}.daterangepicker.single .drp-selected{display:none}.daterangepicker.show-calendar .drp-buttons,.daterangepicker.show-calendar .drp-calendar{display:block}.daterangepicker.auto-apply .drp-buttons{display:none}.daterangepicker .drp-calendar{display:none;max-width:270px}.daterangepicker .drp-calendar.left{padding:8px 0 8px 8px}.daterangepicker .drp-calendar.right{padding:8px}.daterangepicker .drp-calendar.single .calendar-table{border:none}.daterangepicker .calendar-table .next span,.daterangepicker .calendar-table .prev span{color:#fff;border:solid #000;border-width:0 2px 2px 0;border-radius:0;display:inline-block;padding:3px}.daterangepicker .calendar-table .next span{transform:rotate(-45deg);-webkit-transform:rotate(-45deg)}.daterangepicker .calendar-table .prev span{transform:rotate(135deg);-webkit-transform:rotate(135deg)}.daterangepicker .calendar-table td,.daterangepicker .calendar-table th{text-align:center;vertical-align:middle;min-width:32px;width:32px;height:24px;line-height:24px;font-size:12px;border-radius:4px;border:1px solid transparent;white-space:nowrap;cursor:pointer}.daterangepicker .calendar-table{border:1px solid #fff;border-radius:4px;background-color:#fff}.daterangepicker .calendar-table table{width:100%;margin:0;border-spacing:0;border-collapse:collapse}.daterangepicker td.available:hover,.daterangepicker th.available:hover{background-color:#eee;border-color:transparent;color:inherit}.daterangepicker td.week,.daterangepicker th.week{font-size:80%;color:#ccc}.daterangepicker td.off,.daterangepicker td.off.end-date,.daterangepicker td.off.in-range,.daterangepicker td.off.start-date{background-color:#fff;border-color:transparent;color:#999}.daterangepicker td.in-range{background-color:#ebf4f8;border-color:transparent;color:#000;border-radius:0}.daterangepicker td.start-date{border-radius:4px 0 0 4px}.daterangepicker td.end-date{border-radius:0 4px 4px 0}.daterangepicker td.start-date.end-date{border-radius:4px}.daterangepicker td.active,.daterangepicker td.active:hover{background-color:#357ebd;border-color:transparent;color:#fff}.daterangepicker th.month{width:auto}.daterangepicker option.disabled,.daterangepicker td.disabled{color:#999;cursor:not-allowed;text-decoration:line-through}.daterangepicker select.monthselect,.daterangepicker select.yearselect{font-size:12px;padding:1px;height:auto;margin:0;cursor:default}.daterangepicker select.monthselect{margin-right:2%;width:56%}.daterangepicker select.yearselect{width:40%}.daterangepicker select.ampmselect,.daterangepicker select.hourselect,.daterangepicker select.minuteselect,.daterangepicker select.secondselect{width:50px;margin:0 auto;background:#eee;border:1px solid #eee;padding:2px;outline:0;font-size:12px}.daterangepicker .calendar-time{text-align:center;margin:4px auto 0;line-height:30px;position:relative}.daterangepicker .calendar-time select.disabled{color:#ccc;cursor:not-allowed}.daterangepicker .drp-buttons{clear:both;text-align:right;padding:8px;border-top:1px solid #ddd;display:none;line-height:12px;vertical-align:middle}.daterangepicker .drp-selected{display:inline-block;font-size:12px;padding-right:8px}.daterangepicker .drp-buttons .btn{margin-left:8px;font-size:12px;font-weight:700;padding:4px 8px}.daterangepicker.show-ranges .drp-calendar.left{border-left:1px solid #ddd}.daterangepicker .ranges{float:none;text-align:left;margin:0}.daterangepicker.show-calendar .ranges{margin-top:8px}.daterangepicker .ranges ul{list-style:none;margin:0 auto;padding:0;width:100%}.daterangepicker .ranges li{font-size:12px;padding:8px 12px;cursor:pointer}.daterangepicker .ranges li:hover{background-color:#eee}.daterangepicker .ranges li.active{background-color:#08c;color:#fff}@media (min-width:564px){.daterangepicker{width:auto}.daterangepicker .ranges ul{width:140px}.daterangepicker.single .ranges ul{width:100%}.daterangepicker.single .drp-calendar.left{clear:none}.daterangepicker.single.ltr .drp-calendar,.daterangepicker.single.ltr .ranges{float:left}.daterangepicker.single.rtl .drp-calendar,.daterangepicker.single.rtl .ranges{float:right}.daterangepicker.ltr{direction:ltr;text-align:left}.daterangepicker.ltr .drp-calendar.left{clear:left;margin-right:0}.daterangepicker.ltr .drp-calendar.left .calendar-table{border-right:none;border-top-right-radius:0;border-bottom-right-radius:0}.daterangepicker.ltr .drp-calendar.right{margin-left:0}.daterangepicker.ltr .drp-calendar.right .calendar-table{border-left:none;border-top-left-radius:0;border-bottom-left-radius:0}.daterangepicker.ltr .drp-calendar.left .calendar-table{padding-right:8px}.daterangepicker.ltr .drp-calendar,.daterangepicker.ltr .ranges{float:left}.daterangepicker.rtl{direction:rtl;text-align:right}.daterangepicker.rtl .drp-calendar.left{clear:right;margin-left:0}.daterangepicker.rtl .drp-calendar.left .calendar-table{border-left:none;border-top-left-radius:0;border-bottom-left-radius:0}.daterangepicker.rtl .drp-calendar.right{margin-right:0}.daterangepicker.rtl .drp-calendar.right .calendar-table{border-right:none;border-top-right-radius:0;border-bottom-right-radius:0}.daterangepicker.rtl .drp-calendar.left .calendar-table{padding-left:12px}.daterangepicker.rtl .drp-calendar,.daterangepicker.rtl .ranges{text-align:right;float:right}}@media (min-width:730px){.daterangepicker .ranges{width:auto}.daterangepicker.ltr .ranges{float:left}.daterangepicker.rtl .ranges{float:right}.daterangepicker .drp-calendar.left{clear:none!important}}", ""]);
-
-// exports
-
-
-/***/ }),
-
 /***/ "4Nz2":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -12768,20 +12643,6 @@ svgText.brush = function (el) {
 exports.path = svgPath;
 exports.image = svgImage;
 exports.text = svgText;
-
-/***/ }),
-
-/***/ "4wC+":
-/***/ (function(module, exports, __webpack_require__) {
-
-// style-loader: Adds some css to the DOM by adding a <style> tag
-
-// load the styles
-var content = __webpack_require__("DkYg");
-if(typeof content === 'string') content = [[module.i, content, '']];
-if(content.locals) module.exports = content.locals;
-// add the styles to the DOM
-var update = __webpack_require__("rjj0")("bec8252e", content, true, {});
 
 /***/ }),
 
@@ -22193,6 +22054,581 @@ module.exports = _default;
 
 /***/ }),
 
+/***/ "Bxmd":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+var echarts = __webpack_require__("XLwt");
+__webpack_require__("FBwb");
+/* harmony default export */ __webpack_exports__["a"] = ({
+				data() {
+								return {
+												teacherID: '123',
+												loading: false,
+												pageTotal: 100,
+												pageNum: 1,
+												pageSize: 5,
+												columns1: [{
+																title: '序号',
+																key: 'xh'
+												}, {
+																title: '研究方向',
+																key: 'yjfx'
+												}, {
+																title: '相关论文数量',
+																key: 'xglwsl'
+												}, {
+																title: '引用量',
+																key: 'yyl'
+												}, {
+																title: '下载量',
+																key: 'xzl'
+												}, {
+																title: '热度指数',
+																key: 'rdzs'
+												}],
+												data1: [{
+																xh: '1',
+																yjfx: "新零售",
+																xglwsl: '4532',
+																yyl: '425332',
+																xzl: '4235',
+																rdzs: '89'
+												}, {
+																xh: '1',
+																yjfx: "新零售",
+																xglwsl: '4532',
+																yyl: '425332',
+																xzl: '4235',
+																rdzs: '89'
+												}, {
+																xh: '1',
+																yjfx: "新零售",
+																xglwsl: '4532',
+																yyl: '425332',
+																xzl: '4235',
+																rdzs: '89'
+												}, {
+																xh: '1',
+																yjfx: "新零售",
+																xglwsl: '4532',
+																yyl: '425332',
+																xzl: '4235',
+																rdzs: '89'
+												}, {
+																xh: '1',
+																yjfx: "新零售",
+																xglwsl: '4532',
+																yyl: '425332',
+																xzl: '4235',
+																rdzs: '89'
+												}]
+								};
+				},
+				components: {},
+				mounted() {
+								this.drawTeaCharts1();
+								this.drawTeaCharts2();
+				},
+				methods: {
+								handlePage(value) {
+												this.pageNum = value;
+												console.log(this.pageNum);
+												this.loading = false;
+								},
+								goParam: function (ID) {
+												this.$router.push({ name: "TeacherFiles", path: '/teacher/TeacherFiles', params: { 'teacherID': ID } });
+								},
+								drawTeaCharts1() {
+												var myChart1 = echarts.init(document.getElementById('TeaCharts1'));
+												var option1 = {
+																color: ['#2ec7c9', '#ffa701', '#90b8e0', '#9f88e0'],
+																tooltip: {
+																				trigger: 'axis',
+																				axisPointer: { // 坐标轴指示器，坐标轴触发有效
+																								type: 'shadow' // 默认为直线，可选为：'line' | 'shadow'
+																				}
+																},
+																legend: {
+																				data: ['论文', '专注', '专利', '著作'],
+																				textStyle: {
+																								fontSize: 14
+																				},
+																				top: "250"
+																},
+																grid: {
+																				left: '3%',
+																				right: '4%',
+																				top: "5%",
+																				bottom: '20%',
+																				containLabel: true
+																},
+																xAxis: [{
+																				type: 'category',
+																				data: ['2014', '2015', '2016', '2017', '2018'],
+																				axisLabel: {
+																								interval: 0
+																								// rotate: 30,
+																				}
+																}],
+																yAxis: [{
+																				type: 'value',
+																				splitLine: {
+																								lineStyle: {
+																												color: '#ccc',
+																												type: 'dashed'
+																								}
+																				}
+																}],
+																series: [{
+																				name: '论文',
+																				type: 'bar',
+																				barWidth: '15',
+																				data: [70, 80, 90, 50, 11]
+																}, {
+																				name: '专注',
+																				type: 'bar',
+																				barWidth: '15',
+																				data: [50, 10, 50, 80, 40]
+																}, {
+																				name: '专利',
+																				type: 'bar',
+																				barWidth: '15',
+																				data: [5, 50, 50, 40, 30]
+																}, {
+																				name: '著作',
+																				type: 'bar',
+																				barWidth: '15',
+																				data: [5, 50, 50, 40, 30]
+																}]
+												};
+												myChart1.setOption(option1);
+								},
+								drawTeaCharts2() {
+												var myChart2 = echarts.init(document.getElementById('TeaCharts2'));
+												var option2 = {
+																tooltip: {},
+																series: [{
+																				type: 'wordCloud',
+																				gridSize: 20,
+																				sizeRange: [12, 50],
+																				rotationRange: [-90, 90],
+																				shape: 'circle',
+																				textStyle: {
+																								normal: {
+																												color: function () {
+																																return 'rgb(' + [Math.round(Math.random() * 160), Math.round(Math.random() * 160), Math.round(Math.random() * 160)].join(',') + ')';
+																												}
+																								},
+																								emphasis: {
+																												shadowBlur: 10,
+																												shadowColor: '#333'
+																								}
+																				},
+																				data: [{
+																								name: '张薇',
+																								value: 10000,
+																								textStyle: {
+																												normal: {
+																																color: 'black'
+																												},
+																												emphasis: {
+																																color: 'red'
+																												}
+																								}
+																				}, {
+																								name: '空间',
+																								value: 6181
+																				}, {
+																								name: '微博',
+																								value: 4386
+																				}, {
+																								name: '指导',
+																								value: 4055
+																				}, {
+																								name: '小明',
+																								value: 2467
+																				}, {
+																								name: '图书馆',
+																								value: 2244
+																				}, {
+																								name: '项目',
+																								value: 1898
+																				}, {
+																								name: '健康',
+																								value: 1484
+																				}, {
+																								name: '很规范',
+																								value: 1112
+																				}, {
+																								name: '风格化',
+																								value: 965
+																				}, {
+																								name: '过负荷',
+																								value: 847
+																				}, {
+																								name: '雅黑',
+																								value: 582
+																				}, {
+																								name: '数据',
+																								value: 555
+																				}, {
+																								name: '阿斯顿',
+																								value: 550
+																				}, {
+																								name: '发热',
+																								value: 462
+																				}, {
+																								name: '斯蒂芬',
+																								value: 366
+																				}, {
+																								name: '回过头',
+																								value: 360
+																				}, {
+																								name: '电饭锅',
+																								value: 282
+																				}, {
+																								name: '儿童歌',
+																								value: 273
+																				}, {
+																								name: '语句',
+																								value: 265
+																				}]
+																}]
+												};
+												myChart2.setOption(option2);
+								}
+
+				},
+				created() {}
+});
+
+/***/ }),
+
 /***/ "C1+n":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -23356,6 +23792,45 @@ Animator.prototype = {
 };
 var _default = Animator;
 module.exports = _default;
+
+/***/ }),
+
+/***/ "CNPS":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_recommend_vue__ = __webpack_require__("Bxmd");
+/* empty harmony namespace reexport */
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_368b4fe6_hasScoped_true_transformToRequire_video_src_source_src_img_src_image_xlink_href_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_recommend_vue__ = __webpack_require__("2uxy");
+function injectStyle (ssrContext) {
+  __webpack_require__("ZhIz")
+}
+var normalizeComponent = __webpack_require__("VU/8")
+/* script */
+
+
+/* template */
+
+/* template functional */
+var __vue_template_functional__ = false
+/* styles */
+var __vue_styles__ = injectStyle
+/* scopeId */
+var __vue_scopeId__ = "data-v-368b4fe6"
+/* moduleIdentifier (server only) */
+var __vue_module_identifier__ = null
+var Component = normalizeComponent(
+  __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_recommend_vue__["a" /* default */],
+  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_368b4fe6_hasScoped_true_transformToRequire_video_src_source_src_img_src_image_xlink_href_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_recommend_vue__["a" /* default */],
+  __vue_template_functional__,
+  __vue_styles__,
+  __vue_scopeId__,
+  __vue_module_identifier__
+)
+
+/* harmony default export */ __webpack_exports__["default"] = (Component.exports);
+
 
 /***/ }),
 
@@ -25077,21 +25552,6 @@ function has(obj, name) {
 }
 
 module.exports = _default;
-
-/***/ }),
-
-/***/ "DkYg":
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__("FZ+f")(false);
-// imports
-exports.i(__webpack_require__("4NZO"), "");
-
-// module
-exports.push([module.i, "", ""]);
-
-// exports
-
 
 /***/ }),
 
@@ -27136,6 +27596,13 @@ var TimelineModel = ComponentModel.extend({
 });
 var _default = TimelineModel;
 module.exports = _default;
+
+/***/ }),
+
+/***/ "FBwb":
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__("fOUL");
 
 /***/ }),
 
@@ -45531,711 +45998,6 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "RW5y":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__components_datapick_vue__ = __webpack_require__("Tirp");
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-
-
-var echarts = __webpack_require__("XLwt");
-/* harmony default export */ __webpack_exports__["a"] = ({
-		data() {
-				return {};
-		},
-		components: {
-				datapick: __WEBPACK_IMPORTED_MODULE_0__components_datapick_vue__["a" /* default */]
-
-		},
-		mounted() {
-				this.drawTeaCharts1();
-				this.drawTeaCharts2();
-				this.drawTeaCharts3();
-		},
-		methods: {
-				drawTeaCharts1() {
-						var myChart1 = echarts.init(document.getElementById('TeaCharts1'));
-						var option1 = {
-								color: ['#3398DB'],
-								tooltip: {
-										trigger: 'axis',
-										axisPointer: {
-												type: 'shadow'
-										}
-										// formatter: "{b} <br> 合格率: {c}%"
-								},
-								/*legend: {
-            data: [date]
-        },*/
-								grid: {
-										left: '4%',
-										right: '8%',
-										bottom: '10%',
-										top: '5%',
-										containLabel: true
-								},
-								xAxis: {
-										type: 'value',
-										boundaryGap: [0, 0.01],
-										min: 0,
-										max: 100,
-										interval: 20,
-										axisLabel: {
-												formatter: '{value}%',
-												textStyle: {
-														//color: '#fff',  
-														fontWeight: '80'
-												}
-										}
-								},
-								yAxis: {
-										type: 'category',
-										data: ['设计艺术学院', '文学院', '管理学院', '计算机学院', '广播编导学院', '生物学院', '思政学院'],
-										axisLabel: {
-												show: true,
-												interval: 0,
-												rotate: 0,
-												margin: 10,
-												inside: false,
-												textStyle: {
-														//color: '#fff',
-														fontWeight: '50'
-												}
-										}
-								},
-								series: [{
-										type: 'bar',
-										label: {
-												normal: {
-														show: true,
-														// formatter: '{c}',
-														formatter: function (v) {
-																var val = v.data;
-																if (val == 0) {
-																		return '';
-																}
-																return val;
-														},
-														color: '#fff'
-												}
-										},
-										data: [22, 33, 44, 55, 66, 77, 88]
-								}]
-						};
-						myChart1.setOption(option1);
-				},
-				drawTeaCharts2() {
-						var myChart2 = echarts.init(document.getElementById('TeaCharts2'));
-						var option2 = {
-								color: ['#59C4E6', '#7BD9A5', '#4EA397', '#E6B600', '#93B7E3', '#E60EF2', '#7560BA', '#EDF41A', '#B8D2C7', '#D34E21', '#EDAD5A', '#2AC1BC', '#8DFCF8'],
-								tooltip: {
-										trigger: 'none',
-										axisPointer: {
-												type: 'cross'
-										}
-								},
-								legend: {
-										data: ['人事处', '文学院', '管理学院', '电视艺术学院', '播音主持学院', '马克思主义学院（社会科学部）', '新闻与传播学院', '新媒体学院', '设计艺术学院'],
-										bottom: 20,
-										// textStyle: {
-										//     color: '#dfdfdf'
-										// },
-										width: '80%'
-
-								},
-								grid: {
-										top: "5%",
-										bottom: "33%"
-								},
-								xAxis: [{
-										type: 'category',
-										axisTick: {
-												alignWithLabel: true
-										},
-										// axisLine: {
-										//     onZero: false,
-										// },
-										axisPointer: {
-												label: {
-														formatter: function (params) {
-																return params.value + ' 访问量' + (params.seriesData.length ? '：' + params.seriesData[0].data : '');
-														}
-												}
-										},
-										data: ["2013", "2014", "2015", "2016", "2017", "2018"]
-								}],
-								yAxis: [{
-										type: 'value',
-										splitNumber: 4,
-										axisLabel: {
-												formatter: '{value}'
-										},
-										name: '数量',
-										nameLocation: 'middle',
-										nameGap: '45',
-										splitLine: {
-												lineStyle: {
-														color: '#ccc',
-														type: 'dashed'
-												}
-										}
-								}],
-								series: [{
-										name: '人事处',
-										type: 'line',
-										smooth: true,
-										data: [187, 82, 172, 176, 180, 195]
-								}, {
-										name: '文学院',
-										type: 'line',
-										smooth: true,
-										data: [0, 0, 1, 2, 0, 1]
-								}, {
-										name: '管理学院',
-										type: 'line',
-										smooth: true,
-										data: [35, 16, 41, 37, 39, 35]
-								}, {
-										name: "电视艺术学院",
-										type: 'line',
-										smooth: true,
-										data: [0, 0, 0, 0, 0, 0]
-								}, {
-										name: "播音主持学院",
-										type: 'line',
-										smooth: true,
-										data: [226, 117, 210, 195, 224, 271]
-								}, {
-										name: "马克思主义学院（社会科学部）",
-										type: 'line',
-										smooth: true,
-										data: [258, 150, 225, 247, 262, 303]
-								}, {
-										name: "新闻与传播学院",
-										type: 'line',
-										smooth: true,
-										data: [0, 0, 0, 0, 0, 0]
-								}, {
-										name: "新媒体学院",
-										type: 'line',
-										smooth: true,
-										data: [0, 0, 0, 0, 0, 0]
-								}, {
-										name: "设计艺术学院",
-										type: 'line',
-										smooth: true,
-										data: [380, 214, 341, 356, 373, 411]
-								}]
-						};
-						myChart2.setOption(option2);
-				},
-				drawTeaCharts3() {
-						var myChart3 = echarts.init(document.getElementById('TeaCharts3'));
-						var option3 = {
-								tooltip: {
-										trigger: 'item',
-										formatter: "{a} <br/>{b} : {c} ({d}%)"
-								},
-								legend: {
-										data: ['共建国家大学科技园', '技术开发', '共同承担国家科技计划重大课题', '共建研发机构', '共同培养高层次人才', '产学研合作'],
-										// orient: 'vertical',                 
-										height: "30",
-										// width:'200',
-										top: "190"
-								},
-								series: [{
-										name: '职称分布',
-										type: 'pie',
-										radius: '60%',
-										center: ['50%', '35%'],
-										labelLine: {
-												normal: {
-														show: false
-												}
-										},
-										label: {
-												normal: {
-														show: false
-												}
-										},
-										data: [{
-												value: 400,
-												itemStyle: {
-														normal: {
-																color: '#7bd9a5'
-														}
-												},
-												name: '共建国家大学科技园'
-										}, {
-												value: 150,
-												itemStyle: {
-														normal: {
-																color: '#8597f2'
-														}
-												},
-												name: '技术开发'
-										}, {
-												value: 180,
-												itemStyle: {
-														normal: {
-																color: '#22c3aa'
-														}
-												},
-												name: '共同承担国家科技计划重大课题'
-										}, {
-												value: 250,
-												itemStyle: {
-														normal: {
-																color: '#1af4e2'
-														}
-												},
-												name: '共建研发机构'
-										}, {
-												value: 250,
-												itemStyle: {
-														normal: {
-																color: '#1a4fe2'
-														}
-												},
-												name: '共同培养高层次人才'
-										}, {
-												value: 250,
-												itemStyle: {
-														normal: {
-																color: '#1a4fe2'
-														}
-												},
-												name: '产学研合作'
-										}],
-										itemStyle: {
-												emphasis: {
-														shadowBlur: 10,
-														shadowOffsetX: 0,
-														shadowColor: 'rgba(0, 0, 0, 0.5)'
-												}
-										}
-								}]
-						};
-						myChart3.setOption(option3);
-				},
-				searchEvent(data1, data2, data3) {
-						console.log(data1 + ',' + data2 + ',' + data3);
-						this.drawTeaCharts2();
-				}
-		},
-		created() {}
-});
-
-/***/ }),
-
 /***/ "RYbJ":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -50532,44 +50294,6 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "Tirp":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_datapick_vue__ = __webpack_require__("+k/L");
-/* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_16d04e26_hasScoped_true_transformToRequire_video_src_source_src_img_src_image_xlink_href_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_datapick_vue__ = __webpack_require__("zUBy");
-function injectStyle (ssrContext) {
-  __webpack_require__("4wC+")
-}
-var normalizeComponent = __webpack_require__("VU/8")
-/* script */
-
-
-/* template */
-
-/* template functional */
-var __vue_template_functional__ = false
-/* styles */
-var __vue_styles__ = injectStyle
-/* scopeId */
-var __vue_scopeId__ = "data-v-16d04e26"
-/* moduleIdentifier (server only) */
-var __vue_module_identifier__ = null
-var Component = normalizeComponent(
-  __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_datapick_vue__["a" /* default */],
-  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_16d04e26_hasScoped_true_transformToRequire_video_src_source_src_img_src_image_xlink_href_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_datapick_vue__["a" /* default */],
-  __vue_template_functional__,
-  __vue_styles__,
-  __vue_scopeId__,
-  __vue_module_identifier__
-)
-
-/* harmony default export */ __webpack_exports__["a"] = (Component.exports);
-
-
-/***/ }),
-
 /***/ "UAiw":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -52445,14 +52169,18 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "WqTy":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ "WoZP":
+/***/ (function(module, exports, __webpack_require__) {
 
-"use strict";
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{},[_c('section',{staticClass:"content"},[_c('div',{staticClass:"row"},[_c('div',{staticClass:"col-md-12"},[_c('div',{staticClass:"box box-success"},[_vm._m(0),_vm._v(" "),_c('div',{staticClass:"box-body"},[_c('div',{staticClass:"row"},[_c('datapick',{on:{"searchEvent":_vm.searchEvent}})],1)])])])]),_vm._v(" "),_vm._m(1),_vm._v(" "),_c('div',{staticClass:"row"},[_c('div',{staticClass:"col-md-4"},[_c('div',{staticClass:"box box-success"},[_vm._m(2),_vm._v(" "),_c('div',{staticClass:"box-body"},[_c('div',{staticClass:"row"},[_c('div',{staticClass:"chart"},[_c('div',{style:({height:'300px'}),attrs:{"id":"TeaCharts1"}})])])])])]),_vm._v(" "),_c('div',{staticClass:"col-md-8"},[_c('div',{staticClass:"box box-success"},[_vm._m(3),_vm._v(" "),_c('div',{staticClass:"box-body"},[_c('div',{staticClass:"row"},[_c('div',{staticClass:"chart"},[_c('div',{style:({height:'300px'}),attrs:{"id":"TeaCharts2"}})])])])])])]),_vm._v(" "),_vm._m(4),_vm._v(" "),_c('div',{staticClass:"row"},[_vm._m(5),_vm._v(" "),_c('div',{staticClass:"col-md-5"},[_c('div',{staticClass:"box box-success"},[_vm._m(6),_vm._v(" "),_c('div',{staticClass:"box-body"},[_c('div',{staticClass:"row"},[_c('div',{staticClass:"chart"},[_c('div',{style:({height:'250px'}),attrs:{"id":"TeaCharts3"}})])])])])])]),_vm._v(" "),_vm._m(7)])])}
-var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"box-header with-border"},[_c('h3',{staticClass:"box-title"},[_vm._v("搜索")]),_vm._v(" "),_c('div',{staticClass:"box-tools pull-right"},[_c('button',{staticClass:"btn btn-box-tool",attrs:{"type":"button","data-widget":"collapse"}},[_c('i',{staticClass:"fa fa-minus"})]),_vm._v(" "),_c('button',{staticClass:"btn btn-box-tool",attrs:{"type":"button","data-widget":"remove"}},[_c('i',{staticClass:"fa fa-times"})])])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"row"},[_c('div',{staticClass:"col-md-12"},[_c('div',{staticClass:"box box-success"},[_c('div',{staticClass:"box-header with-border"},[_c('h3',{staticClass:"box-title"},[_vm._v("单位科研产出TOP10")]),_vm._v(" "),_c('div',{staticClass:"box-tools pull-right"},[_c('button',{staticClass:"btn btn-box-tool",attrs:{"type":"button","data-widget":"collapse"}},[_c('i',{staticClass:"fa fa-minus"})]),_vm._v(" "),_c('button',{staticClass:"btn btn-box-tool",attrs:{"type":"button","data-widget":"remove"}},[_c('i',{staticClass:"fa fa-times"})])])]),_vm._v(" "),_c('div',{staticClass:"box-body"},[_c('table',{staticClass:"table table-bordered table-striped",attrs:{"id":"example1"}},[_c('thead',[_c('tr',[_c('th',[_vm._v("排名")]),_vm._v(" "),_c('th',[_vm._v("单位名称")]),_vm._v(" "),_c('th',[_vm._v("科研产出总量")]),_vm._v(" "),_c('th',[_vm._v("论文发表数量")]),_vm._v(" "),_c('th',[_vm._v("著作数量")]),_vm._v(" "),_c('th',[_vm._v("国内专利数量")]),_vm._v(" "),_c('th',[_vm._v("艺术作品数量")]),_vm._v(" "),_c('th',[_vm._v("发表专注数量")])])]),_vm._v(" "),_c('tbody',[_c('tr',[_c('th',[_vm._v("1")]),_vm._v(" "),_c('th',[_vm._v("设计艺术学院")]),_vm._v(" "),_c('th',[_vm._v("1243")]),_vm._v(" "),_c('th',[_vm._v("5437")]),_vm._v(" "),_c('th',[_vm._v("1243")]),_vm._v(" "),_c('th',[_vm._v("5437")]),_vm._v(" "),_c('th',[_vm._v("1243")]),_vm._v(" "),_c('th',[_vm._v("5437")])]),_vm._v(" "),_c('tr',[_c('th',[_vm._v("2")]),_vm._v(" "),_c('th',[_vm._v("设计艺术学院")]),_vm._v(" "),_c('th',[_vm._v("1243")]),_vm._v(" "),_c('th',[_vm._v("5437")]),_vm._v(" "),_c('th',[_vm._v("1243")]),_vm._v(" "),_c('th',[_vm._v("5437")]),_vm._v(" "),_c('th',[_vm._v("1243")]),_vm._v(" "),_c('th',[_vm._v("5437")])]),_vm._v(" "),_c('tr',[_c('th',[_vm._v("3")]),_vm._v(" "),_c('th',[_vm._v("设计艺术学院")]),_vm._v(" "),_c('th',[_vm._v("1243")]),_vm._v(" "),_c('th',[_vm._v("5437")]),_vm._v(" "),_c('th',[_vm._v("1243")]),_vm._v(" "),_c('th',[_vm._v("5437")]),_vm._v(" "),_c('th',[_vm._v("1243")]),_vm._v(" "),_c('th',[_vm._v("5437")])]),_vm._v(" "),_c('tr',[_c('th',[_vm._v("4")]),_vm._v(" "),_c('th',[_vm._v("设计艺术学院")]),_vm._v(" "),_c('th',[_vm._v("1243")]),_vm._v(" "),_c('th',[_vm._v("5437")]),_vm._v(" "),_c('th',[_vm._v("1243")]),_vm._v(" "),_c('th',[_vm._v("5437")]),_vm._v(" "),_c('th',[_vm._v("1243")]),_vm._v(" "),_c('th',[_vm._v("5437")])]),_vm._v(" "),_c('tr',[_c('th',[_vm._v("5")]),_vm._v(" "),_c('th',[_vm._v("设计艺术学院")]),_vm._v(" "),_c('th',[_vm._v("1243")]),_vm._v(" "),_c('th',[_vm._v("5437")]),_vm._v(" "),_c('th',[_vm._v("1243")]),_vm._v(" "),_c('th',[_vm._v("5437")]),_vm._v(" "),_c('th',[_vm._v("1243")]),_vm._v(" "),_c('th',[_vm._v("5437")])])])])])])])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"box-header with-border"},[_c('h3',{staticClass:"box-title"},[_vm._v("科研经费排名")]),_vm._v(" "),_c('div',{staticClass:"box-tools pull-right"},[_c('button',{staticClass:"btn btn-box-tool",attrs:{"type":"button","data-widget":"collapse"}},[_c('i',{staticClass:"fa fa-minus"})]),_vm._v(" "),_c('button',{staticClass:"btn btn-box-tool",attrs:{"type":"button","data-widget":"remove"}},[_c('i',{staticClass:"fa fa-times"})])])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"box-header with-border"},[_c('h3',{staticClass:"box-title"},[_vm._v("科研产出变化趋势")]),_vm._v(" "),_c('div',{staticClass:"box-tools pull-right"},[_c('button',{staticClass:"btn btn-box-tool",attrs:{"type":"button","data-widget":"collapse"}},[_c('i',{staticClass:"fa fa-minus"})]),_vm._v(" "),_c('button',{staticClass:"btn btn-box-tool",attrs:{"type":"button","data-widget":"remove"}},[_c('i',{staticClass:"fa fa-times"})])])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"row"},[_c('div',{staticClass:"col-md-12"},[_c('div',{staticClass:"box box-primary"},[_c('div',{staticClass:"box-header with-border"},[_c('h3',{staticClass:"box-title"},[_vm._v("授课信息")]),_vm._v(" "),_c('div',{staticClass:"box-tools pull-right"},[_c('button',{staticClass:"btn btn-box-tool",attrs:{"type":"button","data-widget":"collapse"}},[_c('i',{staticClass:"fa fa-minus"})]),_vm._v(" "),_c('button',{staticClass:"btn btn-box-tool",attrs:{"type":"button","data-widget":"remove"}},[_c('i',{staticClass:"fa fa-times"})])])]),_vm._v(" "),_c('div',{staticClass:"box-body"},[_c('table',{staticClass:"table table-bordered table-striped",attrs:{"id":"example1"}},[_c('thead',[_c('tr',[_c('th',[_vm._v("选课课号")]),_vm._v(" "),_c('th',[_vm._v("课程名称")]),_vm._v(" "),_c('th',[_vm._v("班级")]),_vm._v(" "),_c('th',[_vm._v("人数")]),_vm._v(" "),_c('th',[_vm._v("学分")]),_vm._v(" "),_c('th',[_vm._v("学时")]),_vm._v(" "),_c('th',[_vm._v("起始周")]),_vm._v(" "),_c('th',[_vm._v("结束周")]),_vm._v(" "),_c('th',[_vm._v("上课地点")])])]),_vm._v(" "),_c('tbody',[_c('tr',[_c('th',[_vm._v("0001")]),_vm._v(" "),_c('th',[_vm._v("计算机科学与技术")]),_vm._v(" "),_c('th',[_vm._v("3")]),_vm._v(" "),_c('th',[_vm._v("120")]),_vm._v(" "),_c('th',[_vm._v("4")]),_vm._v(" "),_c('th',[_vm._v("40")]),_vm._v(" "),_c('th',[_vm._v("第一周")]),_vm._v(" "),_c('th',[_vm._v("第十二周")]),_vm._v(" "),_c('th',[_vm._v("教学楼一层102C")])]),_vm._v(" "),_c('tr',[_c('th',[_vm._v("0001")]),_vm._v(" "),_c('th',[_vm._v("计算机科学与技术")]),_vm._v(" "),_c('th',[_vm._v("3")]),_vm._v(" "),_c('th',[_vm._v("120")]),_vm._v(" "),_c('th',[_vm._v("4")]),_vm._v(" "),_c('th',[_vm._v("40")]),_vm._v(" "),_c('th',[_vm._v("第一周")]),_vm._v(" "),_c('th',[_vm._v("第十二周")]),_vm._v(" "),_c('th',[_vm._v("教学楼一层102C")])]),_vm._v(" "),_c('tr',[_c('th',[_vm._v("0001")]),_vm._v(" "),_c('th',[_vm._v("计算机科学与技术")]),_vm._v(" "),_c('th',[_vm._v("3")]),_vm._v(" "),_c('th',[_vm._v("120")]),_vm._v(" "),_c('th',[_vm._v("4")]),_vm._v(" "),_c('th',[_vm._v("40")]),_vm._v(" "),_c('th',[_vm._v("第一周")]),_vm._v(" "),_c('th',[_vm._v("第十二周")]),_vm._v(" "),_c('th',[_vm._v("教学楼一层102C")])]),_vm._v(" "),_c('tr',[_c('th',[_vm._v("0001")]),_vm._v(" "),_c('th',[_vm._v("计算机科学与技术")]),_vm._v(" "),_c('th',[_vm._v("3")]),_vm._v(" "),_c('th',[_vm._v("120")]),_vm._v(" "),_c('th',[_vm._v("4")]),_vm._v(" "),_c('th',[_vm._v("40")]),_vm._v(" "),_c('th',[_vm._v("第一周")]),_vm._v(" "),_c('th',[_vm._v("第十二周")]),_vm._v(" "),_c('th',[_vm._v("教学楼一层102C")])]),_vm._v(" "),_c('tr',[_c('th',[_vm._v("0001")]),_vm._v(" "),_c('th',[_vm._v("计算机科学与技术")]),_vm._v(" "),_c('th',[_vm._v("3")]),_vm._v(" "),_c('th',[_vm._v("120")]),_vm._v(" "),_c('th',[_vm._v("4")]),_vm._v(" "),_c('th',[_vm._v("40")]),_vm._v(" "),_c('th',[_vm._v("第一周")]),_vm._v(" "),_c('th',[_vm._v("第十二周")]),_vm._v(" "),_c('th',[_vm._v("教学楼一层102C")])])])])])])])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"col-md-7"},[_c('div',{staticClass:"box box-success"},[_c('div',{staticClass:"box-header with-border"},[_c('h3',{staticClass:"box-title"},[_vm._v("科研影响因子排名")]),_vm._v(" "),_c('div',{staticClass:"box-tools pull-right"},[_c('button',{staticClass:"btn btn-box-tool",attrs:{"type":"button","data-widget":"collapse"}},[_c('i',{staticClass:"fa fa-minus"})]),_vm._v(" "),_c('button',{staticClass:"btn btn-box-tool",attrs:{"type":"button","data-widget":"remove"}},[_c('i',{staticClass:"fa fa-times"})])])]),_vm._v(" "),_c('div',{staticClass:"box-body"},[_c('table',{staticClass:"table table-bordered table-striped",attrs:{"id":"example1"}},[_c('thead',[_c('tr',[_c('th',[_vm._v("排名")]),_vm._v(" "),_c('th',[_vm._v("科研名称")]),_vm._v(" "),_c('th',[_vm._v("影响因子")])])]),_vm._v(" "),_c('tbody',[_c('tr',[_c('th',[_vm._v("1")]),_vm._v(" "),_c('th',[_vm._v("数字音乐在数字娱乐中的重要地位")]),_vm._v(" "),_c('th',[_vm._v("57")])]),_vm._v(" "),_c('tr',[_c('th',[_vm._v("2")]),_vm._v(" "),_c('th',[_vm._v("数字音乐在数字娱乐中的重要地位")]),_vm._v(" "),_c('th',[_vm._v("57")])]),_vm._v(" "),_c('tr',[_c('th',[_vm._v("3")]),_vm._v(" "),_c('th',[_vm._v("数字音乐在数字娱乐中的重要地位")]),_vm._v(" "),_c('th',[_vm._v("57")])]),_vm._v(" "),_c('tr',[_c('th',[_vm._v("4")]),_vm._v(" "),_c('th',[_vm._v("数字音乐在数字娱乐中的重要地位")]),_vm._v(" "),_c('th',[_vm._v("57")])]),_vm._v(" "),_c('tr',[_c('th',[_vm._v("5")]),_vm._v(" "),_c('th',[_vm._v("数字音乐在数字娱乐中的重要地位")]),_vm._v(" "),_c('th',[_vm._v("57")])])])])])])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"box-header with-border"},[_c('h3',{staticClass:"box-title"},[_vm._v("科研合作构成")]),_vm._v(" "),_c('div',{staticClass:"box-tools pull-right"},[_c('button',{staticClass:"btn btn-box-tool",attrs:{"type":"button","data-widget":"collapse"}},[_c('i',{staticClass:"fa fa-minus"})]),_vm._v(" "),_c('button',{staticClass:"btn btn-box-tool",attrs:{"type":"button","data-widget":"remove"}},[_c('i',{staticClass:"fa fa-times"})])])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"row"},[_c('div',{staticClass:"col-md-12"},[_c('div',{staticClass:"box box-primary"},[_c('div',{staticClass:"box-header with-border"},[_c('h3',{staticClass:"box-title"},[_vm._v("科研合作单位")]),_vm._v(" "),_c('div',{staticClass:"box-tools pull-right"},[_c('button',{staticClass:"btn btn-box-tool",attrs:{"type":"button","data-widget":"collapse"}},[_c('i',{staticClass:"fa fa-minus"})]),_vm._v(" "),_c('button',{staticClass:"btn btn-box-tool",attrs:{"type":"button","data-widget":"remove"}},[_c('i',{staticClass:"fa fa-times"})])])]),_vm._v(" "),_c('div',{staticClass:"box-body"},[_c('table',{staticClass:"table table-bordered table-striped",attrs:{"id":"example1"}},[_c('thead',[_c('tr',[_c('th',[_vm._v("合作单位")]),_vm._v(" "),_c('th',[_vm._v("合作方式")]),_vm._v(" "),_c('th',[_vm._v("科研名称")]),_vm._v(" "),_c('th',[_vm._v("当前状态")]),_vm._v(" "),_c('th',[_vm._v("科研带头人")]),_vm._v(" "),_c('th',[_vm._v("科研组成员")])])]),_vm._v(" "),_c('tbody',[_c('tr',[_c('th',[_vm._v("中国十五治金有限公司")]),_vm._v(" "),_c('th',[_vm._v("共建国家大学科技园")]),_vm._v(" "),_c('th',[_vm._v("数字音乐在数字娱乐中的重要地位")]),_vm._v(" "),_c('th',[_vm._v("已完结")]),_vm._v(" "),_c('th',[_vm._v("周公礼")]),_vm._v(" "),_c('th',[_vm._v("秦丽娜:1234567;李伟:1345678;李华:1456789")])]),_vm._v(" "),_c('tr',[_c('th',[_vm._v("中国十五治金有限公司")]),_vm._v(" "),_c('th',[_vm._v("共建国家大学科技园")]),_vm._v(" "),_c('th',[_vm._v("数字音乐在数字娱乐中的重要地位")]),_vm._v(" "),_c('th',[_vm._v("已完结")]),_vm._v(" "),_c('th',[_vm._v("周公礼")]),_vm._v(" "),_c('th',[_vm._v("秦丽娜:1234567;李伟:1345678;李华:1456789")])]),_vm._v(" "),_c('tr',[_c('th',[_vm._v("中国十五治金有限公司")]),_vm._v(" "),_c('th',[_vm._v("共建国家大学科技园")]),_vm._v(" "),_c('th',[_vm._v("数字音乐在数字娱乐中的重要地位")]),_vm._v(" "),_c('th',[_vm._v("已完结")]),_vm._v(" "),_c('th',[_vm._v("周公礼")]),_vm._v(" "),_c('th',[_vm._v("秦丽娜:1234567;李伟:1345678;李华:1456789")])]),_vm._v(" "),_c('tr',[_c('th',[_vm._v("中国十五治金有限公司")]),_vm._v(" "),_c('th',[_vm._v("共建国家大学科技园")]),_vm._v(" "),_c('th',[_vm._v("数字音乐在数字娱乐中的重要地位")]),_vm._v(" "),_c('th',[_vm._v("已完结")]),_vm._v(" "),_c('th',[_vm._v("周公礼")]),_vm._v(" "),_c('th',[_vm._v("秦丽娜:1234567;李伟:1345678;李华:1456789")])]),_vm._v(" "),_c('tr',[_c('th',[_vm._v("中国十五治金有限公司")]),_vm._v(" "),_c('th',[_vm._v("共建国家大学科技园")]),_vm._v(" "),_c('th',[_vm._v("数字音乐在数字娱乐中的重要地位")]),_vm._v(" "),_c('th',[_vm._v("已完结")]),_vm._v(" "),_c('th',[_vm._v("周公礼")]),_vm._v(" "),_c('th',[_vm._v("秦丽娜:1234567;李伟:1345678;李华:1456789")])])])])])])])])}]
-var esExports = { render: render, staticRenderFns: staticRenderFns }
-/* harmony default export */ __webpack_exports__["a"] = (esExports);
+exports = module.exports = __webpack_require__("FZ+f")(true);
+// imports
+
+
+// module
+exports.push([module.i, "", "", {"version":3,"sources":[],"names":[],"mappings":"","file":"recommend.vue","sourceRoot":""}]);
+
+// exports
+
 
 /***/ }),
 
@@ -54383,42 +54111,1184 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "Xqav":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ "Y1Gm":
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_achievement_vue__ = __webpack_require__("RW5y");
-/* empty harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_15edcb60_hasScoped_true_transformToRequire_video_src_source_src_img_src_image_xlink_href_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_achievement_vue__ = __webpack_require__("WqTy");
-function injectStyle (ssrContext) {
-  __webpack_require__("wIIk")
+var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
+ * wordcloud2.js
+ * http://timdream.org/wordcloud2.js/
+ *
+ * Copyright 2011 - 2013 Tim Chien
+ * Released under the MIT license
+ */
+
+
+
+// setImmediate
+if (!window.setImmediate) {
+  window.setImmediate = (function setupSetImmediate() {
+    return window.msSetImmediate ||
+    window.webkitSetImmediate ||
+    window.mozSetImmediate ||
+    window.oSetImmediate ||
+    (function setupSetZeroTimeout() {
+      if (!window.postMessage || !window.addEventListener) {
+        return null;
+      }
+
+      var callbacks = [undefined];
+      var message = 'zero-timeout-message';
+
+      // Like setTimeout, but only takes a function argument.  There's
+      // no time argument (always zero) and no arguments (you have to
+      // use a closure).
+      var setZeroTimeout = function setZeroTimeout(callback) {
+        var id = callbacks.length;
+        callbacks.push(callback);
+        window.postMessage(message + id.toString(36), '*');
+
+        return id;
+      };
+
+      window.addEventListener('message', function setZeroTimeoutMessage(evt) {
+        // Skipping checking event source, retarded IE confused this window
+        // object with another in the presence of iframe
+        if (typeof evt.data !== 'string' ||
+            evt.data.substr(0, message.length) !== message/* ||
+            evt.source !== window */) {
+          return;
+        }
+
+        evt.stopImmediatePropagation();
+
+        var id = parseInt(evt.data.substr(message.length), 36);
+        if (!callbacks[id]) {
+          return;
+        }
+
+        callbacks[id]();
+        callbacks[id] = undefined;
+      }, true);
+
+      /* specify clearImmediate() here since we need the scope */
+      window.clearImmediate = function clearZeroTimeout(id) {
+        if (!callbacks[id]) {
+          return;
+        }
+
+        callbacks[id] = undefined;
+      };
+
+      return setZeroTimeout;
+    })() ||
+    // fallback
+    function setImmediateFallback(fn) {
+      window.setTimeout(fn, 0);
+    };
+  })();
 }
-var normalizeComponent = __webpack_require__("VU/8")
-/* script */
 
+if (!window.clearImmediate) {
+  window.clearImmediate = (function setupClearImmediate() {
+    return window.msClearImmediate ||
+    window.webkitClearImmediate ||
+    window.mozClearImmediate ||
+    window.oClearImmediate ||
+    // "clearZeroTimeout" is implement on the previous block ||
+    // fallback
+    function clearImmediateFallback(timer) {
+      window.clearTimeout(timer);
+    };
+  })();
+}
 
-/* template */
+(function(global) {
 
-/* template functional */
-var __vue_template_functional__ = false
-/* styles */
-var __vue_styles__ = injectStyle
-/* scopeId */
-var __vue_scopeId__ = "data-v-15edcb60"
-/* moduleIdentifier (server only) */
-var __vue_module_identifier__ = null
-var Component = normalizeComponent(
-  __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_achievement_vue__["a" /* default */],
-  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_15edcb60_hasScoped_true_transformToRequire_video_src_source_src_img_src_image_xlink_href_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_achievement_vue__["a" /* default */],
-  __vue_template_functional__,
-  __vue_styles__,
-  __vue_scopeId__,
-  __vue_module_identifier__
-)
+  // Check if WordCloud can run on this browser
+  var isSupported = (function isSupported() {
+    var canvas = document.createElement('canvas');
+    if (!canvas || !canvas.getContext) {
+      return false;
+    }
 
-/* harmony default export */ __webpack_exports__["default"] = (Component.exports);
+    var ctx = canvas.getContext('2d');
+    if (!ctx.getImageData) {
+      return false;
+    }
+    if (!ctx.fillText) {
+      return false;
+    }
 
+    if (!Array.prototype.some) {
+      return false;
+    }
+    if (!Array.prototype.push) {
+      return false;
+    }
+
+    return true;
+  }());
+
+  // Find out if the browser impose minium font size by
+  // drawing small texts on a canvas and measure it's width.
+  var minFontSize = (function getMinFontSize() {
+    if (!isSupported) {
+      return;
+    }
+
+    var ctx = document.createElement('canvas').getContext('2d');
+
+    // start from 20
+    var size = 20;
+
+    // two sizes to measure
+    var hanWidth, mWidth;
+
+    while (size) {
+      ctx.font = size.toString(10) + 'px sans-serif';
+      if ((ctx.measureText('\uFF37').width === hanWidth) &&
+          (ctx.measureText('m').width) === mWidth) {
+        return (size + 1);
+      }
+
+      hanWidth = ctx.measureText('\uFF37').width;
+      mWidth = ctx.measureText('m').width;
+
+      size--;
+    }
+
+    return 0;
+  })();
+
+  // Based on http://jsfromhell.com/array/shuffle
+  var shuffleArray = function shuffleArray(arr) {
+    for (var j, x, i = arr.length; i;
+      j = Math.floor(Math.random() * i),
+      x = arr[--i], arr[i] = arr[j],
+      arr[j] = x) {}
+    return arr;
+  };
+
+  var WordCloud = function WordCloud(elements, options) {
+    if (!isSupported) {
+      return;
+    }
+
+    if (!Array.isArray(elements)) {
+      elements = [elements];
+    }
+
+    elements.forEach(function(el, i) {
+      if (typeof el === 'string') {
+        elements[i] = document.getElementById(el);
+        if (!elements[i]) {
+          throw 'The element id specified is not found.';
+        }
+      } else if (!el.tagName && !el.appendChild) {
+        throw 'You must pass valid HTML elements, or ID of the element.';
+      }
+    });
+
+    /* Default values to be overwritten by options object */
+    var settings = {
+      list: [],
+      fontFamily: '"Trebuchet MS", "Heiti TC", "微軟正黑體", ' +
+                  '"Arial Unicode MS", "Droid Fallback Sans", sans-serif',
+      fontWeight: 'normal',
+      color: 'random-dark',
+      minSize: 0, // 0 to disable
+      weightFactor: 1,
+      clearCanvas: true,
+      backgroundColor: '#fff',  // opaque white = rgba(255, 255, 255, 1)
+
+      gridSize: 8,
+      drawOutOfBound: false,
+      origin: null,
+
+      drawMask: false,
+      maskColor: 'rgba(255,0,0,0.3)',
+      maskGapWidth: 0.3,
+
+      wait: 0,
+      abortThreshold: 0, // disabled
+      abort: function noop() {},
+
+      minRotation: - Math.PI / 2,
+      maxRotation: Math.PI / 2,
+      rotationStep: 0.1,
+
+      shuffle: true,
+      rotateRatio: 0.1,
+
+      shape: 'circle',
+      ellipticity: 0.65,
+
+      classes: null,
+
+      hover: null,
+      click: null
+    };
+
+    if (options) {
+      for (var key in options) {
+        if (key in settings) {
+          settings[key] = options[key];
+        }
+      }
+    }
+
+    /* Convert weightFactor into a function */
+    if (typeof settings.weightFactor !== 'function') {
+      var factor = settings.weightFactor;
+      settings.weightFactor = function weightFactor(pt) {
+        return pt * factor; //in px
+      };
+    }
+
+    /* Convert shape into a function */
+    if (typeof settings.shape !== 'function') {
+      switch (settings.shape) {
+        case 'circle':
+        /* falls through */
+        default:
+          // 'circle' is the default and a shortcut in the code loop.
+          settings.shape = 'circle';
+          break;
+
+        case 'cardioid':
+          settings.shape = function shapeCardioid(theta) {
+            return 1 - Math.sin(theta);
+          };
+          break;
+
+        /*
+        To work out an X-gon, one has to calculate "m",
+        where 1/(cos(2*PI/X)+m*sin(2*PI/X)) = 1/(cos(0)+m*sin(0))
+        http://www.wolframalpha.com/input/?i=1%2F%28cos%282*PI%2FX%29%2Bm*sin%28
+        2*PI%2FX%29%29+%3D+1%2F%28cos%280%29%2Bm*sin%280%29%29
+        Copy the solution into polar equation r = 1/(cos(t') + m*sin(t'))
+        where t' equals to mod(t, 2PI/X);
+        */
+
+        case 'diamond':
+        case 'square':
+          // http://www.wolframalpha.com/input/?i=plot+r+%3D+1%2F%28cos%28mod+
+          // %28t%2C+PI%2F2%29%29%2Bsin%28mod+%28t%2C+PI%2F2%29%29%29%2C+t+%3D
+          // +0+..+2*PI
+          settings.shape = function shapeSquare(theta) {
+            var thetaPrime = theta % (2 * Math.PI / 4);
+            return 1 / (Math.cos(thetaPrime) + Math.sin(thetaPrime));
+          };
+          break;
+
+        case 'triangle-forward':
+          // http://www.wolframalpha.com/input/?i=plot+r+%3D+1%2F%28cos%28mod+
+          // %28t%2C+2*PI%2F3%29%29%2Bsqrt%283%29sin%28mod+%28t%2C+2*PI%2F3%29
+          // %29%29%2C+t+%3D+0+..+2*PI
+          settings.shape = function shapeTriangle(theta) {
+            var thetaPrime = theta % (2 * Math.PI / 3);
+            return 1 / (Math.cos(thetaPrime) +
+                        Math.sqrt(3) * Math.sin(thetaPrime));
+          };
+          break;
+
+        case 'triangle':
+        case 'triangle-upright':
+          settings.shape = function shapeTriangle(theta) {
+            var thetaPrime = (theta + Math.PI * 3 / 2) % (2 * Math.PI / 3);
+            return 1 / (Math.cos(thetaPrime) +
+                        Math.sqrt(3) * Math.sin(thetaPrime));
+          };
+          break;
+
+        case 'pentagon':
+          settings.shape = function shapePentagon(theta) {
+            var thetaPrime = (theta + 0.955) % (2 * Math.PI / 5);
+            return 1 / (Math.cos(thetaPrime) +
+                        0.726543 * Math.sin(thetaPrime));
+          };
+          break;
+
+        case 'star':
+          settings.shape = function shapeStar(theta) {
+            var thetaPrime = (theta + 0.955) % (2 * Math.PI / 10);
+            if ((theta + 0.955) % (2 * Math.PI / 5) - (2 * Math.PI / 10) >= 0) {
+              return 1 / (Math.cos((2 * Math.PI / 10) - thetaPrime) +
+                          3.07768 * Math.sin((2 * Math.PI / 10) - thetaPrime));
+            } else {
+              return 1 / (Math.cos(thetaPrime) +
+                          3.07768 * Math.sin(thetaPrime));
+            }
+          };
+          break;
+      }
+    }
+
+    /* Make sure gridSize is a whole number and is not smaller than 4px */
+    settings.gridSize = Math.max(Math.floor(settings.gridSize), 4);
+
+    /* shorthand */
+    var g = settings.gridSize;
+    var maskRectWidth = g - settings.maskGapWidth;
+
+    /* normalize rotation settings */
+    var rotationRange = Math.abs(settings.maxRotation - settings.minRotation);
+    var minRotation = Math.min(settings.maxRotation, settings.minRotation);
+    var rotationStep = settings.rotationStep;
+
+    /* information/object available to all functions, set when start() */
+    var grid, // 2d array containing filling information
+      ngx, ngy, // width and height of the grid
+      center, // position of the center of the cloud
+      maxRadius;
+
+    /* timestamp for measuring each putWord() action */
+    var escapeTime;
+
+    /* function for getting the color of the text */
+    var getTextColor;
+    function random_hsl_color(min, max) {
+      return 'hsl(' +
+        (Math.random() * 360).toFixed() + ',' +
+        (Math.random() * 30 + 70).toFixed() + '%,' +
+        (Math.random() * (max - min) + min).toFixed() + '%)';
+    }
+    switch (settings.color) {
+      case 'random-dark':
+        getTextColor = function getRandomDarkColor() {
+          return random_hsl_color(10, 50);
+        };
+        break;
+
+      case 'random-light':
+        getTextColor = function getRandomLightColor() {
+          return random_hsl_color(50, 90);
+        };
+        break;
+
+      default:
+        if (typeof settings.color === 'function') {
+          getTextColor = settings.color;
+        }
+        break;
+    }
+
+    /* function for getting the classes of the text */
+    var getTextClasses = null;
+    if (typeof settings.classes === 'function') {
+      getTextClasses = settings.classes;
+    }
+
+    /* Interactive */
+    var interactive = false;
+    var infoGrid = [];
+    var hovered;
+
+    var getInfoGridFromMouseTouchEvent =
+    function getInfoGridFromMouseTouchEvent(evt) {
+      var canvas = evt.currentTarget;
+      var rect = canvas.getBoundingClientRect();
+      var clientX;
+      var clientY;
+      /** Detect if touches are available */
+      if (evt.touches) {
+        clientX = evt.touches[0].clientX;
+        clientY = evt.touches[0].clientY;
+      } else {
+        clientX = evt.clientX;
+        clientY = evt.clientY;
+      }
+      var eventX = clientX - rect.left;
+      var eventY = clientY - rect.top;
+
+      var x = Math.floor(eventX * ((canvas.width / rect.width) || 1) / g);
+      var y = Math.floor(eventY * ((canvas.height / rect.height) || 1) / g);
+
+      return infoGrid[x][y];
+    };
+
+    var wordcloudhover = function wordcloudhover(evt) {
+      var info = getInfoGridFromMouseTouchEvent(evt);
+
+      if (hovered === info) {
+        return;
+      }
+
+      hovered = info;
+      if (!info) {
+        settings.hover(undefined, undefined, evt);
+
+        return;
+      }
+
+      settings.hover(info.item, info.dimension, evt);
+
+    };
+
+    var wordcloudclick = function wordcloudclick(evt) {
+      var info = getInfoGridFromMouseTouchEvent(evt);
+      if (!info) {
+        return;
+      }
+
+      settings.click(info.item, info.dimension, evt);
+      evt.preventDefault();
+    };
+
+    /* Get points on the grid for a given radius away from the center */
+    var pointsAtRadius = [];
+    var getPointsAtRadius = function getPointsAtRadius(radius) {
+      if (pointsAtRadius[radius]) {
+        return pointsAtRadius[radius];
+      }
+
+      // Look for these number of points on each radius
+      var T = radius * 8;
+
+      // Getting all the points at this radius
+      var t = T;
+      var points = [];
+
+      if (radius === 0) {
+        points.push([center[0], center[1], 0]);
+      }
+
+      while (t--) {
+        // distort the radius to put the cloud in shape
+        var rx = 1;
+        if (settings.shape !== 'circle') {
+          rx = settings.shape(t / T * 2 * Math.PI); // 0 to 1
+        }
+
+        // Push [x, y, t]; t is used solely for getTextColor()
+        points.push([
+          center[0] + radius * rx * Math.cos(-t / T * 2 * Math.PI),
+          center[1] + radius * rx * Math.sin(-t / T * 2 * Math.PI) *
+            settings.ellipticity,
+          t / T * 2 * Math.PI]);
+      }
+
+      pointsAtRadius[radius] = points;
+      return points;
+    };
+
+    /* Return true if we had spent too much time */
+    var exceedTime = function exceedTime() {
+      return ((settings.abortThreshold > 0) &&
+        ((new Date()).getTime() - escapeTime > settings.abortThreshold));
+    };
+
+    /* Get the deg of rotation according to settings, and luck. */
+    var getRotateDeg = function getRotateDeg() {
+      if (settings.rotateRatio === 0) {
+        return 0;
+      }
+
+      if (Math.random() > settings.rotateRatio) {
+        return 0;
+      }
+
+      if (rotationRange === 0) {
+        return minRotation;
+      }
+
+      return minRotation + Math.round(Math.random() * rotationRange / rotationStep) * rotationStep;
+    };
+
+    var getTextInfo = function getTextInfo(word, weight, rotateDeg) {
+      // calculate the acutal font size
+      // fontSize === 0 means weightFactor function wants the text skipped,
+      // and size < minSize means we cannot draw the text.
+      var debug = false;
+      var fontSize = settings.weightFactor(weight);
+      if (fontSize <= settings.minSize) {
+        return false;
+      }
+
+      // Scale factor here is to make sure fillText is not limited by
+      // the minium font size set by browser.
+      // It will always be 1 or 2n.
+      var mu = 1;
+      if (fontSize < minFontSize) {
+        mu = (function calculateScaleFactor() {
+          var mu = 2;
+          while (mu * fontSize < minFontSize) {
+            mu += 2;
+          }
+          return mu;
+        })();
+      }
+
+      var fcanvas = document.createElement('canvas');
+      var fctx = fcanvas.getContext('2d', { willReadFrequently: true });
+
+      fctx.font = settings.fontWeight + ' ' +
+        (fontSize * mu).toString(10) + 'px ' + settings.fontFamily;
+
+      // Estimate the dimension of the text with measureText().
+      var fw = fctx.measureText(word).width / mu;
+      var fh = Math.max(fontSize * mu,
+                        fctx.measureText('m').width,
+                        fctx.measureText('\uFF37').width) / mu;
+
+      // Create a boundary box that is larger than our estimates,
+      // so text don't get cut of (it sill might)
+      var boxWidth = fw + fh * 2;
+      var boxHeight = fh * 3;
+      var fgw = Math.ceil(boxWidth / g);
+      var fgh = Math.ceil(boxHeight / g);
+      boxWidth = fgw * g;
+      boxHeight = fgh * g;
+
+      // Calculate the proper offsets to make the text centered at
+      // the preferred position.
+
+      // This is simply half of the width.
+      var fillTextOffsetX = - fw / 2;
+      // Instead of moving the box to the exact middle of the preferred
+      // position, for Y-offset we move 0.4 instead, so Latin alphabets look
+      // vertical centered.
+      var fillTextOffsetY = - fh * 0.4;
+
+      // Calculate the actual dimension of the canvas, considering the rotation.
+      var cgh = Math.ceil((boxWidth * Math.abs(Math.sin(rotateDeg)) +
+                           boxHeight * Math.abs(Math.cos(rotateDeg))) / g);
+      var cgw = Math.ceil((boxWidth * Math.abs(Math.cos(rotateDeg)) +
+                           boxHeight * Math.abs(Math.sin(rotateDeg))) / g);
+      var width = cgw * g;
+      var height = cgh * g;
+
+      fcanvas.setAttribute('width', width);
+      fcanvas.setAttribute('height', height);
+
+      if (debug) {
+        // Attach fcanvas to the DOM
+        document.body.appendChild(fcanvas);
+        // Save it's state so that we could restore and draw the grid correctly.
+        fctx.save();
+      }
+
+      // Scale the canvas with |mu|.
+      fctx.scale(1 / mu, 1 / mu);
+      fctx.translate(width * mu / 2, height * mu / 2);
+      fctx.rotate(- rotateDeg);
+
+      // Once the width/height is set, ctx info will be reset.
+      // Set it again here.
+      fctx.font = settings.fontWeight + ' ' +
+        (fontSize * mu).toString(10) + 'px ' + settings.fontFamily;
+
+      // Fill the text into the fcanvas.
+      // XXX: We cannot because textBaseline = 'top' here because
+      // Firefox and Chrome uses different default line-height for canvas.
+      // Please read https://bugzil.la/737852#c6.
+      // Here, we use textBaseline = 'middle' and draw the text at exactly
+      // 0.5 * fontSize lower.
+      fctx.fillStyle = '#000';
+      fctx.textBaseline = 'middle';
+      fctx.fillText(word, fillTextOffsetX * mu,
+                    (fillTextOffsetY + fontSize * 0.5) * mu);
+
+      // Get the pixels of the text
+      var imageData = fctx.getImageData(0, 0, width, height).data;
+
+      if (exceedTime()) {
+        return false;
+      }
+
+      if (debug) {
+        // Draw the box of the original estimation
+        fctx.strokeRect(fillTextOffsetX * mu,
+                        fillTextOffsetY, fw * mu, fh * mu);
+        fctx.restore();
+      }
+
+      // Read the pixels and save the information to the occupied array
+      var occupied = [];
+      var gx = cgw, gy, x, y;
+      var bounds = [cgh / 2, cgw / 2, cgh / 2, cgw / 2];
+      while (gx--) {
+        gy = cgh;
+        while (gy--) {
+          y = g;
+          singleGridLoop: {
+            while (y--) {
+              x = g;
+              while (x--) {
+                if (imageData[((gy * g + y) * width +
+                               (gx * g + x)) * 4 + 3]) {
+                  occupied.push([gx, gy]);
+
+                  if (gx < bounds[3]) {
+                    bounds[3] = gx;
+                  }
+                  if (gx > bounds[1]) {
+                    bounds[1] = gx;
+                  }
+                  if (gy < bounds[0]) {
+                    bounds[0] = gy;
+                  }
+                  if (gy > bounds[2]) {
+                    bounds[2] = gy;
+                  }
+
+                  if (debug) {
+                    fctx.fillStyle = 'rgba(255, 0, 0, 0.5)';
+                    fctx.fillRect(gx * g, gy * g, g - 0.5, g - 0.5);
+                  }
+                  break singleGridLoop;
+                }
+              }
+            }
+            if (debug) {
+              fctx.fillStyle = 'rgba(0, 0, 255, 0.5)';
+              fctx.fillRect(gx * g, gy * g, g - 0.5, g - 0.5);
+            }
+          }
+        }
+      }
+
+      if (debug) {
+        fctx.fillStyle = 'rgba(0, 255, 0, 0.5)';
+        fctx.fillRect(bounds[3] * g,
+                      bounds[0] * g,
+                      (bounds[1] - bounds[3] + 1) * g,
+                      (bounds[2] - bounds[0] + 1) * g);
+      }
+
+      // Return information needed to create the text on the real canvas
+      return {
+        mu: mu,
+        occupied: occupied,
+        bounds: bounds,
+        gw: cgw,
+        gh: cgh,
+        fillTextOffsetX: fillTextOffsetX,
+        fillTextOffsetY: fillTextOffsetY,
+        fillTextWidth: fw,
+        fillTextHeight: fh,
+        fontSize: fontSize
+      };
+    };
+
+    /* Determine if there is room available in the given dimension */
+    var canFitText = function canFitText(gx, gy, gw, gh, occupied) {
+      // Go through the occupied points,
+      // return false if the space is not available.
+      var i = occupied.length;
+      while (i--) {
+        var px = gx + occupied[i][0];
+        var py = gy + occupied[i][1];
+
+        if (px >= ngx || py >= ngy || px < 0 || py < 0) {
+          if (!settings.drawOutOfBound) {
+            return false;
+          }
+          continue;
+        }
+
+        if (!grid[px][py]) {
+          return false;
+        }
+      }
+      return true;
+    };
+
+    /* Actually draw the text on the grid */
+    var drawText = function drawText(gx, gy, info, word, weight,
+                                     distance, theta, rotateDeg, attributes) {
+
+      var fontSize = info.fontSize;
+      var color;
+      if (getTextColor) {
+        color = getTextColor(word, weight, fontSize, distance, theta);
+      } else {
+        color = settings.color;
+      }
+
+      var classes;
+      if (getTextClasses) {
+        classes = getTextClasses(word, weight, fontSize, distance, theta);
+      } else {
+        classes = settings.classes;
+      }
+
+      var dimension;
+      var bounds = info.bounds;
+      dimension = {
+        x: (gx + bounds[3]) * g,
+        y: (gy + bounds[0]) * g,
+        w: (bounds[1] - bounds[3] + 1) * g,
+        h: (bounds[2] - bounds[0] + 1) * g
+      };
+
+      elements.forEach(function(el) {
+        if (el.getContext) {
+          var ctx = el.getContext('2d');
+          var mu = info.mu;
+
+          // Save the current state before messing it
+          ctx.save();
+          ctx.scale(1 / mu, 1 / mu);
+
+          ctx.font = settings.fontWeight + ' ' +
+                     (fontSize * mu).toString(10) + 'px ' + settings.fontFamily;
+          ctx.fillStyle = color;
+
+          // Translate the canvas position to the origin coordinate of where
+          // the text should be put.
+          ctx.translate((gx + info.gw / 2) * g * mu,
+                        (gy + info.gh / 2) * g * mu);
+
+          if (rotateDeg !== 0) {
+            ctx.rotate(- rotateDeg);
+          }
+
+          // Finally, fill the text.
+
+          // XXX: We cannot because textBaseline = 'top' here because
+          // Firefox and Chrome uses different default line-height for canvas.
+          // Please read https://bugzil.la/737852#c6.
+          // Here, we use textBaseline = 'middle' and draw the text at exactly
+          // 0.5 * fontSize lower.
+          ctx.textBaseline = 'middle';
+          ctx.fillText(word, info.fillTextOffsetX * mu,
+                             (info.fillTextOffsetY + fontSize * 0.5) * mu);
+
+          // The below box is always matches how <span>s are positioned
+          /* ctx.strokeRect(info.fillTextOffsetX, info.fillTextOffsetY,
+            info.fillTextWidth, info.fillTextHeight); */
+
+          // Restore the state.
+          ctx.restore();
+        } else {
+          // drawText on DIV element
+          var span = document.createElement('span');
+          var transformRule = '';
+          transformRule = 'rotate(' + (- rotateDeg / Math.PI * 180) + 'deg) ';
+          if (info.mu !== 1) {
+            transformRule +=
+              'translateX(-' + (info.fillTextWidth / 4) + 'px) ' +
+              'scale(' + (1 / info.mu) + ')';
+          }
+          var styleRules = {
+            'position': 'absolute',
+            'display': 'block',
+            'font': settings.fontWeight + ' ' +
+                    (fontSize * info.mu) + 'px ' + settings.fontFamily,
+            'left': ((gx + info.gw / 2) * g + info.fillTextOffsetX) + 'px',
+            'top': ((gy + info.gh / 2) * g + info.fillTextOffsetY) + 'px',
+            'width': info.fillTextWidth + 'px',
+            'height': info.fillTextHeight + 'px',
+            'lineHeight': fontSize + 'px',
+            'whiteSpace': 'nowrap',
+            'transform': transformRule,
+            'webkitTransform': transformRule,
+            'msTransform': transformRule,
+            'transformOrigin': '50% 40%',
+            'webkitTransformOrigin': '50% 40%',
+            'msTransformOrigin': '50% 40%'
+          };
+          if (color) {
+            styleRules.color = color;
+          }
+          span.textContent = word;
+          for (var cssProp in styleRules) {
+            span.style[cssProp] = styleRules[cssProp];
+          }
+          if (attributes) {
+            for (var attribute in attributes) {
+              span.setAttribute(attribute, attributes[attribute]);
+            }
+          }
+          if (classes) {
+            span.className += classes;
+          }
+          el.appendChild(span);
+        }
+      });
+    };
+
+    /* Help function to updateGrid */
+    var fillGridAt = function fillGridAt(x, y, drawMask, dimension, item) {
+      if (x >= ngx || y >= ngy || x < 0 || y < 0) {
+        return;
+      }
+
+      grid[x][y] = false;
+
+      if (drawMask) {
+        var ctx = elements[0].getContext('2d');
+        ctx.fillRect(x * g, y * g, maskRectWidth, maskRectWidth);
+      }
+
+      if (interactive) {
+        infoGrid[x][y] = { item: item, dimension: dimension };
+      }
+    };
+
+    /* Update the filling information of the given space with occupied points.
+       Draw the mask on the canvas if necessary. */
+    var updateGrid = function updateGrid(gx, gy, gw, gh, info, item) {
+      var occupied = info.occupied;
+      var drawMask = settings.drawMask;
+      var ctx;
+      if (drawMask) {
+        ctx = elements[0].getContext('2d');
+        ctx.save();
+        ctx.fillStyle = settings.maskColor;
+      }
+
+      var dimension;
+      if (interactive) {
+        var bounds = info.bounds;
+        dimension = {
+          x: (gx + bounds[3]) * g,
+          y: (gy + bounds[0]) * g,
+          w: (bounds[1] - bounds[3] + 1) * g,
+          h: (bounds[2] - bounds[0] + 1) * g
+        };
+      }
+
+      var i = occupied.length;
+      while (i--) {
+        var px = gx + occupied[i][0];
+        var py = gy + occupied[i][1];
+
+        if (px >= ngx || py >= ngy || px < 0 || py < 0) {
+          continue;
+        }
+
+        fillGridAt(px, py, drawMask, dimension, item);
+      }
+
+      if (drawMask) {
+        ctx.restore();
+      }
+    };
+
+    /* putWord() processes each item on the list,
+       calculate it's size and determine it's position, and actually
+       put it on the canvas. */
+    var putWord = function putWord(item) {
+      var word, weight, attributes;
+      if (Array.isArray(item)) {
+        word = item[0];
+        weight = item[1];
+      } else {
+        word = item.word;
+        weight = item.weight;
+        attributes = item.attributes;
+      }
+      var rotateDeg = getRotateDeg();
+
+      // get info needed to put the text onto the canvas
+      var info = getTextInfo(word, weight, rotateDeg);
+
+      // not getting the info means we shouldn't be drawing this one.
+      if (!info) {
+        return false;
+      }
+
+      if (exceedTime()) {
+        return false;
+      }
+
+      // If drawOutOfBound is set to false,
+      // skip the loop if we have already know the bounding box of
+      // word is larger than the canvas.
+      if (!settings.drawOutOfBound) {
+        var bounds = info.bounds;
+        if ((bounds[1] - bounds[3] + 1) > ngx ||
+          (bounds[2] - bounds[0] + 1) > ngy) {
+          return false;
+        }
+      }
+
+      // Determine the position to put the text by
+      // start looking for the nearest points
+      var r = maxRadius + 1;
+
+      var tryToPutWordAtPoint = function(gxy) {
+        var gx = Math.floor(gxy[0] - info.gw / 2);
+        var gy = Math.floor(gxy[1] - info.gh / 2);
+        var gw = info.gw;
+        var gh = info.gh;
+
+        // If we cannot fit the text at this position, return false
+        // and go to the next position.
+        if (!canFitText(gx, gy, gw, gh, info.occupied)) {
+          return false;
+        }
+
+        // Actually put the text on the canvas
+        drawText(gx, gy, info, word, weight,
+                 (maxRadius - r), gxy[2], rotateDeg, attributes);
+
+        // Mark the spaces on the grid as filled
+        updateGrid(gx, gy, gw, gh, info, item);
+
+        return {
+          gx: gx,
+          gy: gy,
+          rot: rotateDeg,
+          info: info
+        };
+      };
+
+      while (r--) {
+        var points = getPointsAtRadius(maxRadius - r);
+
+        if (settings.shuffle) {
+          points = [].concat(points);
+          shuffleArray(points);
+        }
+
+        // Try to fit the words by looking at each point.
+        // array.some() will stop and return true
+        // when putWordAtPoint() returns true.
+        for (var i = 0; i < points.length; i++) {
+          var res = tryToPutWordAtPoint(points[i]);
+          if (res) {
+            return res;
+          }
+        }
+
+        // var drawn = points.some(tryToPutWordAtPoint);
+        // if (drawn) {
+        //   // leave putWord() and return true
+        //   return true;
+        // }
+      }
+      // we tried all distances but text won't fit, return null
+      return null;
+    };
+
+    /* Send DOM event to all elements. Will stop sending event and return
+       if the previous one is canceled (for cancelable events). */
+    var sendEvent = function sendEvent(type, cancelable, detail) {
+      if (cancelable) {
+        return !elements.some(function(el) {
+          var evt = document.createEvent('CustomEvent');
+          evt.initCustomEvent(type, true, cancelable, detail || {});
+          return !el.dispatchEvent(evt);
+        }, this);
+      } else {
+        elements.forEach(function(el) {
+          var evt = document.createEvent('CustomEvent');
+          evt.initCustomEvent(type, true, cancelable, detail || {});
+          el.dispatchEvent(evt);
+        }, this);
+      }
+    };
+
+    /* Start drawing on a canvas */
+    var start = function start() {
+      // For dimensions, clearCanvas etc.,
+      // we only care about the first element.
+      var canvas = elements[0];
+
+      if (canvas.getContext) {
+        ngx = Math.ceil(canvas.width / g);
+        ngy = Math.ceil(canvas.height / g);
+      } else {
+        var rect = canvas.getBoundingClientRect();
+        ngx = Math.ceil(rect.width / g);
+        ngy = Math.ceil(rect.height / g);
+      }
+
+      // Sending a wordcloudstart event which cause the previous loop to stop.
+      // Do nothing if the event is canceled.
+      if (!sendEvent('wordcloudstart', true)) {
+        return;
+      }
+
+      // Determine the center of the word cloud
+      center = (settings.origin) ?
+        [settings.origin[0]/g, settings.origin[1]/g] :
+        [ngx / 2, ngy / 2];
+
+      // Maxium radius to look for space
+      maxRadius = Math.floor(Math.sqrt(ngx * ngx + ngy * ngy));
+
+      /* Clear the canvas only if the clearCanvas is set,
+         if not, update the grid to the current canvas state */
+      grid = [];
+
+      var gx, gy, i;
+      if (!canvas.getContext || settings.clearCanvas) {
+        elements.forEach(function(el) {
+          if (el.getContext) {
+            var ctx = el.getContext('2d');
+            ctx.fillStyle = settings.backgroundColor;
+            ctx.clearRect(0, 0, ngx * (g + 1), ngy * (g + 1));
+            ctx.fillRect(0, 0, ngx * (g + 1), ngy * (g + 1));
+          } else {
+            el.textContent = '';
+            el.style.backgroundColor = settings.backgroundColor;
+            el.style.position = 'relative';
+          }
+        });
+
+        /* fill the grid with empty state */
+        gx = ngx;
+        while (gx--) {
+          grid[gx] = [];
+          gy = ngy;
+          while (gy--) {
+            grid[gx][gy] = true;
+          }
+        }
+      } else {
+        /* Determine bgPixel by creating
+           another canvas and fill the specified background color. */
+        var bctx = document.createElement('canvas').getContext('2d');
+
+        bctx.fillStyle = settings.backgroundColor;
+        bctx.fillRect(0, 0, 1, 1);
+        var bgPixel = bctx.getImageData(0, 0, 1, 1).data;
+
+        /* Read back the pixels of the canvas we got to tell which part of the
+           canvas is empty.
+           (no clearCanvas only works with a canvas, not divs) */
+        var imageData =
+          canvas.getContext('2d').getImageData(0, 0, ngx * g, ngy * g).data;
+
+        gx = ngx;
+        var x, y;
+        while (gx--) {
+          grid[gx] = [];
+          gy = ngy;
+          while (gy--) {
+            y = g;
+            singleGridLoop: while (y--) {
+              x = g;
+              while (x--) {
+                i = 4;
+                while (i--) {
+                  if (imageData[((gy * g + y) * ngx * g +
+                                 (gx * g + x)) * 4 + i] !== bgPixel[i]) {
+                    grid[gx][gy] = false;
+                    break singleGridLoop;
+                  }
+                }
+              }
+            }
+            if (grid[gx][gy] !== false) {
+              grid[gx][gy] = true;
+            }
+          }
+        }
+
+        imageData = bctx = bgPixel = undefined;
+      }
+
+      // fill the infoGrid with empty state if we need it
+      if (settings.hover || settings.click) {
+
+        interactive = true;
+
+        /* fill the grid with empty state */
+        gx = ngx + 1;
+        while (gx--) {
+          infoGrid[gx] = [];
+        }
+
+        if (settings.hover) {
+          canvas.addEventListener('mousemove', wordcloudhover);
+        }
+
+        if (settings.click) {
+          canvas.addEventListener('click', wordcloudclick);
+          canvas.addEventListener('touchstart', wordcloudclick);
+          canvas.addEventListener('touchend', function (e) {
+            e.preventDefault();
+          });
+          canvas.style.webkitTapHighlightColor = 'rgba(0, 0, 0, 0)';
+        }
+
+        canvas.addEventListener('wordcloudstart', function stopInteraction() {
+          canvas.removeEventListener('wordcloudstart', stopInteraction);
+
+          canvas.removeEventListener('mousemove', wordcloudhover);
+          canvas.removeEventListener('click', wordcloudclick);
+          hovered = undefined;
+        });
+      }
+
+      i = 0;
+      var loopingFunction, stoppingFunction;
+      if (settings.wait !== 0) {
+        loopingFunction = window.setTimeout;
+        stoppingFunction = window.clearTimeout;
+      } else {
+        loopingFunction = window.setImmediate;
+        stoppingFunction = window.clearImmediate;
+      }
+
+      var addEventListener = function addEventListener(type, listener) {
+        elements.forEach(function(el) {
+          el.addEventListener(type, listener);
+        }, this);
+      };
+
+      var removeEventListener = function removeEventListener(type, listener) {
+        elements.forEach(function(el) {
+          el.removeEventListener(type, listener);
+        }, this);
+      };
+
+      var anotherWordCloudStart = function anotherWordCloudStart() {
+        removeEventListener('wordcloudstart', anotherWordCloudStart);
+        stoppingFunction(timer);
+      };
+
+      addEventListener('wordcloudstart', anotherWordCloudStart);
+
+      var timer = loopingFunction(function loop() {
+        if (i >= settings.list.length) {
+          stoppingFunction(timer);
+          sendEvent('wordcloudstop', false);
+          removeEventListener('wordcloudstart', anotherWordCloudStart);
+
+          return;
+        }
+        escapeTime = (new Date()).getTime();
+        var drawn = putWord(settings.list[i]);
+        var canceled = !sendEvent('wordclouddrawn', true, {
+          item: settings.list[i], drawn: drawn });
+        if (exceedTime() || canceled) {
+          stoppingFunction(timer);
+          settings.abort();
+          sendEvent('wordcloudabort', false);
+          sendEvent('wordcloudstop', false);
+          removeEventListener('wordcloudstart', anotherWordCloudStart);
+          return;
+        }
+        i++;
+        timer = loopingFunction(loop, settings.wait);
+      }, settings.wait);
+    };
+
+    // All set, start the drawing
+    start();
+  };
+
+  WordCloud.isSupported = isSupported;
+  WordCloud.minFontSize = minFontSize;
+
+  // Expose the library as an AMD module
+  if (true) {
+    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [], __WEBPACK_AMD_DEFINE_RESULT__ = function() { return WordCloud; }.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__),
+				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
+  } else if (typeof module !== 'undefined' && module.exports) {
+    module.exports = WordCloud;
+  } else {
+    global.WordCloud = WordCloud;
+  }
+
+})(this); //jshint ignore:line
 
 /***/ }),
 
@@ -55650,6 +56520,20 @@ var _default = echarts.extendComponentModel({
 });
 
 module.exports = _default;
+
+/***/ }),
+
+/***/ "ZhIz":
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__("WoZP");
+if(typeof content === 'string') content = [[module.i, content, '']];
+if(content.locals) module.exports = content.locals;
+// add the styles to the DOM
+var update = __webpack_require__("rjj0")("60a2b166", content, true, {});
 
 /***/ }),
 
@@ -62682,6 +63566,200 @@ var _default = {
   }
 };
 module.exports = _default;
+
+/***/ }),
+
+/***/ "fOUL":
+/***/ (function(module, exports, __webpack_require__) {
+
+var echarts = __webpack_require__("Icdr");
+var layoutUtil = __webpack_require__("1Xuh");
+
+__webpack_require__("zj6P");
+__webpack_require__("qbN+");
+
+var wordCloudLayoutHelper = __webpack_require__("Y1Gm");
+
+if (!wordCloudLayoutHelper.isSupported) {
+    throw new Error('Sorry your browser not support wordCloud');
+}
+
+// https://github.com/timdream/wordcloud2.js/blob/c236bee60436e048949f9becc4f0f67bd832dc5c/index.js#L233
+function updateCanvasMask(maskCanvas) {
+    var ctx = maskCanvas.getContext('2d');
+    var imageData = ctx.getImageData(
+        0, 0, maskCanvas.width, maskCanvas.height);
+    var newImageData = ctx.createImageData(imageData);
+
+    var toneSum = 0;
+    var toneCnt = 0;
+    for (var i = 0; i < imageData.data.length; i += 4) {
+        var alpha = imageData.data[i + 3];
+        if (alpha > 128) {
+            var tone = imageData.data[i]
+                + imageData.data[i + 1]
+                + imageData.data[i + 2];
+            toneSum += tone;
+            ++toneCnt;
+        }
+    }
+    var threshold = toneSum / toneCnt;
+
+    for (var i = 0; i < imageData.data.length; i += 4) {
+        var tone = imageData.data[i]
+            + imageData.data[i + 1]
+            + imageData.data[i + 2];
+        var alpha = imageData.data[i + 3];
+
+        if (alpha < 128 || tone > threshold) {
+            // Area not to draw
+            newImageData.data[i] = 0;
+            newImageData.data[i + 1] = 0;
+            newImageData.data[i + 2] = 0;
+            newImageData.data[i + 3] = 0;
+        }
+        else {
+            // Area to draw
+            // The color must be same with backgroundColor
+            newImageData.data[i] = 255;
+            newImageData.data[i + 1] = 255;
+            newImageData.data[i + 2] = 255;
+            newImageData.data[i + 3] = 255;
+        }
+    }
+
+    ctx.putImageData(newImageData, 0, 0);
+}
+
+echarts.registerLayout(function (ecModel, api) {
+    ecModel.eachSeriesByType('wordCloud', function (seriesModel) {
+        var gridRect = layoutUtil.getLayoutRect(
+            seriesModel.getBoxLayoutParams(), {
+                width: api.getWidth(),
+                height: api.getHeight()
+            }
+        );
+        var data = seriesModel.getData();
+
+        var canvas = document.createElement('canvas');
+        canvas.width = gridRect.width;
+        canvas.height = gridRect.height;
+
+        var ctx = canvas.getContext('2d');
+        var maskImage = seriesModel.get('maskImage');
+        if (maskImage) {
+            try {
+                ctx.drawImage(maskImage, 0, 0, canvas.width, canvas.height);
+                updateCanvasMask(canvas);
+            }
+            catch (e) {
+                console.error('Invalid mask image');
+                console.error(e.toString());
+            }
+        }
+
+        var sizeRange = seriesModel.get('sizeRange');
+        var rotationRange = seriesModel.get('rotationRange');
+        var valueExtent = data.getDataExtent('value');
+
+        var DEGREE_TO_RAD = Math.PI / 180;
+        var gridSize = seriesModel.get('gridSize');
+        wordCloudLayoutHelper(canvas, {
+            list: data.mapArray('value', function (value, idx) {
+                var itemModel = data.getItemModel(idx);
+                return [
+                    data.getName(idx),
+                    itemModel.get('textStyle.normal.textSize', true)
+                        || echarts.number.linearMap(value, valueExtent, sizeRange),
+                    idx
+                ];
+            }).sort(function (a, b) {
+                // Sort from large to small in case there is no more room for more words
+                return b[1] - a[1];
+            }),
+            fontFamily: seriesModel.get('textStyle.normal.fontFamily')
+                || seriesModel.get('textStyle.emphasis.fontFamily')
+                || ecModel.get('textStyle.fontFamily'),
+            fontWeight: seriesModel.get('textStyle.normal.fontWeight')
+                || seriesModel.get('textStyle.emphasis.fontWeight')
+                || ecModel.get('textStyle.fontWeight'),
+            gridSize: gridSize,
+
+            ellipticity: gridRect.height / gridRect.width,
+
+            minRotation: rotationRange[0] * DEGREE_TO_RAD,
+            maxRotation: rotationRange[1] * DEGREE_TO_RAD,
+
+            clearCanvas: !maskImage,
+
+            rotateRatio: 1,
+
+            rotationStep: seriesModel.get('rotationStep') * DEGREE_TO_RAD,
+
+            drawOutOfBound: seriesModel.get('drawOutOfBound'),
+
+            shuffle: false,
+
+            shape: seriesModel.get('shape')
+        });
+
+        function onWordCloudDrawn(e) {
+            var item = e.detail.item;
+            if (e.detail.drawn && seriesModel.layoutInstance.ondraw) {
+                e.detail.drawn.gx += gridRect.x / gridSize;
+                e.detail.drawn.gy += gridRect.y / gridSize;
+                seriesModel.layoutInstance.ondraw(
+                    item[0], item[1], item[2], e.detail.drawn
+                );
+            }
+        }
+
+        canvas.addEventListener('wordclouddrawn', onWordCloudDrawn);
+
+        if (seriesModel.layoutInstance) {
+            // Dispose previous
+            seriesModel.layoutInstance.dispose();
+        }
+
+        seriesModel.layoutInstance = {
+            ondraw: null,
+
+            dispose: function () {
+                canvas.removeEventListener('wordclouddrawn', onWordCloudDrawn);
+                // Abort
+                canvas.addEventListener('wordclouddrawn', function (e) {
+                    // Prevent default to cancle the event and stop the loop
+                    e.preventDefault();
+                });
+            }
+        };
+    });
+});
+
+echarts.registerPreprocessor(function (option) {
+    var series = (option || {}).series;
+    !echarts.util.isArray(series) && (series = series ? [series] : []);
+
+    var compats = ['shadowColor', 'shadowBlur', 'shadowOffsetX', 'shadowOffsetY'];
+
+    echarts.util.each(series, function (seriesItem) {
+        if (seriesItem && seriesItem.type === 'wordCloud') {
+            var textStyle = seriesItem.textStyle || {};
+
+            compatTextStyle(textStyle.normal);
+            compatTextStyle(textStyle.emphasis);
+        }
+    });
+
+    function compatTextStyle(textStyle) {
+        textStyle && echarts.util.each(compats, function (key) {
+            if (textStyle.hasOwnProperty(key)) {
+                textStyle['text' + echarts.format.capitalFirst(key)] = textStyle[key];
+            }
+        });
+    }
+});
+
 
 /***/ }),
 
@@ -77693,6 +78771,76 @@ echarts.registerVisual(parallelVisual);
 
 /***/ }),
 
+/***/ "qbN+":
+/***/ (function(module, exports, __webpack_require__) {
+
+var echarts = __webpack_require__("Icdr");
+
+function getShallow(model, path) {
+    return model && model.getShallow(path);
+}
+
+echarts.extendChartView({
+
+    type: 'wordCloud',
+
+    render: function (seriesModel, ecModel, api) {
+        var group = this.group;
+        group.removeAll();
+
+        var data = seriesModel.getData();
+
+        var gridSize = seriesModel.get('gridSize');
+
+        seriesModel.layoutInstance.ondraw = function (text, size, dataIdx, drawn) {
+            var itemModel = data.getItemModel(dataIdx);
+            var textStyleModel = itemModel.getModel('textStyle.normal');
+            var emphasisTextStyleModel = itemModel.getModel('textStyle.emphasis');
+
+            var textEl = new echarts.graphic.Text({
+                style: echarts.graphic.setTextStyle({}, textStyleModel, {
+                    x: drawn.info.fillTextOffsetX,
+                    y: drawn.info.fillTextOffsetY + size * 0.5,
+                    text: text,
+                    textBaseline: 'middle',
+                    textFill: data.getItemVisual(dataIdx, 'color'),
+                    fontSize: size
+                }),
+                scale: [1 / drawn.info.mu, 1 / drawn.info.mu],
+                position: [
+                    (drawn.gx + drawn.info.gw / 2) * gridSize,
+                    (drawn.gy + drawn.info.gh / 2) * gridSize
+                ],
+                rotation: drawn.rot
+            });
+
+            group.add(textEl);
+
+            data.setItemGraphicEl(dataIdx, textEl);
+
+            echarts.graphic.setHoverStyle(
+                textEl,
+                echarts.graphic.setTextStyle({}, emphasisTextStyleModel, null, {forMerge: true}, true)
+            );
+        };
+
+        this._model = seriesModel;
+    },
+
+    remove: function () {
+        this.group.removeAll();
+
+        this._model.layoutInstance.dispose();
+    },
+
+    dispose: function () {
+        this._model.layoutInstance.dispose();
+    }
+});
+
+
+/***/ }),
+
 /***/ "qjrH":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -87189,20 +88337,6 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "wIIk":
-/***/ (function(module, exports, __webpack_require__) {
-
-// style-loader: Adds some css to the DOM by adding a <style> tag
-
-// load the styles
-var content = __webpack_require__("+VI9");
-if(typeof content === 'string') content = [[module.i, content, '']];
-if(content.locals) module.exports = content.locals;
-// add the styles to the DOM
-var update = __webpack_require__("rjj0")("4a0acc1a", content, true, {});
-
-/***/ }),
-
 /***/ "wLWv":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -91041,17 +92175,6 @@ module.exports = _default;
 
 /***/ }),
 
-/***/ "zUBy":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{},[_c('div',{staticClass:"col-xs-3"},[_c('select',{directives:[{name:"model",rawName:"v-model",value:(_vm.selectProv),expression:"selectProv"}],staticClass:"form-control",attrs:{"id":"prov"},on:{"change":[function($event){var $$selectedVal = Array.prototype.filter.call($event.target.options,function(o){return o.selected}).map(function(o){var val = "_value" in o ? o._value : o.value;return val}); _vm.selectProv=$event.target.multiple ? $$selectedVal : $$selectedVal[0]},function($event){_vm.getProv()}]}},[_c('option',{attrs:{"value":""}},[_vm._v("选择校区")]),_vm._v(" "),_vm._l((_vm.district),function(item,province){return _c('option',{key:province,domProps:{"value":province}},[_vm._v(_vm._s(item.name))])})],2)]),_vm._v(" "),_c('div',{staticClass:"col-xs-3"},[_c('select',{directives:[{name:"model",rawName:"v-model",value:(_vm.selectCity),expression:"selectCity"}],staticClass:"form-control",attrs:{"id":"city"},on:{"change":function($event){var $$selectedVal = Array.prototype.filter.call($event.target.options,function(o){return o.selected}).map(function(o){var val = "_value" in o ? o._value : o.value;return val}); _vm.selectCity=$event.target.multiple ? $$selectedVal : $$selectedVal[0]}}},[_c('option',{attrs:{"value":""}},[_vm._v("选择学院")]),_vm._v(" "),_vm._l((_vm.citys),function(item,city){return (_vm.selectProv!='')?_c('option',{key:city,domProps:{"value":city}},[_vm._v(_vm._s(item.name))]):_vm._e()})],2)]),_vm._v(" "),_vm._m(0),_vm._v(" "),_c('div',{staticClass:"col-xs-3 pull-right"},[_c('input',{staticClass:"btn btn-primary",attrs:{"id":"listSearch","type":"button","value":"submit"},on:{"click":function($event){_vm.getSearch()}}})])])}
-var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"col-xs-3"},[_c('input',{staticClass:"form-control pull-right",attrs:{"type":"text","id":"reservation"}})])}]
-var esExports = { render: render, staticRenderFns: staticRenderFns }
-/* harmony default export */ __webpack_exports__["a"] = (esExports);
-
-/***/ }),
-
 /***/ "zZZ/":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -91197,6 +92320,67 @@ function isCategory(axisModel) {
 }
 
 exports.getCoordSysDefineBySeries = getCoordSysDefineBySeries;
+
+/***/ }),
+
+/***/ "zj6P":
+/***/ (function(module, exports, __webpack_require__) {
+
+var completeDimensions = __webpack_require__("/n1K");
+var echarts = __webpack_require__("Icdr");
+
+echarts.extendSeriesModel({
+
+    type: 'series.wordCloud',
+
+    visualColorAccessPath: 'textStyle.normal.color',
+
+    optionUpdated: function () {
+        var option = this.option;
+        option.gridSize = Math.max(Math.floor(option.gridSize), 4);
+    },
+
+    getInitialData: function (option, ecModel) {
+        var dimensions = completeDimensions(['value'], option.data);
+        var list = new echarts.List(dimensions, this);
+        list.initData(option.data);
+        return list;
+    },
+
+    // Most of options are from https://github.com/timdream/wordcloud2.js/blob/gh-pages/API.md
+    defaultOption: {
+
+        maskImage: null,
+
+        // Shape can be 'circle', 'cardioid', 'diamond', 'triangle-forward', 'triangle', 'pentagon', 'star'
+        shape: 'circle',
+
+        left: 'center',
+
+        top: 'center',
+
+        width: '70%',
+
+        height: '80%',
+
+        sizeRange: [12, 60],
+
+        rotationRange: [-90, 90],
+
+        rotationStep: 45,
+
+        gridSize: 8,
+
+        drawOutOfBound: false,
+
+        textStyle: {
+            normal: {
+                fontWeight: 'normal'
+            }
+        }
+    }
+});
+
 
 /***/ }),
 
@@ -91391,3 +92575,4 @@ __webpack_require__("s48c");
 /***/ })
 
 });
+//# sourceMappingURL=4.602c2df0e131b2602503.js.map
