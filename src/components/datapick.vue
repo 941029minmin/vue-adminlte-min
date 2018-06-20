@@ -8,13 +8,16 @@
 		    </select>
    		</div>
    		<div class="col-xs-3">
-	   		<select id="city" v-model="selectCity" class="form-control">
+	   		<select id="city" v-on:change="getTeacher()" v-model="selectCity" class="form-control">
 		      <option value="" >选择学院</option>
 		      <option v-if="selectProv!=''" v-for="(item, city) in citys" :key="city" :value="city">{{item.name}}</option>
 		    </select>
    		</div>
    		<div class="col-xs-3">
-	   		  <input type="text" class="form-control pull-right" id="reservation">
+	   		 <select id="teacher" class="form-control">
+		      <option value="">选择教师</option>
+		      <option v-if="selectCity!=''" v-for="(item,teacher) in teachers" :key="teacher">{{item}}</option>
+		    </select>
    		</div> 
    		<div class="col-xs-3 pull-right">
       	    <input id = "listSearch" type="button" value="submit" class = "btn btn-primary" @click="getSearch()">
@@ -34,12 +37,27 @@
 			            'child': {
 			                '130100': {
 			                    'name': '计算机学院',
+			                    'child':{
+			                    	'130101': '梨花 ',
+			                        '130102': '李华',
+			                        '130104': '凯欣',
+			                        '130105': '加特'
+			                    }
 			                },
 			                '130200': {
 			                    'name': '文学院',
+			                    'child':{
+			                    	
+			                        '130104': '凯欣',
+			                        '130105': '加特'
+			                    }
 			                },
 			                '130300': {
 			                    'name': '化学化工学院',
+			                    'child':{
+			                        '130102': '李华',
+			                        '130105': '加特'
+			                    }
 			                }
 			            }
 			        },
@@ -48,7 +66,10 @@
 			            'child': {
 			                '140100': {
 			                    'name': '管理学院',
-			                    'child': []
+			                    'child':{
+			                    	'130101': '梨花 ',
+			                        '130104': '凯欣'
+			                    }
 			                },
 			                '140200': {
 			                    'name': '设计艺术学院',
@@ -56,23 +77,39 @@
 			                },
 			                '140300': {
 			                    'name': '建筑学院',
-			                    'child': []
+			                    'child':{
+			                    	'130101': '梨花 ',
+			                        '130102': '李华',
+			                        '130104': '凯欣',
+			                        '130105': '加特'
+			                    }
 			                },
 			                '140400': {
 			                    'name': '外语学院',
-			                    'child': []
+			                    'child':{
+			                    	'130101': '梨花 ',
+			                        '130102': '李华',
+			                        '130104': '凯欣',
+			                        '130105': '加特'
+			                    }
 			                },
 			                '140500': {
 			                    'name': '生物学院',
-			                    'child': []
+			                    'child':{
+			                    	'130101': '梨花 ',
+			                        '130102': '李华',
+			                        '130104': '凯欣',
+			                        '130105': '加特'
+			                    }
 			                }
 			            }
 			        },
 			    },
 			    citys: {},
-			    area: {},
+			    teachers:{},
 			    selectProv: '',
 			    selectCity: '',
+			    selectTeacher: '',
 			    objSearch:{},
 			}
 		},
@@ -86,16 +123,20 @@
 		},
 		methods: {
 		    getProv: function (prov) {
-		      this.citys = this.district[this.selectProv].child
-		      this.selectCity = ''
+		    	this.citys = this.district[this.selectProv].child
+			    this.selectCity = ''
+		    },
+		    getTeacher: function (city) {
+		    	this.teachers = this.district[this.selectProv].child[this.selectCity].child;
 		    },
 		    getSearch:function(){
 		    	// $('#reservation').daterangepicker()
 		    	this.objSearch = {
 		    		selectProv:this.selectProv,
 		    		selectCity:this.selectCity,
+		    		selectTeacher:this.selectTeacher
 		    	}
-		    	this.$emit('searchEvent',this.selectProv,this.selectCity);
+		    	this.$emit('searchEvent',this.selectProv,this.selectCity,this.selectTeacher);
 		    }
 		}
 	}

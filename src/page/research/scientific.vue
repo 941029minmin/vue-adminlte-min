@@ -186,9 +186,30 @@
       	</div>
       	<!-- /.row -->
 
+      	<!-- 科研产出变化趋势 -->
+		<div class="row">
+	    	<div class="col-md-12">
+	    		<div class="box box-success">
+	    			<div class="box-header with-border">
+             			<h3 class="box-title">科研产出变化趋势</h3>
+              			<div class="box-tools pull-right">
+               				<button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>
+                			<button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
+             			</div>
+            		</div>
+            		<!-- /.box-header -->
+	            	<div class="box-body">
+	            		<div class="chart">
+                    		<div id="myCharts9" style="height: 300px;"></div>
+                 	 	</div>
+	            	</div>
+	    		</div>
+	    	</div>
+	    </div>
+		<!-- /.科研产出变化趋势 -->
 
 	    <!-- 重点学科 -->
-		<div class="row">
+		<!-- <div class="row">
 	    	<div class="col-md-12">
 	    		<div class="box box-success">
 	    			<div class="box-header with-border">
@@ -198,7 +219,7 @@
                 			<button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
              			</div>
             		</div>
-            		<!-- /.box-header -->
+            		
 	            	<div class="box-body">
 	            		<table id="example1" class="table table-bordered table-striped">
 		                	<thead>
@@ -258,7 +279,8 @@
 	            	</div>
 	    		</div>
 	    	</div>
-	    </div>
+	    </div> -->
+
     </section>
 </template>
 
@@ -280,6 +302,7 @@
 		    this.drawMyCharts6();
 		    this.drawMyCharts7();
 		    this.drawMyCharts8();
+		    this.drawMyCharts9();
 		},
         methods:{
         	goParam:function(ID){
@@ -1111,7 +1134,125 @@
 				};
 				myChart8.setOption(option8);
         	},
-        	
+        	drawMyCharts9(){
+        		var myChart9 = echarts.init(document.getElementById('myCharts9'));
+				var option9 = {
+					color:['#59C4E6','#7BD9A5', '#4EA397', '#E6B600','#93B7E3', '#E60EF2', '#7560BA', '#EDF41A', '#B8D2C7','#D34E21','#EDAD5A','#2AC1BC','#8DFCF8'],
+				    tooltip: {
+			            trigger: 'axis',
+		                axisPointer: {
+		                  	type: 'cross',
+		                },
+		                position:function(p){ //其中p为当前鼠标的位置 
+		                  	return [p[0] + 10, p[1] - 80]; 
+		                }
+			        },
+			        legend: {
+			            data: ['人事处', '管理学院', '文学院', '播音主持艺术学院', '马克思主义学院（社会科学部）', '新闻传播学院', '新媒体学院', '设计艺术学院',],
+			            bottom: 15,
+			            width:'80%'
+
+			        },
+			        grid: {
+			            top: 10,
+			          	bottom: 100,
+			          	left:"8%",
+			          	right:"5%"
+			        },
+			        xAxis: [
+
+			            {
+			                type: 'category',
+			                axisTick: {
+			                    alignWithLabel: true
+			                },
+			                axisLine: {
+			                    onZero: false,
+			                    lineStyle: {
+			                        color: '#222b73'
+			                    }
+			                },
+			                // axisPointer: {
+			                //     label: {
+			                //         formatter: function(params) {
+			                //             return params.value + ' 科研产出量'+
+			                //                     (params.seriesData.length ? '：' + params.seriesData[0].data : '');
+			                //         }
+			                //     }
+			                // },
+			                
+			                data: ["2012","2013","2014","2015","2016","2017"]
+			            }
+			        ],
+			        yAxis: [{
+			            type: 'value',
+			            splitNumber:4,
+			            axisLabel: {
+			                formatter: '{value}k'
+			            },
+			            name:'数量',
+			            nameLocation:'middle',
+			            nameGap:'45',
+			            splitLine: {
+		                    lineStyle: {
+		                      	color: '#3f7098',
+		                     	type: 'dashed'
+		                    }
+		                }
+			        }],
+			        series: [
+			            {
+			                name: '人事处',
+			                type: 'line',
+			                smooth: true,
+			                data: [187,82,172,176,180,395]
+			            },
+			            {
+			                name: '管理学院',
+			                type: 'line',
+			                smooth: true,
+			                data: [340,230,142,253,240,111]
+			            },
+			            {
+			                name: '文学院',
+			                type: 'line',
+			                smooth: true,
+			                data: [35,16,41,37,349,35]
+			            },
+			            {
+			                name:"播音主持艺术学院",
+			                type: 'line',
+			                smooth: true,
+			                data:[540,240,210,90,140,770]
+			            },
+			            {
+			                name:"马克思主义学院（社会科学部）",
+			                type: 'line',
+			                smooth: true,
+			                data:[226,117,210,195,224,71]
+			            },
+			            {
+			                name:"新闻传播学院",
+			                type: 'line',
+			                smooth: true,
+			                data:[258,150,225,247,262,33]
+			            },
+			            {
+			                name:"新媒体学院",
+			                type: 'line',
+			                smooth: true,
+			                data:[70,230,530,280,90,240]
+			            },
+			            {
+			                name:"设计艺术学院",
+			                type: 'line',
+			                smooth: true,
+			                data:[50,80,280,340,310,90]
+			            },
+			        ]
+				};
+				myChart9.setOption(option9);
+        	},
         }
 
     }

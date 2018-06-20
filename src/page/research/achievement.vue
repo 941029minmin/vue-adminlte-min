@@ -33,9 +33,275 @@
 	        </div>
 	    </div>
 	    <!-- ./header -->
-	    <!-- 科研分布 -->
+	    <!-- 研究成果展示 -->
+	    <div class="row">
+	    	<div class="col-md-12">
+	    		<div class="box box-success">
+	    			<div class="box-header with-border">
+             			<h3 class="box-title">研究成果展示</h3>
+              			<div class="box-tools pull-right">
+               				<button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>
+                			<button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
+             			</div>
+            		</div>
+            		<!-- /.box-header -->
+	            	<div class="box-body">
+	            		<table id="example1" class="table table-bordered table-striped">
+		                	<thead>
+		                		<tr>
+		                  			<th>科研单位</th>
+				                  	<th>科研名称</th>
+			                  		<th>当前状态</th>
+			                  		<th>学科带头人</th>
+				                  	<th>科研组成员</th>
+			                  		<th>开始时间</th>
+			                  		<th>结束时间</th>
+				                </tr>
+		                	</thead>
+		                	<tbody>
+		                		<tr>
+		                			<th>设计艺术学院</th>
+				                  	<th>数字音乐在数字娱乐中的重要地位</th>
+				                  	<th>已完结</th>
+			                  		<th>张薇</th>
+				                  	<th>秦丽娜:1234567;李伟:1345678;李华:1456789</th>
+				                  	<th>2015年9月</th>
+				                  	<th>2015年12月</th>
+		                		</tr>
+		                		<tr>
+									<th>设计艺术学院</th>
+				                  	<th>数字音乐在数字娱乐中的重要地位</th>
+				                  	<th>已完结</th>
+			                  		<th>张薇</th>
+				                  	<th>秦丽娜:1234567;李伟:1345678;李华:1456789</th>
+				                  	<th>2015年9月</th>
+				                  	<th>2015年12月</th>
+		                		</tr>
+		                		<tr>
+									<th>设计艺术学院</th>
+				                  	<th>数字音乐在数字娱乐中的重要地位</th>
+				                  	<th>已完结</th>
+			                  		<th>张薇</th>
+				                  	<th>秦丽娜:1234567;李伟:1345678;李华:1456789</th>
+				                  	<th>2015年9月</th>
+				                  	<th>2015年12月</th>
+		                		</tr>
+		                		<tr>
+									<th>设计艺术学院</th>
+				                  	<th>数字音乐在数字娱乐中的重要地位</th>
+				                  	<th>已完结</th>
+			                  		<th>张薇</th>
+				                  	<th>秦丽娜:1234567;李伟:1345678;李华:1456789</th>
+				                  	<th>2015年9月</th>
+				                  	<th>2015年12月</th>
+		                		</tr>
+		                		<tr>
+									<th>设计艺术学院</th>
+				                  	<th>数字音乐在数字娱乐中的重要地位</th>
+				                  	<th>已完结</th>
+			                  		<th>张薇</th>
+				                  	<th>秦丽娜:1234567;李伟:1345678;李华:1456789</th>
+				                  	<th>2015年9月</th>
+				                  	<th>2015年12月</th>
+		                		</tr>
+
+		                	</tbody>
+	              		</table>
+	            	</div>
+	    		</div>
+	    	</div>
+	    </div>
+	    <!-- /.研究成果展示 -->
+	    <!-- 科研影响力排名 -->
+	    <div class="row">
+	    	<div class="col-md-12">
+	    		<div class="box box-success">
+	    			<div class="box-header with-border">
+             			<h3 class="box-title">科研影响力排名</h3>
+              			<div class="box-tools pull-right">
+               				<button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>
+                			<button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
+             			</div>
+            		</div>
+            		<!-- /.box-header -->
+	            	<div class="box-body">
+	            		<table id="example1" class="table table-bordered table-striped">
+		                	<thead>
+		                		<tr>
+		                  			<th>排名</th>
+				                  	<th>影响力指数</th>
+			                  		<th>单位名称</th>
+			                  		<th>成果数量</th>
+				                  	<th>国内期刊论文数量</th>
+			                  		<th>被引频次（万次）</th>
+			                  		<th>引占率</th>
+
+			                  		<th>下载频次（万）</th>
+				                  	<th>热门论文数量</th>
+			                  		<th>国内专利数量</th>
+			                  		<th>WOS期刊发文数量</th>
+				                  	<th>国内期刊论文数量</th>
+			                  		<th>专注发表数量</th>
+				                </tr>
+		                	</thead>
+		                	<tbody>
+		                		<tr>
+		                			<th>1</th>
+		                			<th>98</th>
+		                			<th>设计艺术学院</th>
+				                  	<th>123214</th>
+				                  	<th>1324231</th>
+			                  		<th>134124</th>
+				                  	<th>234124</th>
+				                  	<th>546355</th>
+				                  	<th>234623</th>
+				                  	<th>134124</th>
+				                  	<th>234124</th>
+				                  	<th>546355</th>
+				                  	<th>234623</th>
+		                		</tr>
+		                		<tr>
+									<th>1</th>
+		                			<th>98</th>
+		                			<th>设计艺术学院</th>
+				                  	<th>123214</th>
+				                  	<th>1324231</th>
+			                  		<th>134124</th>
+				                  	<th>234124</th>
+				                  	<th>546355</th>
+				                  	<th>234623</th>
+				                  	<th>134124</th>
+				                  	<th>234124</th>
+				                  	<th>546355</th>
+				                  	<th>234623</th>
+		                		</tr>
+		                		<tr>
+									<th>1</th>
+		                			<th>98</th>
+		                			<th>设计艺术学院</th>
+				                  	<th>123214</th>
+				                  	<th>1324231</th>
+			                  		<th>134124</th>
+				                  	<th>234124</th>
+				                  	<th>546355</th>
+				                  	<th>234623</th>
+				                  	<th>134124</th>
+				                  	<th>234124</th>
+				                  	<th>546355</th>
+				                  	<th>234623</th>
+		                		</tr>
+		                		<tr>
+									<th>1</th>
+		                			<th>98</th>
+		                			<th>设计艺术学院</th>
+				                  	<th>123214</th>
+				                  	<th>1324231</th>
+			                  		<th>134124</th>
+				                  	<th>234124</th>
+				                  	<th>546355</th>
+				                  	<th>234623</th>
+				                  	<th>134124</th>
+				                  	<th>234124</th>
+				                  	<th>546355</th>
+				                  	<th>234623</th>
+		                		</tr>
+		                		<tr>
+									<th>1</th>
+		                			<th>98</th>
+		                			<th>设计艺术学院</th>
+				                  	<th>123214</th>
+				                  	<th>1324231</th>
+			                  		<th>134124</th>
+				                  	<th>234124</th>
+				                  	<th>546355</th>
+				                  	<th>234623</th>
+				                  	<th>134124</th>
+				                  	<th>234124</th>
+				                  	<th>546355</th>
+				                  	<th>234623</th>
+		                		</tr>
+
+		                	</tbody>
+	              		</table>
+	            	</div>
+	    		</div>
+	    	</div>
+	    </div>
+	    <!-- /.科研影响力排名 -->
+	    <!-- 重点学科 -->
 		<div class="row">
-	    	
+	    	<div class="col-md-12">
+	    		<div class="box box-success">
+	    			<div class="box-header with-border">
+             			<h3 class="box-title">重点学科</h3>
+              			<div class="box-tools pull-right">
+               				<button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>
+                			<button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
+             			</div>
+            		</div>
+            		<!-- /.box-header -->
+	            	<div class="box-body">
+	            		<table id="example1" class="table table-bordered table-striped">
+		                	<thead>
+		                		<tr>
+		                  			<th>科研单位</th>
+				                  	<th>科研名称</th>
+			                  		<th>学科带头人</th>
+				                  	<th>科研组成员</th>
+				                  	<th>开始时间</th>
+				                  	<th>结束时间</th>
+				                </tr>
+		                	</thead>
+		                	<tbody>
+		                		<tr>
+									<th>设计艺术学院</th>
+				                  	<th>数字音乐在数字娱乐中的重要地位</th>
+			                  		<th>张薇</th>
+				                  	<th>秦丽娜:1234567;李伟:1345678;李华:1456789</th>
+				                  	<th>2015年9月</th>
+				                  	<th>2015年12月</th>
+		                		</tr>
+		                		<tr>
+									<th>设计艺术学院</th>
+				                  	<th>数字音乐在数字娱乐中的重要地位</th>
+			                  		<th>张薇</th>
+				                  	<th>秦丽娜:1234567;李伟:1345678;李华:1456789</th>
+				                  	<th>2015年9月</th>
+				                  	<th>2015年12月</th>
+		                		</tr>
+		                		<tr>
+									<th>设计艺术学院</th>
+				                  	<th>数字音乐在数字娱乐中的重要地位</th>
+			                  		<th>张薇</th>
+				                  	<th>秦丽娜:1234567;李伟:1345678;李华:1456789</th>
+				                  	<th>2015年9月</th>
+				                  	<th>2015年12月</th>
+		                		</tr>
+		                		<tr>
+									<th>设计艺术学院</th>
+				                  	<th>数字音乐在数字娱乐中的重要地位</th>
+			                  		<th>张薇</th>
+				                  	<th>秦丽娜:1234567;李伟:1345678;李华:1456789</th>
+				                  	<th>2015年9月</th>
+				                  	<th>2015年12月</th>
+		                		</tr>
+		                		<tr>
+									<th>设计艺术学院</th>
+				                  	<th>数字音乐在数字娱乐中的重要地位</th>
+			                  		<th>张薇</th>
+				                  	<th>秦丽娜:1234567;李伟:1345678;李华:1456789</th>
+				                  	<th>2015年9月</th>
+				                  	<th>2015年12月</th>
+		                		</tr>
+
+		                	</tbody>
+	              		</table>
+	            	</div>
+	    		</div>
+	    	</div>
+	    </div>
+	    <!-- /.重点学科 -->
+		<div class="row">
 	    	<div class="col-md-12">
 	    		<div class="box box-success">
 	    			<div class="box-header with-border">

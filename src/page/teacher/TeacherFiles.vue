@@ -211,6 +211,60 @@
     </section>
 	 <!-- Main content -->
     <section class="content">
+    <!-- 进修/留学 -->
+		<div class="row">
+	    	<div class="col-md-12">
+	    		<div class="box box-primary">
+	    			<div class="box-header with-border">
+             			<h3 class="box-title">进修/留学</h3>
+              			<div class="box-tools pull-right">
+               				<button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>
+                			<button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
+             			</div>
+            		</div>
+            		<!-- /.box-header -->
+	            	<div class="box-body">
+	            		<table id="example1" class="table table-bordered table-striped">
+		                	<thead>
+		                		<tr>
+		                  			<th>开始时间</th>
+				                  	<th>结束时间</th>
+			                  		<th>学习内容</th>
+				                  	<th>学习单位</th>
+				                  	<th>学习性质</th>
+				                  	<th>学习结果</th>
+				                  	<th>授予国家</th>
+			                  		<th>导师/证明人</th>
+				                </tr>
+		                	</thead>
+		                	<tbody>
+		                		<tr>
+									<th>2012年9月</th>
+				                  	<th>2015年6月</th>
+			                  		<th>物联网</th>
+				                  	<th>北京大学</th>
+				                  	<th>在职</th>
+				                  	<th>博士学位</th>
+				                  	<th></th>
+			                  		<th>周海荣</th>
+		                		</tr>
+		                		<tr>
+									<th>2015年6月</th>
+				                  	<th>2015年9月</th>
+			                  		<th>面部识别</th>
+				                  	<th>清华大学</th>
+				                  	<th>函授</th>
+				                  	<th>合格</th>
+				                  	<th></th>
+			                  		<th>周海荣</th>
+		                		</tr>
+		                	</tbody>
+	              		</table>
+	            	</div>
+	    		</div>
+	    	</div>
+	    </div>
+		<!-- ./进修/留学 -->
       	<!-- 授课信息 -->
 		<div class="row">
 	    	<div class="col-md-12">

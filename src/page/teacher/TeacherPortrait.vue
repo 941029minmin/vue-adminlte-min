@@ -1,8 +1,6 @@
 <template>
    <!-- Main content -->
     <section class="content">
-
-
     <!-- 教职工分布 -->
       <div class="row">
         <div class="col-md-12">

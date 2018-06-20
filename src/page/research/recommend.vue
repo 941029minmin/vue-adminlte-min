@@ -315,7 +315,85 @@
 	    	</div>
 	    </div>
 	    <!-- ./科研热度排名 -->
-		
+		<!-- 年度科研优秀教师预测 -->
+		<div class="row">
+	    	<div class="col-md-12">
+	    		<div class="box box-primary">
+	    			<div class="box-header with-border">
+             			<h3 class="box-title">年度科研优秀教师预测</h3>
+              			<div class="box-tools pull-right">
+               				<button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>
+                			<button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
+             			</div>
+            		</div>
+            		<!-- /.box-header -->
+	            	<div class="box-body">
+	            		<table id="example1" class="table table-bordered table-striped">
+		                	<thead>
+		                		<tr>
+		                  			<th>排名</th>
+				                  	<th>项目名称</th>
+			                  		<th>项目来源</th>
+				                  	<th>承担单位/负责人</th>
+				                  	<th>学科范围</th>
+				                  	<th>所获奖励</th>
+				                  	<th>立项年份</th>
+				                </tr>
+		                	</thead>
+		                	<tbody>
+		                		<tr>
+									<th>0001</th>
+				                  	<th>马克思技术哲学与现时代研究</th>
+			                  		<th>2014年湖北省社科基金一般项目</th>
+				                  	<th>武汉工程大学/管锦绣</th>
+				                  	<th>哲学</th>
+				                  	<th>第二届马克思主义理论研讨会论文优秀奖</th>
+				                  	<th>2015</th>
+		                		</tr>
+		                		<tr>
+									<th>0001</th>
+				                  	<th>马克思技术哲学与现时代研究</th>
+			                  		<th>2014年湖北省社科基金一般项目</th>
+				                  	<th>武汉工程大学/管锦绣</th>
+				                  	<th>哲学</th>
+				                  	<th>第二届马克思主义理论研讨会论文优秀奖</th>
+				                  	<th>2015</th>
+		                		</tr>
+		                		<tr>
+									<th>0001</th>
+				                  	<th>马克思技术哲学与现时代研究</th>
+			                  		<th>2014年湖北省社科基金一般项目</th>
+				                  	<th>武汉工程大学/管锦绣</th>
+				                  	<th>哲学</th>
+				                  	<th>第二届马克思主义理论研讨会论文优秀奖</th>
+				                  	<th>2015</th>
+		                		</tr>
+		                		<tr>
+									<th>0001</th>
+				                  	<th>马克思技术哲学与现时代研究</th>
+			                  		<th>2014年湖北省社科基金一般项目</th>
+				                  	<th>武汉工程大学/管锦绣</th>
+				                  	<th>哲学</th>
+				                  	<th>第二届马克思主义理论研讨会论文优秀奖</th>
+				                  	<th>2015</th>
+		                		</tr>
+		                		<tr>
+									<th>0001</th>
+				                  	<th>马克思技术哲学与现时代研究</th>
+			                  		<th>2014年湖北省社科基金一般项目</th>
+				                  	<th>武汉工程大学/管锦绣</th>
+				                  	<th>哲学</th>
+				                  	<th>第二届马克思主义理论研讨会论文优秀奖</th>
+				                  	<th>2015</th>
+		                		</tr>
+
+		                	</tbody>
+	              		</table>
+	            	</div>
+	    		</div>
+	    	</div>
+	    </div>
+		<!-- ./科研产出统计 -->
     </section>
     <!-- /.content -->
 	</div>
