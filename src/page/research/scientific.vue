@@ -1,6 +1,42 @@
 <template>
 	 <!-- Main content -->
     <section class="content">
+    	<!-- header -->
+    	<div class="row">
+	        <div class="col-md-12">
+	          <div class="box box-success">
+	            <div class="box-header with-border">
+	                  <h3 class="box-title">搜索</h3>
+	                    <div class="box-tools pull-right">
+	                      <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>
+	                      <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
+	                  </div>
+	                </div>
+	                <!-- /.box-header -->
+	                <div class="box-body">
+	                  <div class="row">
+	                        <div class="col-xs-3">
+		                        <Select v-model="selectCollege" placeholder="请选择校区">
+
+							        <Option v-for="item in colleges" :value="item" :key="item">{{ item}}</Option>
+							    </Select>
+					   		</div>
+					   		<div class="col-xs-3">
+					   			<DatePicker type="date" placeholder="开始日期" style="width:100%"></DatePicker>
+					   		</div>
+					   		<div class="col-xs-3">
+					   			<DatePicker type="date" placeholder="结束日期" style="width:100%"></DatePicker>
+					   		</div>
+					   		<div class="col-xs-3">
+    							<Button type="primary" icon="ios-search">搜索</Button>
+					   		</div>
+
+	                  </div>
+	                </div>
+	          </div>
+	        </div>
+	    </div>
+	    <!-- ./header -->
 		<!--科研人员构成 -->
       	<div class="row">
         	<div class="col-md-12">
@@ -290,7 +326,9 @@
         data (){
             return {
                 // msg:"123"
-                teacherID:'123'
+                teacherID:'123',
+                selectCollege:"",
+                colleges:["校本部","第二校区"]
             }
         },
         mounted(){

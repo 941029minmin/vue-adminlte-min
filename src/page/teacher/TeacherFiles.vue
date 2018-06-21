@@ -34,10 +34,11 @@
 	              			<div class="box-body">
 		            	   		<div class="row">
 			               			<div class="col-xs-4">
-			                	    	<input type="text" class="form-control" placeholder="请输入教师名字/教职工号">
+			                	    	<!-- <input type="text" class="form-control" placeholder="请输入教师名字/教职工号"> -->
+			                	    	<Input  placeholder="请输入教师名字/教职工号" style="width: 90%"></Input>
 			               			</div>
 				                	<div class="col-xs-8 pull-right">
-							      	    <input type="button" value="submit" class = "btn btn-primary">
+							      	    <Button type="primary" icon="ios-search">搜索</Button>
 							    	</div>
 		                    	</div>
 	           				</div>
@@ -58,9 +59,9 @@
              			</div>
             		</div>
             		<div class="box-body box-profile">
-	              		<img class="profile-user-img img-responsive img-circle" src="../../assets/img/user4-128x128.jpg" alt="User profile picture">
+	              		<img class="profile-user-img img-responsive img-circle" src="../../assets/img/user2-160x160.jpg" alt="User profile picture">
 	              		<h3 class="profile-username text-center">何骊</h3>
-	              		<p class="text-muted text-center">Software Engineer</p>
+	              		<p class="text-muted text-center"> </p>
 	            		<ul class="list-group list-group-unbordered">
 	                		<li class="list-group-item">
 	                  			<b>学院</b> <a class="pull-right">计算机科学与技术</a>

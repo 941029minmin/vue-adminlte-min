@@ -38,6 +38,10 @@ export default new Router({
 		component: resolve => require(['@/page/teacher/TeacherPortrait'], resolve)
 	},
 	{
+		path: '/teacher/TeacherResult', 
+		component: resolve => require(['@/page/teacher/TeacherResult'], resolve)
+	},
+	{
 		path: '/teacher/TeacherFiles', 
 		params:{
 			teacherID:"222"

@@ -55,7 +55,7 @@
             </a>
             <ul class="treeview-menu">
               <li><router-link to="/teacher/TeacherPortrait"><i class="fa fa-circle-o"></i>教职工群体画像</router-link></li>
-              <li><router-link to="/teacher/TeacherFiles"><i class="fa fa-circle-o"></i>教师业绩</router-link></li>
+              <li><router-link to="/teacher/TeacherResult"><i class="fa fa-circle-o"></i>教师业绩</router-link></li>
               <li><router-link to="/teacher/TeacherFiles"><i class="fa fa-circle-o"></i>教师档案</router-link></li>
             </ul>
           </li>

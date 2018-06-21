@@ -328,63 +328,186 @@
             		</div>
             		<!-- /.box-header -->
 	            	<div class="box-body">
-	            		<table id="example1" class="table table-bordered table-striped">
+	            		<Carousel  v-model="value2" loop :autoplay="setting.autoplay" :autoplay-speed="setting.autoplaySpeed" :dots="setting.dots" :radius-dot="setting.radiusDot" :trigger="setting.trigger" :arrow="setting.arrow">
+					        <CarouselItem>
+					            <div class="demo-carousel">
+					            	<div class="col-md-3">
+					            		<img class="profile-user-img img-responsive img-circle" src="../../assets/img/user6-128x128.jpg" alt="User profile picture">
+					              		<h3 class="profile-username text-center">何骊</h3>
+					              		<p class="text-muted text-center">计算机科学与技术</p>
+					              		<p class="text-muted text-center">人工智能</p>
+					              		<p class="text-muted text-center">科研贡献度：<a style="fontSize:20px;">92</a></p>
+					            	</div>
+					            	<div class="col-md-3">
+					            		<img class="profile-user-img img-responsive img-circle" src="../../assets/img/user2-160x160.jpg" alt="User profile picture">
+					              		<h3 class="profile-username text-center">何骊</h3>
+					              		<p class="text-muted text-center">计算机科学与技术</p>
+					              		<p class="text-muted text-center">人工智能</p>
+					              		<p class="text-muted text-center">科研贡献度：<a style="fontSize:20px;">92</a></p>
+					            	</div>
+					            	<div class="col-md-3">
+					            		<img class="profile-user-img img-responsive img-circle" src="../../assets/img/user8-128x128.jpg" alt="User profile picture">
+					              		<h3 class="profile-username text-center">何骊</h3>
+					              		<p class="text-muted text-center">计算机科学与技术</p>
+					              		<p class="text-muted text-center">人工智能</p>
+					              		<p class="text-muted text-center">科研贡献度：<a style="fontSize:20px;">92</a></p>
+					            	</div>
+					            	<div class="col-md-3">
+					            		<img class="profile-user-img img-responsive img-circle" src="../../assets/img/user4-128x128.jpg" alt="User profile picture">
+					              		<h3 class="profile-username text-center">何骊</h3>
+					              		<p class="text-muted text-center">计算机科学与技术</p>
+					              		<p class="text-muted text-center">人工智能</p>
+					              		<p class="text-muted text-center">科研贡献度：<a style="fontSize:20px;">92</a></p>
+					            	</div>
+					            </div>
+					        </CarouselItem>
+					        <CarouselItem>
+					            <div class="demo-carousel">
+					            	<div class="col-md-3">
+					            		<img class="profile-user-img img-responsive img-circle" src="../../assets/img/user5-128x128.jpg" alt="User profile picture">
+					              		<h3 class="profile-username text-center">李华</h3>
+					              		<p class="text-muted text-center">计算机科学与技术</p>
+					              		<p class="text-muted text-center">人工智能</p>
+					              		<p class="text-muted text-center">科研贡献度：<a style="fontSize:20px;">92</a></p>
+					            	</div>
+					            	<div class="col-md-3">
+					            		<img class="profile-user-img img-responsive img-circle" src="../../assets/img/user3-128x128.jpg" alt="User profile picture">
+					              		<h3 class="profile-username text-center">李华</h3>
+					              		<p class="text-muted text-center">计算机科学与技术</p>
+					              		<p class="text-muted text-center">人工智能</p>
+					              		<p class="text-muted text-center">科研贡献度：<a style="fontSize:20px;">92</a></p>
+					            	</div>
+					            	<div class="col-md-3">
+					            		<img class="profile-user-img img-responsive img-circle" src="../../assets/img/user7-128x128.jpg" alt="User profile picture">
+					              		<h3 class="profile-username text-center">李华</h3>
+					              		<p class="text-muted text-center">计算机科学与技术</p>
+					              		<p class="text-muted text-center">人工智能</p>
+					              		<p class="text-muted text-center">科研贡献度：<a style="fontSize:20px;">92</a></p>
+					            	</div>
+					            	<div class="col-md-3">
+					            		<img class="profile-user-img img-responsive img-circle" src="../../assets/img/user1-128x128.jpg" alt="User profile picture">
+					              		<h3 class="profile-username text-center">李华</h3>
+					              		<p class="text-muted text-center">计算机科学与技术</p>
+					              		<p class="text-muted text-center">人工智能</p>
+					              		<p class="text-muted text-center">科研贡献度：<a style="fontSize:20px;">92</a></p>
+					            	</div>
+					            </div>
+					        </CarouselItem>
+					    </Carousel>
+	            	</div>
+	    		</div>
+	    	</div>
+	    </div>
+		<!-- ./科研产出统计 -->
+		<!-- 年度科研方向预测 -->
+		<div class="row">
+	    	<div class="col-md-5">
+	    		<div class="box box-success">
+	    			<div class="box-header with-border">
+             			<h3 class="box-title">年度科研方向预测</h3>
+              			<div class="box-tools pull-right">
+               				<button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>
+                			<button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
+             			</div>
+            		</div>
+            		<!-- /.box-header -->
+	            	<div class="box-body">
+	                  	<table id="example1" class="table table-bordered table-striped">
 		                	<thead>
 		                		<tr>
 		                  			<th>排名</th>
-				                  	<th>项目名称</th>
-			                  		<th>项目来源</th>
-				                  	<th>承担单位/负责人</th>
-				                  	<th>学科范围</th>
-				                  	<th>所获奖励</th>
-				                  	<th>立项年份</th>
+				                  	<th>科研方向</th>
+			                  		<th>热度指数</th>
 				                </tr>
 		                	</thead>
 		                	<tbody>
 		                		<tr>
 									<th>0001</th>
-				                  	<th>马克思技术哲学与现时代研究</th>
-			                  		<th>2014年湖北省社科基金一般项目</th>
-				                  	<th>武汉工程大学/管锦绣</th>
-				                  	<th>哲学</th>
-				                  	<th>第二届马克思主义理论研讨会论文优秀奖</th>
-				                  	<th>2015</th>
+				                  	<th>新零售</th>
+			                  		<th>89</th>
 		                		</tr>
 		                		<tr>
 									<th>0001</th>
-				                  	<th>马克思技术哲学与现时代研究</th>
-			                  		<th>2014年湖北省社科基金一般项目</th>
-				                  	<th>武汉工程大学/管锦绣</th>
-				                  	<th>哲学</th>
-				                  	<th>第二届马克思主义理论研讨会论文优秀奖</th>
-				                  	<th>2015</th>
+				                  	<th>新零售</th>
+			                  		<th>89</th>
 		                		</tr>
 		                		<tr>
 									<th>0001</th>
-				                  	<th>马克思技术哲学与现时代研究</th>
-			                  		<th>2014年湖北省社科基金一般项目</th>
-				                  	<th>武汉工程大学/管锦绣</th>
-				                  	<th>哲学</th>
-				                  	<th>第二届马克思主义理论研讨会论文优秀奖</th>
-				                  	<th>2015</th>
+				                  	<th>新零售</th>
+			                  		<th>89</th>
 		                		</tr>
 		                		<tr>
 									<th>0001</th>
-				                  	<th>马克思技术哲学与现时代研究</th>
-			                  		<th>2014年湖北省社科基金一般项目</th>
-				                  	<th>武汉工程大学/管锦绣</th>
-				                  	<th>哲学</th>
-				                  	<th>第二届马克思主义理论研讨会论文优秀奖</th>
-				                  	<th>2015</th>
+				                  	<th>新零售</th>
+			                  		<th>89</th>
 		                		</tr>
 		                		<tr>
 									<th>0001</th>
-				                  	<th>马克思技术哲学与现时代研究</th>
-			                  		<th>2014年湖北省社科基金一般项目</th>
-				                  	<th>武汉工程大学/管锦绣</th>
-				                  	<th>哲学</th>
-				                  	<th>第二届马克思主义理论研讨会论文优秀奖</th>
-				                  	<th>2015</th>
+				                  	<th>新零售</th>
+			                  		<th>89</th>
+		                		</tr>
+
+		                	</tbody>
+	              		</table>
+	            	</div>
+	    		</div>
+	    	</div>
+	    	<div class="col-md-7">
+	    		<div class="box box-success">
+	    			<div class="box-header with-border">
+             			<h3 class="box-title">年度科研贡献预测</h3>
+              			<div class="box-tools pull-right">
+               				<button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>
+                			<button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
+             			</div>
+            		</div>
+            		<!-- /.box-header -->
+	            	<div class="box-body">
+	            		<table id="example1" class="table table-bordered table-striped">
+		                	<thead>
+		                		<tr>
+		                  			<th>排名</th>
+				                  	<th>所属单位</th>
+			                  		<th>工号</th>
+			                  		<th>姓名</th>
+			                  		<th>科研贡献指数</th>
+				                </tr>
+		                	</thead>
+		                	<tbody>
+		                		<tr>
+									<th>0001</th>
+				                  	<th>设计艺术学院</th>
+			                  		<th>12132389</th>
+			                  		<th>李华</th>
+			                  		<th>89</th>
+		                		</tr>
+		                		<tr>
+									<th>0001</th>
+				                  	<th>设计艺术学院</th>
+			                  		<th>12132389</th>
+			                  		<th>李华</th>
+			                  		<th>89</th>
+		                		</tr>
+		                		<tr>
+									<th>0001</th>
+				                  	<th>设计艺术学院</th>
+			                  		<th>12132389</th>
+			                  		<th>李华</th>
+			                  		<th>89</th>
+		                		</tr>
+		                		<tr>
+									<th>0001</th>
+				                  	<th>设计艺术学院</th>
+			                  		<th>12132389</th>
+			                  		<th>李华</th>
+			                  		<th>89</th>
+		                		</tr>
+		                		<tr>
+									<th>0001</th>
+				                  	<th>设计艺术学院</th>
+			                  		<th>12132389</th>
+			                  		<th>李华</th>
+			                  		<th>89</th>
 		                		</tr>
 
 		                	</tbody>
@@ -393,7 +516,7 @@
 	    		</div>
 	    	</div>
 	    </div>
-		<!-- ./科研产出统计 -->
+	    <!-- ./科研热度排名 -->
     </section>
     <!-- /.content -->
 	</div>
@@ -410,6 +533,15 @@
 				pageTotal: 100,  
 				pageNum: 1,  
 				pageSize: 5,
+				value2: 0,
+				setting: {
+                    autoplay: true,
+                    autoplaySpeed: 3000,
+                    dots: 'inside',
+                    radiusDot: false,
+                    trigger: 'hover',
+                    arrow: 'hover'
+                },
 				columns1: [
                     {
                         title: '序号',
@@ -677,5 +809,7 @@
 </script>
 
 <style scoped>
-
+	.demo-carousel{
+		height: 280px;
+	}
 </style>

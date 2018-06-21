@@ -24,8 +24,8 @@
 	                </div>
 	                <!-- /.box-header -->
 	                <div class="box-body">
-		                <div class="row">
-		                	<div class="col-xs-3">
+	                    <div class="row">
+	                    	<div class="col-xs-3">
 		                        <Select v-model="selectCollege" placeholder="请选择校区">
 							        <Option v-for="item in colleges" :value="item" :key="item">{{ item}}</Option>
 							    </Select>
@@ -45,19 +45,60 @@
     							<Button type="primary" icon="ios-search">搜索</Button>
 					   		</div>
 
-		                        <!-- <datapick @searchEvent = "searchEvent"></datapick> -->
-		                </div>
+	                        <!-- <datapick @searchEvent = "searchEvent"></datapick> -->
+
+	                    </div>
 	                </div>
 	          </div>
 	        </div>
 	    </div>
 	    <!-- ./header -->
-	    <!-- 研究成果展示 -->
+	    <!-- 科研产出变化趋势 -->
+	    <div class="row">
+	      	<div class="col-md-4">
+	    		<div class="box box-success">
+	    			<div class="box-header with-border">
+	         			<h3 class="box-title">科研经费排名</h3>
+	          			<div class="box-tools pull-right">
+	           				<button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>
+	            			<button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
+	         			</div>
+	        		</div>
+	            	<div class="box-body">
+	            		<div class="row">
+	                  		<div class="chart">
+		                    	<div id="TeaCharts1"  :style="{height:'300px'}"></div>
+	                  		</div>
+	            		</div>
+	            	</div>
+	    		</div>
+	    	</div>
+	        <div class="col-md-8">
+	          <div class="box box-success">
+	            <div class="box-header with-border">
+	                  <h3 class="box-title">科研产出变化趋势</h3>
+	                    <div class="box-tools pull-right">
+	                      <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>
+	                      <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
+	                  </div>
+	                </div>
+	                <div class="box-body">
+	                	<div class="row">
+	                        <div class="chart">
+	                          <div id="TeaCharts2"  :style="{height:'300px'}"></div>
+	                        </div>
+		                </div>
+	                  
+	                </div>
+	          </div>
+	        </div>
+
+	    </div>
 	    <div class="row">
 	    	<div class="col-md-12">
 	    		<div class="box box-success">
 	    			<div class="box-header with-border">
-             			<h3 class="box-title">研究成果展示</h3>
+             			<h3 class="box-title">单位科研产出排名</h3>
               			<div class="box-tools pull-right">
                				<button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>
                 			<button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
@@ -65,63 +106,70 @@
             		</div>
             		<!-- /.box-header -->
 	            	<div class="box-body">
+		            	
 	            		<table id="example1" class="table table-bordered table-striped">
 		                	<thead>
 		                		<tr>
-		                  			<th>科研单位</th>
-				                  	<th>科研名称</th>
-			                  		<th>当前状态</th>
-			                  		<th>学科带头人</th>
-				                  	<th>科研组成员</th>
-			                  		<th>开始时间</th>
-			                  		<th>结束时间</th>
+		                  			<th>排名</th>
+				                  	<th>单位名称</th>
+			                  		<th>科研产出总量</th>
+			                  		<th>论文发表数量</th>
+				                  	<th>著作数量</th>
+			                  		<th>国内专利数量</th>
+			                  		<th>艺术作品数量</th>
+			                  		<th>发表专注数量</th>
 				                </tr>
 		                	</thead>
 		                	<tbody>
 		                		<tr>
+		                			<th>1</th>
 		                			<th>设计艺术学院</th>
-				                  	<th>数字音乐在数字娱乐中的重要地位</th>
-				                  	<th>已完结</th>
-			                  		<th>张薇</th>
-				                  	<th>秦丽娜:1234567;李伟:1345678;李华:1456789</th>
-				                  	<th>2015年9月</th>
-				                  	<th>2015年12月</th>
+				                  	<th>1243</th>
+				                  	<th>5437</th>
+				                  	<th>1243</th>
+				                  	<th>5437</th>
+				                  	<th>1243</th>
+				                  	<th>5437</th>
 		                		</tr>
 		                		<tr>
-									<th>设计艺术学院</th>
-				                  	<th>数字音乐在数字娱乐中的重要地位</th>
-				                  	<th>已完结</th>
-			                  		<th>张薇</th>
-				                  	<th>秦丽娜:1234567;李伟:1345678;李华:1456789</th>
-				                  	<th>2015年9月</th>
-				                  	<th>2015年12月</th>
+									<th>2</th>
+		                			<th>设计艺术学院</th>
+				                  	<th>1243</th>
+				                  	<th>5437</th>
+				                  	<th>1243</th>
+				                  	<th>5437</th>
+				                  	<th>1243</th>
+				                  	<th>5437</th>
 		                		</tr>
 		                		<tr>
-									<th>设计艺术学院</th>
-				                  	<th>数字音乐在数字娱乐中的重要地位</th>
-				                  	<th>已完结</th>
-			                  		<th>张薇</th>
-				                  	<th>秦丽娜:1234567;李伟:1345678;李华:1456789</th>
-				                  	<th>2015年9月</th>
-				                  	<th>2015年12月</th>
+									<th>3</th>
+				                  	<th>设计艺术学院</th>
+				                  	<th>1243</th>
+				                  	<th>5437</th>
+				                  	<th>1243</th>
+				                  	<th>5437</th>
+				                  	<th>1243</th>
+				                  	<th>5437</th>
 		                		</tr>
 		                		<tr>
-									<th>设计艺术学院</th>
-				                  	<th>数字音乐在数字娱乐中的重要地位</th>
-				                  	<th>已完结</th>
-			                  		<th>张薇</th>
-				                  	<th>秦丽娜:1234567;李伟:1345678;李华:1456789</th>
-				                  	<th>2015年9月</th>
-				                  	<th>2015年12月</th>
+									<th>4</th>
+				                  	<th>设计艺术学院</th>
+				                  	<th>1243</th>
+				                  	<th>5437</th>
+				                  	<th>1243</th>
+				                  	<th>5437</th>
+				                  	<th>1243</th>
+				                  	<th>5437</th>
 		                		</tr>
 		                		<tr>
-									<th>设计艺术学院</th>
-				                  	<th>数字音乐在数字娱乐中的重要地位</th>
-				                  	<th>已完结</th>
-			                  		<th>张薇</th>
-				                  	<th>秦丽娜:1234567;李伟:1345678;李华:1456789</th>
-				                  	<th>2015年9月</th>
-				                  	<th>2015年12月</th>
+									<th>5</th>
+				                  	<th>设计艺术学院</th>
+				                  	<th>1243</th>
+				                  	<th>5437</th>
+				                  	<th>1243</th>
+				                  	<th>5437</th>
+				                  	<th>1243</th>
+				                  	<th>5437</th>
 		                		</tr>
 
 		                	</tbody>
@@ -130,7 +178,6 @@
 	    		</div>
 	    	</div>
 	    </div>
-	    <!-- /.研究成果展示 -->
 	    <!-- 科研影响力排名 -->
 	    <div class="row">
 	    	<div class="col-md-12">
@@ -154,7 +201,6 @@
 				                  	<th>国内期刊论文数量</th>
 			                  		<th>被引频次（万次）</th>
 			                  		<th>引占率</th>
-
 			                  		<th>下载频次（万）</th>
 				                  	<th>热门论文数量</th>
 			                  		<th>国内专利数量</th>
@@ -247,80 +293,7 @@
 	    	</div>
 	    </div>
 	    <!-- /.科研影响力排名 -->
-	    <!-- 重点学科 -->
-		<div class="row">
-	    	<div class="col-md-12">
-	    		<div class="box box-success">
-	    			<div class="box-header with-border">
-             			<h3 class="box-title">重点学科</h3>
-              			<div class="box-tools pull-right">
-               				<button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>
-                			<button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
-             			</div>
-            		</div>
-            		<!-- /.box-header -->
-	            	<div class="box-body">
-	            		<table id="example1" class="table table-bordered table-striped">
-		                	<thead>
-		                		<tr>
-		                  			<th>科研单位</th>
-				                  	<th>科研名称</th>
-			                  		<th>学科带头人</th>
-				                  	<th>科研组成员</th>
-				                  	<th>开始时间</th>
-				                  	<th>结束时间</th>
-				                </tr>
-		                	</thead>
-		                	<tbody>
-		                		<tr>
-									<th>设计艺术学院</th>
-				                  	<th>数字音乐在数字娱乐中的重要地位</th>
-			                  		<th>张薇</th>
-				                  	<th>秦丽娜:1234567;李伟:1345678;李华:1456789</th>
-				                  	<th>2015年9月</th>
-				                  	<th>2015年12月</th>
-		                		</tr>
-		                		<tr>
-									<th>设计艺术学院</th>
-				                  	<th>数字音乐在数字娱乐中的重要地位</th>
-			                  		<th>张薇</th>
-				                  	<th>秦丽娜:1234567;李伟:1345678;李华:1456789</th>
-				                  	<th>2015年9月</th>
-				                  	<th>2015年12月</th>
-		                		</tr>
-		                		<tr>
-									<th>设计艺术学院</th>
-				                  	<th>数字音乐在数字娱乐中的重要地位</th>
-			                  		<th>张薇</th>
-				                  	<th>秦丽娜:1234567;李伟:1345678;李华:1456789</th>
-				                  	<th>2015年9月</th>
-				                  	<th>2015年12月</th>
-		                		</tr>
-		                		<tr>
-									<th>设计艺术学院</th>
-				                  	<th>数字音乐在数字娱乐中的重要地位</th>
-			                  		<th>张薇</th>
-				                  	<th>秦丽娜:1234567;李伟:1345678;李华:1456789</th>
-				                  	<th>2015年9月</th>
-				                  	<th>2015年12月</th>
-		                		</tr>
-		                		<tr>
-									<th>设计艺术学院</th>
-				                  	<th>数字音乐在数字娱乐中的重要地位</th>
-			                  		<th>张薇</th>
-				                  	<th>秦丽娜:1234567;李伟:1345678;李华:1456789</th>
-				                  	<th>2015年9月</th>
-				                  	<th>2015年12月</th>
-		                		</tr>
-
-		                	</tbody>
-	              		</table>
-	            	</div>
-	    		</div>
-	    	</div>
-	    </div>
-	    <!-- /.重点学科 -->
-	    <!-- 科研影响因子排名 -->
+	     <!-- 科研影响因子排名 -->
 		<div class="row">
 	    	<div class="col-md-7">
 	    		<div class="box box-success">
@@ -468,132 +441,8 @@
 	    	</div>
 	    </div>
 		<!-- ./科研合作单位 -->
-		<div class="row">
-	    	<div class="col-md-12">
-	    		<div class="box box-success">
-	    			<div class="box-header with-border">
-             			<h3 class="box-title">单位科研产出TOP10</h3>
-              			<div class="box-tools pull-right">
-               				<button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>
-                			<button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
-             			</div>
-            		</div>
-            		<!-- /.box-header -->
-	            	<div class="box-body">
-	            		<table id="example1" class="table table-bordered table-striped">
-		                	<thead>
-		                		<tr>
-		                  			<th>排名</th>
-				                  	<th>单位名称</th>
-			                  		<th>科研产出总量</th>
-			                  		<th>论文发表数量</th>
-				                  	<th>著作数量</th>
-			                  		<th>国内专利数量</th>
-			                  		<th>艺术作品数量</th>
-			                  		<th>发表专注数量</th>
-				                </tr>
-		                	</thead>
-		                	<tbody>
-		                		<tr>
-		                			<th>1</th>
-		                			<th>设计艺术学院</th>
-				                  	<th>1243</th>
-				                  	<th>5437</th>
-				                  	<th>1243</th>
-				                  	<th>5437</th>
-				                  	<th>1243</th>
-				                  	<th>5437</th>
-		                		</tr>
-		                		<tr>
-									<th>2</th>
-		                			<th>设计艺术学院</th>
-				                  	<th>1243</th>
-				                  	<th>5437</th>
-				                  	<th>1243</th>
-				                  	<th>5437</th>
-				                  	<th>1243</th>
-				                  	<th>5437</th>
-		                		</tr>
-		                		<tr>
-									<th>3</th>
-				                  	<th>设计艺术学院</th>
-				                  	<th>1243</th>
-				                  	<th>5437</th>
-				                  	<th>1243</th>
-				                  	<th>5437</th>
-				                  	<th>1243</th>
-				                  	<th>5437</th>
-		                		</tr>
-		                		<tr>
-									<th>4</th>
-				                  	<th>设计艺术学院</th>
-				                  	<th>1243</th>
-				                  	<th>5437</th>
-				                  	<th>1243</th>
-				                  	<th>5437</th>
-				                  	<th>1243</th>
-				                  	<th>5437</th>
-		                		</tr>
-		                		<tr>
-									<th>5</th>
-				                  	<th>设计艺术学院</th>
-				                  	<th>1243</th>
-				                  	<th>5437</th>
-				                  	<th>1243</th>
-				                  	<th>5437</th>
-				                  	<th>1243</th>
-				                  	<th>5437</th>
-		                		</tr>
 
-		                	</tbody>
-	              		</table>
-	            	</div>
-	    		</div>
-	    	</div>
-	    </div>
-	    <!-- 科研产出变化趋势 -->
-	 <!--    <div class="row">
-	      	<div class="col-md-4">
-	    		<div class="box box-success">
-	    			<div class="box-header with-border">
-	         			<h3 class="box-title">科研经费排名</h3>
-	          			<div class="box-tools pull-right">
-	           				<button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>
-	            			<button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
-	         			</div>
-	        		</div>
-	            	<div class="box-body">
-	            		<div class="row">
-	                  		<div class="chart">
-		                    	<div id="TeaCharts1"  :style="{height:'300px'}"></div>
-	                  		</div>
-	            		</div>
-	            	</div>
-	    		</div>
-	    	</div>
-	        <div class="col-md-8">
-	          <div class="box box-success">
-	            <div class="box-header with-border">
-	                  <h3 class="box-title">科研产出变化趋势</h3>
-	                    <div class="box-tools pull-right">
-	                      <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>
-	                      <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
-	                  </div>
-	                </div>
-	                <div class="box-body">
-	                  <div class="row">
-	                        <div class="chart">
-	                          <div id="TeaCharts2"  :style="{height:'300px'}"></div>
-	                        </div>
-	                  </div>
-	                </div>
-	          </div>
-	        </div>
-	    </div> -->
-      	
-		
-		
-		
+	    
     </section>
     <!-- /.content -->
 	</div>
@@ -618,8 +467,8 @@
 			
 		},
 		mounted(){
-			// this.drawTeaCharts1();
-		    // this.drawTeaCharts2();
+			this.drawTeaCharts1();
+		    this.drawTeaCharts2();
 		    this.drawTeaCharts3();
 		},
 		methods:{
