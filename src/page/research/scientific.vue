@@ -328,7 +328,7 @@
                 // msg:"123"
                 teacherID:'123',
                 selectCollege:"",
-                colleges:["校本部","第二校区"]
+                colleges:["校本部","安吉校区"]
             }
         },
         mounted(){

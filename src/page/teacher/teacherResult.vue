@@ -455,7 +455,7 @@
 		data(){
 			return {
 				selectCollege:"",
-                colleges:["校本部","第二校区"],
+                colleges:["校本部","安吉校区"],
                 selectUnit :"",
                 units:["单位1","单位2"],
                 selectTeacher:"",

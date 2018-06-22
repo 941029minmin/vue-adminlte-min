@@ -1,8 +1,8 @@
 <template>
     <header class="main-header">
       <a href="#" class="logo">
-        <span class="logo-mini">大数据</span>
-        <span class="logo-lg">校园大数据</span>
+        <span class="logo-mini">数据分析系统</span>
+        <span class="logo-lg">校园数据分析系统</span>
       </a>
       <nav class="navbar navbar-static-top" role="navigation">
         <a href="javascript:" class="sidebar-toggle" data-toggle="offcanvas" role="button">
