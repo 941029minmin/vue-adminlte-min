@@ -4,7 +4,18 @@ import store from '@/store'
 const service = axios.create({
   baseURL: ' https://easy-mock.com/mock/5b14daa717d97b289c30cd93/example/smart/',
    // baseURL: '/smart/',
-  timeout: 15000 // 请求超时时间
+  timeout: 15000 ,// 请求超时时间
+  headers: {
+    'Content-Type': 'application/x-www-form-urlencoded'
+  },
+  transformRequest: [function (data) {
+    // Do whatever you want to transform the data
+    let ret = ''
+    for (let it in data) {
+      ret += encodeURIComponent(it) + '=' + encodeURIComponent(data[it]) + '&'
+    }
+    return ret
+  }],
 })
 
 service.interceptors.response.use(

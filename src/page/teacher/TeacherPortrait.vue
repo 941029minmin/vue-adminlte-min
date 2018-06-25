@@ -416,7 +416,7 @@
           $(':input').labelauty();
           this.drawTeaCharts1();
           this.drawTeaCharts2();
-          this.drawTeaCharts3();
+          this.drawTeaCharts3();      
           this.drawTeaCharts4();
           this.drawTeaCharts5();
           this.drawTeaCharts6();

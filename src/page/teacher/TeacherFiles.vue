@@ -445,13 +445,15 @@
 
 <script>
 	import teaCascade from "../../components/teaCascade.vue"
+
 	import { getTest } from "../../api/index";
+
 	var echarts = require('echarts');
 	export default { 
 		data(){
 			return {
 				ajaxData:{
-					teacherID:""
+					teacherID:"23"
 				}
 			}
 		},
@@ -509,6 +511,7 @@
 		},
 		created() {
 			this.ajaxData.teacherID = this.$route.params.teacherID;
+			
 			// this.btnSubmit()
 			getTest('teacher/getTeacherKQ',this.ajaxData).then(response => {
 				if(response.data.success){

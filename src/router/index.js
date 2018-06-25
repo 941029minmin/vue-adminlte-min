@@ -22,10 +22,10 @@ export default new Router({
 		path: '/research/recommend', 
 		component: resolve => require(['@/page/research/recommend'], resolve)
 	},
-	{
-		path: '/research/scientific2', 
-		component: resolve => require(['@/page/research/scientific2'], resolve)
-	},
+	// {
+	// 	path: '/research/scientific2', 
+	// 	component: resolve => require(['@/page/research/scientific2'], resolve)
+	// },
 	/**
 	 * 教师
 	 */
