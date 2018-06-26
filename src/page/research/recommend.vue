@@ -332,28 +332,28 @@
 					        <CarouselItem>
 					            <div class="demo-carousel">
 					            	<div class="col-md-3">
-					            		<img class="profile-user-img img-responsive img-circle" src="../../assets/img/user6-128x128.jpg" alt="User profile picture">
+					            		<img class="profile-user-img img-responsive img-circle" src="../../assets/img/女.jpg" alt="User profile picture">
 					              		<h3 class="profile-username text-center">何骊</h3>
 					              		<p class="text-muted text-center">计算机科学与技术</p>
 					              		<p class="text-muted text-center">人工智能</p>
 					              		<p class="text-muted text-center">科研贡献度：<a style="fontSize:20px;">92</a></p>
 					            	</div>
 					            	<div class="col-md-3">
-					            		<img class="profile-user-img img-responsive img-circle" src="../../assets/img/user2-160x160.jpg" alt="User profile picture">
+					            		<img class="profile-user-img img-responsive img-circle" src="../../assets/img/女.jpg" alt="User profile picture">
 					              		<h3 class="profile-username text-center">何骊</h3>
 					              		<p class="text-muted text-center">计算机科学与技术</p>
 					              		<p class="text-muted text-center">人工智能</p>
 					              		<p class="text-muted text-center">科研贡献度：<a style="fontSize:20px;">92</a></p>
 					            	</div>
 					            	<div class="col-md-3">
-					            		<img class="profile-user-img img-responsive img-circle" src="../../assets/img/user8-128x128.jpg" alt="User profile picture">
+					            		<img class="profile-user-img img-responsive img-circle" src="../../assets/img/女.jpg" alt="User profile picture">
 					              		<h3 class="profile-username text-center">何骊</h3>
 					              		<p class="text-muted text-center">计算机科学与技术</p>
 					              		<p class="text-muted text-center">人工智能</p>
 					              		<p class="text-muted text-center">科研贡献度：<a style="fontSize:20px;">92</a></p>
 					            	</div>
 					            	<div class="col-md-3">
-					            		<img class="profile-user-img img-responsive img-circle" src="../../assets/img/user4-128x128.jpg" alt="User profile picture">
+					            		<img class="profile-user-img img-responsive img-circle" src="../../assets/img/女.jpg" alt="User profile picture">
 					              		<h3 class="profile-username text-center">何骊</h3>
 					              		<p class="text-muted text-center">计算机科学与技术</p>
 					              		<p class="text-muted text-center">人工智能</p>
@@ -364,28 +364,28 @@
 					        <CarouselItem>
 					            <div class="demo-carousel">
 					            	<div class="col-md-3">
-					            		<img class="profile-user-img img-responsive img-circle" src="../../assets/img/user5-128x128.jpg" alt="User profile picture">
+					            		<img class="profile-user-img img-responsive img-circle" src="../../assets/img/男.jpg" alt="User profile picture">
 					              		<h3 class="profile-username text-center">李华</h3>
 					              		<p class="text-muted text-center">计算机科学与技术</p>
 					              		<p class="text-muted text-center">人工智能</p>
 					              		<p class="text-muted text-center">科研贡献度：<a style="fontSize:20px;">92</a></p>
 					            	</div>
 					            	<div class="col-md-3">
-					            		<img class="profile-user-img img-responsive img-circle" src="../../assets/img/user3-128x128.jpg" alt="User profile picture">
+					            		<img class="profile-user-img img-responsive img-circle" src="../../assets/img/男.jpg" alt="User profile picture">
 					              		<h3 class="profile-username text-center">李华</h3>
 					              		<p class="text-muted text-center">计算机科学与技术</p>
 					              		<p class="text-muted text-center">人工智能</p>
 					              		<p class="text-muted text-center">科研贡献度：<a style="fontSize:20px;">92</a></p>
 					            	</div>
 					            	<div class="col-md-3">
-					            		<img class="profile-user-img img-responsive img-circle" src="../../assets/img/user7-128x128.jpg" alt="User profile picture">
+					            		<img class="profile-user-img img-responsive img-circle" src="../../assets/img/男.jpg" alt="User profile picture">
 					              		<h3 class="profile-username text-center">李华</h3>
 					              		<p class="text-muted text-center">计算机科学与技术</p>
 					              		<p class="text-muted text-center">人工智能</p>
 					              		<p class="text-muted text-center">科研贡献度：<a style="fontSize:20px;">92</a></p>
 					            	</div>
 					            	<div class="col-md-3">
-					            		<img class="profile-user-img img-responsive img-circle" src="../../assets/img/user1-128x128.jpg" alt="User profile picture">
+					            		<img class="profile-user-img img-responsive img-circle" src="../../assets/img/男.jpg" alt="User profile picture">
 					              		<h3 class="profile-username text-center">李华</h3>
 					              		<p class="text-muted text-center">计算机科学与技术</p>
 					              		<p class="text-muted text-center">人工智能</p>
@@ -708,17 +708,24 @@
 				    tooltip: {},
 				    series: [{
 				        type: 'wordCloud',
-				        gridSize: 20,
+				        // size: ['9%', '99%'],
 				        sizeRange: [12, 50],
+				        //textRotation: [0, 45, 90, -45],
 				        rotationRange: [-90, 90],
-				        shape: 'circle',
+				        // shape: 'circle',
+				        // maskImage: maskImage,
+				        textPadding: 0,
+				        autoSize: {
+				            enable: true,
+				            minSize: 6
+				        },
 				        textStyle: {
 				            normal: {
 				                color: function() {
 				                    return 'rgb(' + [
-				                        Math.round(Math.random() * 160),
-				                        Math.round(Math.random() * 160),
-				                        Math.round(Math.random() * 160)
+				                        Math.round(Math.random() * 255),
+				                        Math.round(Math.random() * 255),
+				                        Math.round(Math.random() * 255)
 				                    ].join(',') + ')';
 				                }
 				            },
@@ -727,75 +734,104 @@
 				                shadowColor: '#333'
 				            }
 				        },
-				        data: [{
-				            name: '张薇',
-				            value: 10000,
-				            textStyle: {
-				                normal: {
-				                    color: 'black'
-				                },
-				                emphasis: {
-				                    color: 'red'
-				                }
-				            }
-				        }, {
-				            name: '空间',
-				            value: 6181
-				        }, {
-				            name: '微博',
-				            value: 4386
-				        }, {
-				            name: '指导',
-				            value: 4055
-				        }, {
-				            name: '小明',
-				            value: 2467
-				        }, {
-				            name: '图书馆',
-				            value: 2244
-				        }, {
-				            name: '项目',
-				            value: 1898
-				        }, {
-				            name: '健康',
-				            value: 1484
-				        }, {
-				            name: '很规范',
-				            value: 1112
-				        }, {
-				            name: '风格化',
-				            value: 965
-				        }, {
-				            name: '过负荷',
-				            value: 847
-				        }, {
-				            name: '雅黑',
-				            value: 582
-				        }, {
-				            name: '数据',
-				            value: 555
-				        }, {
-				            name: '阿斯顿',
-				            value: 550
-				        }, {
-				            name: '发热',
-				            value: 462
-				        }, {
-				            name: '斯蒂芬',
-				            value: 366
-				        }, {
-				            name: '回过头',
-				            value: 360
-				        }, {
-				            name: '电饭锅',
-				            value: 282
-				        }, {
-				            name: '儿童歌',
-				            value: 273
-				        }, {
-				            name: '语句',
-				            value: 265
-				        }]
+				        data: [
+				            {
+				                name: '冷冻电镜',
+				                value: 2200,
+				            }, {
+				                name: '幽灵粒子',
+				                value: 681
+				            }, {
+				                name: '量子技术',
+				                value: 386
+				            }, {
+				                name: '引力波',
+				                value: 455
+				            }, {
+				                name: '共享经济',
+				                value: 267
+				            }, {
+				                name: '大数据',
+				                value: 224
+				            }, {
+				                name: '石墨烯',
+				                value: 898
+				            }, {
+				                name: '基因治疗',
+				                value: 484
+				            }, {
+				                name: '“悟空”暗物质',
+				                value: 1112
+				            }, {
+				                name: 'AI(人工智能)',
+				                value: 965
+				            }, {
+				                name: 'VR',
+				                value: 847
+				            }, {
+				                name: '物联网',
+				                value: 582
+				            }, {
+				                name: '无人驾驶',
+				                value: 555
+				            }, {
+				                name: '智轨列车',
+				                value: 550
+				            }, {
+				                name: '超级高铁',
+				                value: 462
+				            }, {
+				                name: '细胞打印',
+				                value: 366
+				            }, {
+				                name: '量子计算',
+				                value: 360
+				            }, {
+				                name: '核燃料',
+				                value: 282
+				            }, {
+				                name: 'FAST',
+				                value: 273
+				            }, {
+				                name: '无线充电',
+				                value: 265
+				            },{
+				                name: '电磁黑洞',
+				                value: 181
+				            }, {
+				                name: '蓝色经济',
+				                value: 386
+				            }, {
+				                name: 'AR',
+				                value: 455
+				            }, {
+				                name: '脑机接口',
+				                value: 267
+				            }, {
+				                name: '转化医学',
+				                value: 244
+				            }, {
+				                name: '自媒体',
+				                value: 188
+				            }, {
+				                name: '产油微藻',
+				                value: 184
+				            }, {
+				                name: '暗能量',
+				                value: 112
+				            }, {
+				                name: '认知计算',
+				                value: 965
+				            }, {
+				                name: '深度学习',
+				                value: 847
+				            }, {
+				                name: '云计算',
+				                value: 582
+				            }, {
+				                name: '5G',
+				                value: 555
+				            }]
 				    }]
 	            };
 	            myChart2.setOption(option2);

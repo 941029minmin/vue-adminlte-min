@@ -59,7 +59,7 @@
              			</div>
             		</div>
             		<div class="box-body box-profile">
-	              		<img class="profile-user-img img-responsive img-circle" src="../../assets/img/user2-160x160.jpg" alt="User profile picture">
+	              		<img class="profile-user-img img-responsive img-circle" src="../../assets/img/女.jpg" alt="User profile picture">
 	              		<h3 class="profile-username text-center">何骊</h3>
 	              		<p class="text-muted text-center"> </p>
 	            		<ul class="list-group list-group-unbordered">

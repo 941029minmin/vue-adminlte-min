@@ -16,31 +16,9 @@
                 <div class="box-body">
                   <div class="row">
                     <div class="col-md-12">
-                      <div class="teaLable">
-                           <!--  <input type="text" class="form-control" placeholder=".col-xs-3" v-model="name"> -->
-                            <input type="checkbox" name="checkbox" data-labelauty="老当益壮" class="form-control" v-model="name">
+                      <div class="teaLable" v-for="item in biaoqian" >
+                          <input type="checkbox" name="checkbox" :data-labelauty="item" v-model="biaoqianArr" :value="item">
                       </div>
-                      <div class="teaLable">
-                          <input type="checkbox" name="checkbox" data-labelauty="发明家">
-                       </div>
-                       <div class="teaLable">
-                          <input type="checkbox" name="checkbox" data-labelauty="完美主义">
-                       </div>
-                       <div class="teaLable">
-                         <input type="checkbox" name="checkbox" data-labelauty="交际能手">
-                       </div>
-                       <div class="teaLable">
-                          <input type="checkbox" name="checkbox" data-labelauty="硕学通儒">
-                       </div>
-                       <div class="teaLable">
-                          <input type="checkbox" name="checkbox" data-labelauty="雷厉风行">
-                       </div>
-                       <div class="teaLable">
-                          <input type="checkbox" name="checkbox" data-labelauty="发明家">
-                       </div>
-                       <div class="teaLable">
-                          <input type="checkbox" name="checkbox" data-labelauty="青年才俊">
-                       </div>
                      </div>
                   </div>
                 </div>
@@ -48,17 +26,13 @@
                   <div class="row">
                     <!-- <div class="col-xs-8">
                       <div class="input-group">
-                      
                         <input type="text" class="form-control">
                         <div class="input-group-btn">
                           <button type="button" class="btn btn-warning dropdown-toggle">
                             <i class="fa fa-search"></i>&nbsp;标签检索</button>
                         </div>
-                        
                       </div>
                     </div> -->
-                    
-
                     <div class="col-xs-2 pull-right">
                       <div class = "btn btn-primary ">
                         <i class="fa fa-search"></i>&nbsp;标签检索
@@ -81,7 +55,6 @@
                 <div class="icon">
                     <i class="ion ion-bag"></i>
                 </div>
-                <!-- <a href="#" class="small-box-footer">更多 <i class="fa fa-arrow-circle-right"></i></a> -->
             </div>
           </div>
           <!-- ./col -->
@@ -95,7 +68,6 @@
                 <div class="icon">
                   <i class="ion ion-stats-bars"></i>
                 </div>
-                <!-- <a href="#" class="small-box-footer">更多 <i class="fa fa-arrow-circle-right"></i></a> -->
               </div>
           </div>
           <!-- ./col -->
@@ -110,13 +82,10 @@
                 <div class="icon">
                     <i class="ion ion-person-add"></i>
                 </div>
-                <!--  <a href="#" class="small-box-footer">更多 <i class="fa fa-arrow-circle-right"></i></a> -->
               </div>
           </div>
           <!-- ./col -->
-          
-      </div> 
-
+      </div>
       <!-- 教职工分布 -->
       <div class="row">
         <div class="col-md-12">
@@ -140,10 +109,6 @@
           </div>
         </div>
       </div>
-
-
-
-
       <!-- 科研分布 -->
       <div class="row">
         <div class="col-md-6">
@@ -187,7 +152,6 @@
           </div>
         </div>
       </div>
-
        <!-- 学历分布 -->
       <div class="row">
         <div class="col-md-6">
@@ -231,8 +195,6 @@
           </div>
         </div>
       </div>
-
-
       <!-- 年龄分布 -->
       <div class="row">
         <div class="col-md-12">
@@ -256,7 +218,6 @@
           </div>
         </div>
       </div>
-
       <!-- 学历分布 -->
       <div class="row">
         <div class="col-md-6">
@@ -300,8 +261,6 @@
           </div>
         </div>
       </div>
-
-
       <!-- 教学质量分析 -->
       <div class="row">
         <div class="col-md-12">
@@ -406,7 +365,9 @@
         data (){
             return {
                 // msg:"123"
-                name:""
+                name:"",
+                biaoqian: ['老当益壮', '发明家','青年才俊','雷厉风行','硕学通儒','交际能手','完美主义'],
+                biaoqianArr:[]
             }
         },
         created(){
