@@ -1,26 +1,27 @@
 <template>
 	<div class="">
-		<div class="col-xs-3">
+		<div class="col-lg-3 col-xs-6">
 	   		<select id="prov" v-on:change="getProv()" v-model="selectProv" class="form-control">
 		      <option value="">选择校区</option>
 		      <option v-for="(item,province) in district" :key="province"
 		            :value="province">{{item.name}}</option>
 		    </select>
    		</div>
-   		<div class="col-xs-3">
+   		<div class="col-lg-3 col-xs-6">
 	   		<select id="city" v-on:change="getCity()" v-model="selectCity" class="form-control">
 		      <option value="" >选择单位</option>
 		      <option v-if="selectProv!=''" v-for="(item, city) in citys" :key="city" :value="city">{{item.name}}</option>
 		    </select>
    		</div>
-   		<div class="col-xs-3">
+   		<div class="col-lg-3 col-xs-6">
 	   		 <select id="area" class="form-control" v-model="selectTeacher">
 		      <option value="">选择教师</option>
 		      <option v-if="selectCity!=''" v-for="(item,index) in area" :key="index">{{item}}</option>
 		    </select>
    		</div> 
-   		<div class="col-xs-3 pull-right">
-      	    <input id = "listSearch" type="button" value="submit" class = "btn btn-primary" @click="getSearch()">
+   		<div class="col-lg-3 col-xs-6 pull-right">
+   			<Button type="primary" icon="ios-search" @click="getSearch()">搜索</Button>
+      	    <!-- <input id = "listSearch" type="button" value="submit" class = "btn btn-primary" @click="getSearch()"> -->
     	</div>
   </div>
 

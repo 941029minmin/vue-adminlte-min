@@ -25,18 +25,17 @@
 	                <!-- /.box-header -->
 	                <div class="box-body">
 	                    <div class="row">
-	                    	<div class="col-xs-3">
+	                    	<div class="col-lg-3 col-xs-6">
 		                        <Select v-model="selectCollege" placeholder="请选择校区">
 							        <Option v-for="item in colleges" :value="item" :key="item">{{ item}}</Option>
 							    </Select>
 					   		</div>
-					   		<div class="col-xs-3">
+					   		<div class="col-lg-3 col-xs-6">
 		                        <Select v-model="selectUnit" placeholder="请选择单位">
-
 							        <Option v-for="item in units" :value="item" :key="item">{{ item}}</Option>
 							    </Select>
 					   		</div>
-					   		<div class="col-xs-3">
+					   		<div class="col-lg-3 col-xs-6">
 		                        <Select v-model="selectTeacher" placeholder="请选择教师">
 							        <Option v-for="item in teachers" :value="item" :key="item">{{ item}}</Option>
 							    </Select>

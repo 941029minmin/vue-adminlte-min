@@ -33,11 +33,11 @@
 	              		<div class="chart tab-pane" id="sales-chart" style="position: relative;">
 	              			<div class="box-body">
 		            	   		<div class="row">
-			               			<div class="col-xs-4">
+			               			<div class="col-xs-8 col-lg-4">
 			                	    	<!-- <input type="text" class="form-control" placeholder="请输入教师名字/教职工号"> -->
 			                	    	<Input  placeholder="请输入教师名字/教职工号" style="width: 90%"></Input>
 			               			</div>
-				                	<div class="col-xs-8 pull-right">
+				                	<div class="col-xs-4 col-lg-8 pull-right">
 							      	    <Button type="primary" icon="ios-search">搜索</Button>
 							    	</div>
 		                    	</div>
