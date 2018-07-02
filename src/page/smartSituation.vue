@@ -345,7 +345,6 @@
 				                  	<th>文化创意学院</th>
 				                  	<th>5.1</th>
 		                		</tr>
-
 		                	</tbody>
 	              		</table>
 	            	</div>

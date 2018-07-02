@@ -499,7 +499,7 @@
 				myChart1.setOption(option1);
 			},
 			searchEvent(data1,data2,data3){
-				console.log(data1+','+data2+','+data3);
+				// console.log(data1+','+data2+','+data3);
 				// this.btnSubmit();
 				// this.drawMyTchart1(); 
 				// this.btnSubmit()
