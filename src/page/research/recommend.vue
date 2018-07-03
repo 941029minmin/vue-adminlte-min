@@ -534,6 +534,7 @@
 				pageNum: 1,  
 				pageSize: 5,
 				value2: 0,
+				// 轮播
 				setting: {
                     autoplay: true,
                     autoplaySpeed: 3000,
@@ -542,6 +543,7 @@
                     trigger: 'hover',
                     arrow: 'hover'
                 },
+				// 列表
 				columns1: [
                     {
                         title: '序号',

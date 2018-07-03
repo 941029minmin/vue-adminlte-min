@@ -34,7 +34,7 @@
                       </div>
                     </div> -->
                     <div class="col-xs-2 pull-right">
-                      <div class = "btn btn-primary ">
+                      <div class = "btn btn-primary " @click="getSearch()">
                         <i class="fa fa-search"></i>&nbsp;标签检索
                       </div>
                     </div>
@@ -296,60 +296,8 @@
                 </div>
                 <!-- /.box-header -->
                 <div class="box-body">
-                  <table id="example2" class="table table-bordered table-hover">
-                    <thead>
-                    <tr>
-                      <th>教师业绩</th>
-                      <th>本单位排名</th>
-                      <th>全校排名</th>
-                      <th>任职单位</th>
-                      <th>单位编号</th>
-                      <th>姓名</th>
-                      <th>工号</th>
-                      <th>来校日期</th>
-                      <th>最高学历</th>
-                      <th>编制类型</th>
-                      <th>联系方式</th>
-                    </tr>
-                    </thead>
-                    <tbody>
-                    <tr>
-                      <td>89.5</td>
-                      <td>5</td>
-                      <td>15</td>
-                      <td>马克思主义学院（社会科学部）</td>
-                      <td>1150000</td>
-                      <td>张薇</td>
-                      <td>20080759</td>
-                      <td>2011/7/1</td>
-                      <td>硕士研究生</td>
-                      <td>在编在岗</td>
-                      <td>13890758975</td>
-                    </tr>
-                    <tr>
-                      <td>89.5</td>
-                      <td>5</td>
-                      <td>15</td>
-                      <td>马克思主义学院（社会科学部）</td>
-                      <td>1150000</td>
-                      <td>张薇</td>
-                      <td>20080759</td>
-                      <td>2011/7/1</td>
-                      <td>硕士研究生</td>
-                      <td>在编在岗</td>
-                      <td>13890758975</td>
-                    </tr>
-                    </tbody>
-                    <!-- <tfoot>
-                    <tr>
-                      <th>Rendering engine</th>
-                      <th>Browser</th>
-                      <th>Platform(s)</th>
-                      <th>Engine version</th>
-                      <th>CSS grade</th>
-                    </tr>
-                    </tfoot> -->
-                  </table>
+                    <Table stripe :columns="columns1" :data="data1"></Table>
+
                 </div>
           </div>
         </div>
@@ -366,7 +314,77 @@
                 // msg:"123"
                 name:"",
                 biaoqian: ['老当益壮', '发明家','青年才俊','雷厉风行','硕学通儒','交际能手','完美主义'],
-                biaoqianArr:[]
+                biaoqianArr:[],
+                // 列表
+                columns1: [
+                    {
+                        title: '教师业绩',
+                        width: 100,
+                        key: 'jsyj',
+                        "sortable": true
+                    },
+                    {
+                        title: '本单位排名',
+                        width: 80,
+                        key: 'bdwpm'
+                    },
+                    {
+                        title: '全校排名',
+                        width: 90,
+                        key: 'qxpm'
+                    },
+                    {
+                        title: '任职单位',
+                        width: 125,
+                        key: 'rzdw'
+                    },
+                    {
+                        title: '单位编号',
+                        key: 'dwbh'
+                    },
+                    {
+                        title: '姓名',
+                        key: 'xm'
+                    },
+                    {
+                        title: '工号',
+                        width: 80,
+                        key: 'gh'
+                    },
+                    {
+                        title: '来校日期',
+                        width: 100,
+                        key: 'lxrq'
+                    },
+                    {
+                        title: '最高学历',
+                        width: 100,
+                        key: 'zgxl'
+                    },
+                    {
+                        title: '编制类型',
+                        key: 'bzlx'
+                    },
+                    {
+                        title: '联系方式',
+                        width: 120,
+                        key: 'lxfs'
+                    }
+                ],
+                datas: [
+                    {"jsyj":"89","bdwpm":"12","qxpm":"36","rzdw":"马克思主义学院","xm":"王力","gh":"69873","lxrq":"2011/7/1","zgxl":"硕士研究生","bzlx":"在编在岗","lxfs":"13790758971","dwbh":45627},
+                    {"jsyj":"90","bdwpm":"11","qxpm":"35","rzdw":"动画学院","xm":"范弥","gh":"85123","lxrq":"2012/7/1","zgxl":"硕士研究生","bzlx":"在编在岗","lxfs":"13890758975","dwbh":22627},
+                    {"jsyj":"95","bdwpm":"8","qxpm":"18","rzdw":"文学院","xm":"张凯","gh":"76921","lxrq":"2011/2/5","zgxl":"博士研究生","bzlx":"在编在岗","lxfs":"13290758977","dwbh":55627},
+                    {"jsyj":"85","bdwpm":"15","qxpm":"38","rzdw":"理学院","xm":"陆峰","gh":"258369","lxrq":"2003/4/25","zgxl":"硕士研究生","bzlx":"在编在岗","lxfs":"15890758975","dwbh":35627},
+                    {"jsyj":"80","bdwpm":"20","qxpm":"40","rzdw":"创意学院","xm":"李承","gh":"951357","lxrq":"2007/4/2","zgxl":"硕士研究生","bzlx":"在编在岗","lxfs":"15990758975","dwbh":25627},
+                    {"jsyj":"96","bdwpm":"7","qxpm":"11","rzdw":"电子学院","xm":"李华","gh":"453691","lxrq":"2011/3/6","zgxl":"硕士研究生","bzlx":"在编在岗","lxfs":"13890758971","dwbh":15627},
+                    {"jsyj":"92","bdwpm":"9","qxpm":"15","rzdw":"机械学院","xm":"袁志","gh":"145987","lxrq":"2001/4/14","zgxl":"博士研究生","bzlx":"在编在岗","lxfs":"15890758975","dwbh":65627},
+                    {"jsyj":"97","bdwpm":"5","qxpm":"8","rzdw":"计算机学院","xm":"张超超","gh":"347758","lxrq":"2011/8/17","zgxl":"硕士研究生","bzlx":"在编在岗","lxfs":"13890758974","dwbh":75627},
+                    {"jsyj":"99","bdwpm":"2","qxpm":"2","rzdw":"管理学院","xm":"吴明","gh":"697821","lxrq":"2006/1/7","zgxl":"博士研究生","bzlx":"在编在岗","lxfs":"13890758965","dwbh":85627},
+                    {"jsyj":"88","bdwpm":"13","qxpm":"37","rzdw":"外语学院","xm":"李治","gh":"1024684","lxrq":"2004/4/7","zgxl":"硕士研究生","bzlx":"在编在岗","lxfs":"15890758927","dwbh":95627},
+                    {"jsyj":"82","bdwpm":"17","qxpm":"43","rzdw":"文学院","xm":"赵丽欢","gh":"4076185","lxrq":"2003/7/13","zgxl":"硕士研究生","bzlx":"在编在岗","lxfs":"13890738925","dwbh":88627}
+                ],
+                data1: []
             }
         },
         created(){
@@ -374,6 +392,7 @@
         },
         mounted(){
           $(':input').labelauty();
+          this.data1=this.datas;
           this.drawTeaCharts1();
           this.drawTeaCharts2();
           this.drawTeaCharts3();      
@@ -385,7 +404,15 @@
           this.drawTeaCharts9();
         },
         methods:{
-          drawTeaCharts1(){
+            getSearch(){
+                this.data1=[];
+                var t=Math.floor(Math.random()*6+1);
+                for(var i=0;i< t;i++){
+                    var tt=Math.floor(Math.random()*10+1);
+                    this.data1.push(this.datas[tt])
+                }
+            },
+            drawTeaCharts1(){
             var myChart1 = echarts.init(document.getElementById('TeaCharts1'));
             var option1 = {
                 color: ['#3398DB','#675bba'],
@@ -425,7 +452,7 @@
                         // color:"#dfdfdf",
                       },
                       axisLabel:{
-                        
+
                       },
                       splitLine: {
                         lineStyle: {
@@ -438,7 +465,7 @@
                 series : [
                     {
                         name:'教师人数',
-                        type:'bar', 
+                        type:'bar',
                         barWidth: '20',
                         data:[10, 52, 100, 60, 50,58,69,35,96,100],
                         itemStyle: {
@@ -450,7 +477,7 @@
                                         {offset: 1, color: '#8417bd'}
                                     ]
                                 ),
-                                
+
                             }
                         },
                     }
@@ -458,7 +485,7 @@
             };
             myChart1.setOption(option1);
           },
-          drawTeaCharts2(){
+            drawTeaCharts2(){
             var myChart2 = echarts.init(document.getElementById('TeaCharts2'));
             var option2 = {
                 grid: {
@@ -481,19 +508,19 @@
                         alignWithLabel: true
                     },
                     axisLabel:{
-                    interval: 0,          
+                    interval: 0,
                 },
                     data: ['在编在岗','校聘人员','外籍教师','院聘人员'],
                 }],
                 yAxis: [{
-                     
+
                 }, {
                     type: 'value',
                     min: 0,
                     name: '人数',
                     position: 'left',
                     axisLabel:{
-                    interval: 0,          
+                    interval: 0,
                 },
                 splitLine: {
                     lineStyle: {
@@ -550,7 +577,7 @@
             };
             myChart2.setOption(option2);
           },
-          drawTeaCharts3(){
+            drawTeaCharts3(){
             var myChart3 = echarts.init(document.getElementById('TeaCharts3'));
             var option3 = {
                 tooltip : {
@@ -618,7 +645,7 @@
             };
             myChart3.setOption(option3);
           },
-          drawTeaCharts4(){
+            drawTeaCharts4(){
             var myChart4 = echarts.init(document.getElementById('TeaCharts4'));
             var option4 = {
                 tooltip : {
@@ -628,7 +655,7 @@
                 legend: {
                   // orient: 'vertical',
                   data:['硕士研究生','博士研究生','本科','专科','高中及以下','其他'],
-                      
+
                       height:"50",
                       top:"190"
                 },
@@ -716,7 +743,7 @@
             };
             myChart4.setOption(option4);
           },
-          drawTeaCharts5(){
+            drawTeaCharts5(){
             var myChart5 = echarts.init(document.getElementById('TeaCharts5'));
             var option5 = {
                 tooltip : {
@@ -724,7 +751,7 @@
                   formatter: "{a} <br/>{b} : {c} ({d}%)"
                 },
                 legend: {
-                  data:['高级教师','一级教师','二级教师','三级教师'],                      
+                  data:['高级教师','一级教师','二级教师','三级教师'],
                   height:"50",
                   top:"190"
                 },
@@ -794,7 +821,7 @@
             };
             myChart5.setOption(option5);
           },
-          drawTeaCharts6(){
+            drawTeaCharts6(){
             var myChart6 = echarts.init(document.getElementById('TeaCharts6'));
             var dataColor = ["#2ec7c9", "#b6a2de", "#5ab1ef", "#ffb980", "#d87a80", "#d87a80", "#f2ebbf", "#8cbeb2", "#f3b562", "#f06060", '#5ab1ef']
             var dataName = ['初级','中级','未定级','其他','副高','正高','员级','见习','普通工','高级工','技师']
@@ -804,8 +831,8 @@
                 axisPointer: {
                   type: 'cross',
                 },
-                position:function(p){ //其中p为当前鼠标的位置 
-                  return [p[0] + 10, p[1] - 80]; 
+                position:function(p){ //其中p为当前鼠标的位置
+                  return [p[0] + 10, p[1] - 80];
                 }
 
               },
@@ -813,7 +840,7 @@
                 top:30,
                 bottom: 80
               },
-              legend: { 
+              legend: {
                 data: dataName,
                 textStyle: {
                   fontSize: 14
@@ -830,7 +857,7 @@
                   }
                 }
               }],
-              yAxis: [{ 
+              yAxis: [{
                   type: 'value',
                   nameLocation: 'end',
                   nameTextStyle: {
@@ -967,7 +994,7 @@
             };
             myChart6.setOption(option6);
           },
-          drawTeaCharts7(){
+            drawTeaCharts7(){
             var myChart7 = echarts.init(document.getElementById('TeaCharts7'));
             var option7 = {
               color: ['#f06060','#f3b562'],
@@ -997,7 +1024,7 @@
                     data : ['小于10','10-20','20-30','30-40','大于40'],
                     axisLabel:{
                       interval: 0,
-                    
+
                     }
                   }
               ],
@@ -1029,7 +1056,7 @@
             };
             myChart7.setOption(option7);
           },
-          drawTeaCharts8(){
+            drawTeaCharts8(){
             var myChart8 = echarts.init(document.getElementById('TeaCharts8'));
             var option8 = {
                 tooltip : {
@@ -1094,7 +1121,7 @@
                         }
                       },
                       name:'4门课'
-                            
+
                             }
                         ],
                         itemStyle: {
@@ -1109,7 +1136,7 @@
             };
             myChart8.setOption(option8);
           },
-          drawTeaCharts9(){
+            drawTeaCharts9(){
             var myChart9 = echarts.init(document.getElementById('TeaCharts9'));
             var option9 = {
                 color: ['#3398DB','#675bba'],
@@ -1149,7 +1176,7 @@
                         // color:"#dfdfdf",
                       },
                       axisLabel:{
-                        
+
                       },
                       splitLine: {
                         lineStyle: {
@@ -1162,7 +1189,7 @@
                 series : [
                     {
                         name:'任课时长',
-                        type:'bar', 
+                        type:'bar',
                         barWidth: '20',
                         data:[10, 52, 100, 60, 50,58,69,35,96,100],
                         itemStyle: {
@@ -1174,7 +1201,7 @@
                                         {offset: 1, color: '#24459e'}
                                     ]
                                 ),
-                                
+
                             }
                         },
                     }
