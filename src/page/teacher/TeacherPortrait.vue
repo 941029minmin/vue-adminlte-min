@@ -19,7 +19,7 @@
                       <div class="teaLable" v-for="item in biaoqian" >
                           <input type="checkbox" name="checkbox" :data-labelauty="item" v-model="biaoqianArr" :value="item">
                       </div>
-                     </div>
+                    </div>
                   </div>
                 </div>
                 <div class="box-footer text-black">
@@ -404,15 +404,15 @@
           this.drawTeaCharts9();
         },
         methods:{
-            getSearch(){
+          getSearch(){
                 this.data1=[];
                 var t=Math.floor(Math.random()*6+1);
                 for(var i=0;i< t;i++){
                     var tt=Math.floor(Math.random()*10+1);
                     this.data1.push(this.datas[tt])
                 }
-            },
-            drawTeaCharts1(){
+          },
+          drawTeaCharts1(){
             var myChart1 = echarts.init(document.getElementById('TeaCharts1'));
             var option1 = {
                 color: ['#3398DB','#675bba'],
@@ -485,7 +485,8 @@
             };
             myChart1.setOption(option1);
           },
-            drawTeaCharts2(){
+
+          drawTeaCharts2(){
             var myChart2 = echarts.init(document.getElementById('TeaCharts2'));
             var option2 = {
                 grid: {
@@ -577,7 +578,7 @@
             };
             myChart2.setOption(option2);
           },
-            drawTeaCharts3(){
+          drawTeaCharts3(){
             var myChart3 = echarts.init(document.getElementById('TeaCharts3'));
             var option3 = {
                 tooltip : {
@@ -645,7 +646,7 @@
             };
             myChart3.setOption(option3);
           },
-            drawTeaCharts4(){
+          drawTeaCharts4(){
             var myChart4 = echarts.init(document.getElementById('TeaCharts4'));
             var option4 = {
                 tooltip : {
@@ -743,7 +744,7 @@
             };
             myChart4.setOption(option4);
           },
-            drawTeaCharts5(){
+          drawTeaCharts5(){
             var myChart5 = echarts.init(document.getElementById('TeaCharts5'));
             var option5 = {
                 tooltip : {
@@ -821,7 +822,7 @@
             };
             myChart5.setOption(option5);
           },
-            drawTeaCharts6(){
+          drawTeaCharts6(){
             var myChart6 = echarts.init(document.getElementById('TeaCharts6'));
             var dataColor = ["#2ec7c9", "#b6a2de", "#5ab1ef", "#ffb980", "#d87a80", "#d87a80", "#f2ebbf", "#8cbeb2", "#f3b562", "#f06060", '#5ab1ef']
             var dataName = ['初级','中级','未定级','其他','副高','正高','员级','见习','普通工','高级工','技师']
@@ -994,7 +995,7 @@
             };
             myChart6.setOption(option6);
           },
-            drawTeaCharts7(){
+          drawTeaCharts7(){
             var myChart7 = echarts.init(document.getElementById('TeaCharts7'));
             var option7 = {
               color: ['#f06060','#f3b562'],
@@ -1056,7 +1057,7 @@
             };
             myChart7.setOption(option7);
           },
-            drawTeaCharts8(){
+          drawTeaCharts8(){
             var myChart8 = echarts.init(document.getElementById('TeaCharts8'));
             var option8 = {
                 tooltip : {
@@ -1136,7 +1137,7 @@
             };
             myChart8.setOption(option8);
           },
-            drawTeaCharts9(){
+          drawTeaCharts9(){
             var myChart9 = echarts.init(document.getElementById('TeaCharts9'));
             var option9 = {
                 color: ['#3398DB','#675bba'],

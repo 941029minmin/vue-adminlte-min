@@ -1,4 +1,4 @@
-<template>
+ <template>
 	<div class="">
 		<!-- Content Header (Page header) -->
     <!-- <section class="content-header">
@@ -10,7 +10,7 @@
       </ol>
     </section> -->
 
-    <!-- Main content -->
+    <!-- Main content --> 
     <section class="content">
     	<div class="row">
     		<div class="col-md-12">
@@ -349,7 +349,6 @@
 			                  		<th>第十二周</th>
 				                  	<th>教学楼一层102C</th>
 		                		</tr>
-
 		                	</tbody>
 	              		</table>
 	            	</div>
@@ -413,7 +412,6 @@
 							                  	<th>迟到</th>
 						                  		<th>09:07</th>
 					                		</tr>
-
 					                	</tbody>
 				              		</table>
 				            	</div>
@@ -445,9 +443,7 @@
 
 <script>
 	import teaCascade from "../../components/teaCascade.vue"
-
 	import { getTest } from "../../api/index";
-
 	var echarts = require('echarts');
 	export default { 
 		data(){

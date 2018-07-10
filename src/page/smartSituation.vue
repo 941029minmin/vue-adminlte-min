@@ -1807,7 +1807,7 @@
 							data: ArrData[22]
 						},
 						{
-							name: '日人均消费',
+							name: '购书总投入',
 							type: 'line',
 							cursor:'default',
 							yAxisIndex: 1,
