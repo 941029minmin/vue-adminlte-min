@@ -531,12 +531,12 @@
 				teacherID:'123',
 				loading: false,
 				pageTotal: 100,  
-				pageNum: 1,  
+				pageNum: 1,
 				pageSize: 5,
 				value2: 0,
 				// 轮播
 				setting: {
-                    autoplay: true,
+                    autoplay: true, 
                     autoplaySpeed: 3000,
                     dots: 'inside',
                     radiusDot: false,

@@ -119,7 +119,7 @@
 		                			<th>89</th>
 		                			<th>3</th>
 				                  	<th>12</th>
-				                  	<th>李华</th>
+				                  	<th @click="goParam(teacherID+2)"  :class="[teacherID]">张薇</th>
 				                  	<th>20081243</th>
 				                  	<th>马克思主义学院（社会科学部）</th>
 				                  	<th>2011/7/1</th>
@@ -170,7 +170,6 @@
 				                  	<th>硕士研究生</th>
 				                  	<th>13123549757</th>
 		                		</tr>
-
 		                	</tbody>
 	              		</table>
 	            	</div>
@@ -178,7 +177,7 @@
 	    	</div>
 	    </div>
 	   
-	     <!-- 科研影响因子排名 -->
+	     <!-- 教师业绩预测分析 -->
 		<div class="row">
 	    	<div class="col-md-6">
 	    		<div class="box box-success">
@@ -207,16 +206,16 @@
             		</div>
             		<!-- /.box-header -->
 	            	<div class="box-body">
-	            		<i-button class="backbtn" @click="backList()" v-show="yejiList">返回</i-button>
+	            		<i-button class="backbtn" @click="backList()" v-show="yejiLine">返回</i-button>
 	            		<div class="row" v-show="yejiLine">
-	                  		<div class="chart">
-		                    	<div id="TeaCharts3"  :style="{height:'300px'}"></div>
+	                  		<div class="chart" >
+		                    	<div id="TeaCharts3"  :style="{height:'300px',width:'550px'}"></div>
 	                  		</div>
 	            		</div>
 	            		<table id="example1" class="table table-bordered table-striped"  v-show="yejiList">
 		                	<thead>
 		                		<tr>
-		                  			<th>教师业绩</th>
+		                  			<th>业绩预测</th>
 				                  	<th>单位排名</th>
 			                  		<th>学校排名</th>
 			                  		<th>姓名</th>
@@ -226,62 +225,61 @@
 		                	</thead>
 		                	<tbody>
 		                		<tr>
-		                			<th>89</th>
+		                			<th @click="showList()">89</th>
 		                			<th>3</th>
 				                  	<th>12</th>
-				                  	<th>李华</th>
+				                  	<th @click="goParam(teacherID+2)">李华</th>
 				                  	<th>20081243</th>
 				                  	<th>马克思主义学院</th>
 		                		</tr>
 		                		<tr>
-									<th>89</th>
+									<th @click="showList()">89</th>
 		                			<th>3</th>
 				                  	<th>12</th>
-				                  	<th>李华</th>
+				                  	<th @click="goParam(teacherID+2)">李华</th>
 				                  	<th>20081243</th>
 				                  	<th>马克思主义学院</th>
 		                		</tr>
 		                		<tr>
-									<th>89</th>
+									<th @click="showList()">89</th>
 		                			<th>3</th>
 				                  	<th>12</th>
-				                  	<th>李华</th>
+				                  	<th @click="goParam(teacherID+2)">李华</th>
 				                  	<th>20081243</th>
 				                  	<th>马克思主义学院</th>
 		                		</tr>
 		                		<tr>
-									<th>89</th>
+									<th @click="showList()">89</th>
 		                			<th>3</th>
 				                  	<th>12</th>
-				                  	<th>李华</th>
+				                  	<th @click="goParam(teacherID+2)">李华</th>
 				                  	<th>20081243</th>
 				                  	<th>马克思主义学院</th>
 		                		</tr>
 		                		<tr>
-									<th>89</th>
+									<th @click="showList()">89</th>
 		                			<th>3</th>
 				                  	<th>12</th>
-				                  	<th>李华</th>
+				                  	<th @click="goParam(teacherID+2)">李华</th>
 				                  	<th>20081243</th>
 				                  	<th>马克思主义学院</th>
 		                		</tr>
 		                		<tr>
-									<th>89</th>
+									<th @click="showList()">89</th>
 		                			<th>3</th>
 				                  	<th>12</th>
-				                  	<th>李华</th>
+				                  	<th @click="goParam(teacherID+2)">李华</th>
 				                  	<th>20081243</th>
 				                  	<th>马克思主义学院</th>
 		                		</tr>
-
 		                	</tbody>
 	              		</table>
 	            	</div>
 	    		</div>
 	    	</div>
 	    </div>
-	    <!-- ./科研影响因子排名 -->
-	    <!-- 科研合作单位 -->
+	    <!-- ./教师业绩预测分析 -->
+	    <!-- 教师业绩分布 -->
 		<div class="row">
 	    	<div class="col-md-12">
 	    		<div class="box box-primary">
@@ -299,7 +297,7 @@
 	    		</div>
 	    	</div>
 	    </div>
-		<!-- ./科研合作单位 -->
+		<!-- ./教师业绩分布 -->
     </section>
     <!-- /.content -->
 	</div>
@@ -320,9 +318,10 @@
                 units:["单位1","单位2"],
                 selectTeacher:"",
                 teachers:["教师1","教师2"],
-                yejiList:false,
-                yejiLine:true,
-                isShow:false
+                yejiList:true,
+                yejiLine:false,
+                isShow:false,
+                teacherID:'123',
 			}
 		},
 		components: {
@@ -333,10 +332,13 @@
 			$(':input').labelauty();
 			this.drawTeaCharts1();
 		    this.drawTeaCharts2();
-		    this.drawTeaCharts3();
+		    // this.drawTeaCharts3();
 		    this.drawTeaCharts4();
 		},
 		methods:{
+			goParam:function(ID){
+              this.$router.push({name:"TeacherFiles",path:'/teacher/TeacherFiles', params: {'teacherID': ID}})
+          	},
 			goBack(){
 				this.drawTeaCharts1();
 				this.isShow = false;
@@ -345,6 +347,11 @@
 			backList(){
 				this.yejiLine = !this.yejiLine;
 				this.yejiList=!this.yejiList;
+			},
+			showList(){
+				this.yejiLine = !this.yejiLine;
+				this.yejiList=!this.yejiList;
+				this.drawTeaCharts3();
 			},
 			drawTeaCharts1(){
 				let self = this;
@@ -372,7 +379,7 @@
 				        axisLabel:{
 							interval: 0,						
 						},
-				        data: ['2013','2014','2015','2016','2017','2018'],
+				        data: ['信息科技学院','物理材料科学学院','生态与环境科学学院','设计学院','经济与管理学院','地理学科学院'],
 				    }],
 				    yAxis: [{
 				         
@@ -457,7 +464,7 @@
 				myChart1.on('click', function (param) {
 					name = param.name;
 					self.isShow = true
-					option1.xAxis[0].data=['信息科技学院','物理材料科学学院','生态与环境科学学院','设计学院','经济与管理学院','地理学科学院'];
+					option1.xAxis[0].data=['2013','2014','2015','2016','2017','2018'];
 					myChart1.setOption(option1);
 				});
 			},
@@ -542,7 +549,7 @@
 				myChart2.setOption(option2);
 			},
 			drawTeaCharts3(){
-				let self = this;
+				alert(1)
 	            var myChart3 = echarts.init(document.getElementById('TeaCharts3'));
 	            var option3 = {
 	                tooltip: {
@@ -594,12 +601,6 @@
 					}]
 	            };
 	            myChart3.setOption(option3);
-	            myChart3.on('click', function (param) {
-	            	var that=this;
-					name = param.name;
-					self.yejiList=!self.yejiList;
-                	self.yejiLine=!self.yejiLine;
-				});
 	        },
 	        drawTeaCharts4(){
 				var myChart4 = echarts.init(document.getElementById('TeaCharts4'));
@@ -736,7 +737,4 @@
 	    float: left;
 	    padding:5px 10px;
 	}
-	.backbtn{
-		float:right;
-		margin-right:3%;	}
 </style>

@@ -59,12 +59,23 @@
              			</div>
             		</div>
             		<div class="box-body box-profile">
-	              		<img class="profile-user-img img-responsive img-circle" src="../../assets/img/女.jpg" alt="User profile picture">
+            			<div class="profile-user-img img-circle" style=" position: relative;" id = "changeImg">
+            				<img class="img-responsive img-circle" src="../../assets/img/女.jpg" alt="User profile picture">
+            				<!-- <div class="img-circle" style="background:rgba(0,0,0,0.5);width:94px;height:94px; position:absolute;left: 0;top:0;text-align:center;line-height:94px;color:#fff" id="mockImg"><Icon type="edit"></Icon></div> -->
+            			</div>
+	              		<!-- <img class="profile-user-img img-responsive img-circle" src="../../assets/img/女.jpg" alt="User profile picture"> -->
+	              		
 	              		<h3 class="profile-username text-center">何骊</h3>
 	              		<p class="text-muted text-center"> </p>
 	            		<ul class="list-group list-group-unbordered">
 	                		<li class="list-group-item">
-	                  			<b>学院</b> <a class="pull-right">计算机科学与技术</a>
+	                  			<b>名族</b> <a class="pull-right">汉</a>
+	                		</li>
+	                		<li class="list-group-item">
+	                  			<b>籍贯</b> <a class="pull-right">浙江省杭州市</a>
+	                		</li>
+	                		<li class="list-group-item">
+	                  			<b>政治面貌</b> <a class="pull-right">党员</a>
 	                		</li>
 	                		<li class="list-group-item">
 	                  			<b>出生日期</b> <a class="pull-right">1978.10.4</a>
@@ -73,13 +84,19 @@
 	                 			<b>来校日期</b> <a class="pull-right">2008.8.8</a>
 	                		</li>
 	                		<li class="list-group-item">
-	                 			<b>学历</b> <a class="pull-right">本科</a>
+	                  			<b>学院</b> <a class="pull-right">计算机科学与技术</a>
+	                		</li>
+	                		<li class="list-group-item">
+	                  			<b>研究方向</b> <a class="pull-right">激光成像</a>
+	                		</li>
+	                		<li class="list-group-item">
+	                 			<b>学历</b> <a class="pull-right">硕士研究生</a>
+	                		</li>
+	                		<li class="list-group-item">
+	                 			<b>学位</b> <a class="pull-right">硕士学位</a>
 	                		</li>
 	                		<li class="list-group-item">
 	                 			<b>职称</b> <a class="pull-right">讲师（高校）</a>
-	                		</li>
-	                		<li class="list-group-item">
-	                 			<b>职务名称</b> <a class="pull-right">...</a>
 	                		</li>
 	                		<li class="list-group-item">
 	                 			<b>职工类型</b> <a class="pull-right">在编在岗</a>
@@ -212,7 +229,7 @@
     </section>
 	 <!-- Main content -->
     <section class="content">
-    <!-- 进修/留学 -->
+     <!-- 进修/留学 -->
 		<div class="row">
 	    	<div class="col-md-12">
 	    		<div class="box box-primary">
@@ -356,6 +373,72 @@
 	    	</div>
 	    </div>
 		<!-- ./授课信息 -->
+		<!-- 考核信息 -->
+		<div class="row">
+	    	<div class="col-md-12">
+	    		<div class="box box-primary">
+	    			<div class="box-header with-border">
+             			<h3 class="box-title">考核信息</h3>
+              			<div class="box-tools pull-right">
+               				<button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>
+                			<button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
+             			</div>
+            		</div>
+            		<!-- /.box-header -->
+	            	<div class="box-body">
+	            		<table id="example1" class="table table-bordered table-striped">
+		                	<thead>
+		                		<tr>
+		                  			<th>考核批次</th>
+				                  	<th>考核方案</th>
+			                  		<th>考核对象</th>
+			                  		<th>考核时间</th>
+				                  	<th>考核结果</th>
+				                </tr>
+		                	</thead>
+		                	<tbody>
+		                		<tr>
+									<th>2014考核-艺术</th>
+				                  	<th>2014考核方案NEW</th>
+			                  		<th>课堂教学质量</th>
+				                  	<th>2015.01.20</th>
+				                  	<th>97.48</th>
+		                		</tr>
+		                		<tr>
+									<th>2014考核-艺术</th>
+				                  	<th>2014考核方案NEW</th>
+			                  		<th>课堂教学质量</th>
+				                  	<th>2015.01.20</th>
+				                  	<th>97.48</th>
+		                		</tr>
+		                		<tr>
+									<th>2014考核-艺术</th>
+				                  	<th>2014考核方案NEW</th>
+			                  		<th>课堂教学质量</th>
+				                  	<th>2015.01.20</th>
+				                  	<th>97.48</th>
+		                		</tr>
+		                		<tr>
+									<th>2014考核-艺术</th>
+				                  	<th>2014考核方案NEW</th>
+			                  		<th>课堂教学质量</th>
+				                  	<th>2015.01.20</th>
+				                  	<th>97.48</th>
+		                		</tr>
+		                		<tr>
+									<th>2014考核-艺术</th>
+				                  	<th>2014考核方案NEW</th>
+			                  		<th>课堂教学质量</th>
+				                  	<th>2015.01.20</th>
+				                  	<th>97.48</th>
+		                		</tr>
+		                	</tbody>
+	              		</table>
+	            	</div>
+	    		</div>
+	    	</div>
+	    </div>
+		<!-- ./考核信息 -->
 		<!-- 个人考勤 -->
 		<div class="row">
         	<div class="col-md-12">
@@ -450,18 +533,24 @@
 			return {
 				ajaxData:{
 					teacherID:"23"
-				}
+				},
+				
 			}
 		},
 		components: {
 			teaCascade,
 			
 		},
-		mounted(){
+		computed: {
+            uploadList () {
+                return this.$refs.upload ? this.$refs.upload.fileList : [];
+            }
+        },
+		//mounted(){
 			// this.ajaxData.teacherID = this.$route.params.teacherID
 			// console.log(this.$route)
 			// console.log(this.$route.params.teacherID)
-		},
+		//},
 		methods:{
 			btnSubmit(a){
 				
@@ -503,7 +592,7 @@
 			 //        this.reponseData = response.data.data.result;
 			 //        console.log(this.reponseData)
 			 //    });
-			}
+			},
 		},
 		created() {
 			this.ajaxData.teacherID = this.$route.params.teacherID;
@@ -522,5 +611,11 @@
 </script>
 
 <style scoped>
-
+	/*#mockImg{
+		display: none;
+	}
+	#changeImg:hover #mockImg{
+		display: block;
+	}*/
+	
 </style>

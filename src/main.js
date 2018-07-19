@@ -20,6 +20,7 @@ import 'font-awesome/css/font-awesome.css'
 import 'ionicons/css/ionicons.min.css'
 import './assets/css/AdminLTE.min.css'
 import './assets/css/skins/_all-skins.min.css'
+import './assets/css/main.css'
 
 
 Vue.use(iView);

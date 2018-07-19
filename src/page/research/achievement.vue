@@ -36,11 +36,11 @@
 							        <Option v-for="item in units" :value="item" :key="item">{{ item}}</Option>
 							    </Select>
 					   		</div>
-					   		<div class="col-xs-3">
+					   		<!-- <div class="col-xs-3">
 		                        <Select v-model="selectTeacher" placeholder="请选择教师">
 							        <Option v-for="item in teachers" :value="item" :key="item">{{ item}}</Option>
 							    </Select>
-					   		</div>
+					   		</div> -->
 					   		<div class="col-xs-3">
     							<Button type="primary" icon="ios-search">搜索</Button>
 					   		</div>
@@ -325,7 +325,7 @@
 	    	<div class="col-md-7">
 	    		<div class="box box-success">
 	    			<div class="box-header with-border">
-             			<h3 class="box-title">科研影响因子排名</h3>
+             			<h3 class="box-title">科研影响因素</h3>
               			<div class="box-tools pull-right">
                				<button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>
                 			<button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
@@ -333,43 +333,10 @@
             		</div>
             		<!-- /.box-header -->
 	            	<div class="box-body">
-	                  	<table id="example1" class="table table-bordered table-striped">
-		                	<thead>
-		                		<tr>
-		                  			<th>排名</th>
-				                  	<th>科研名称</th>
-			                  		<th>影响因子</th>
-				                </tr>
-		                	</thead>
-		                	<tbody>
-		                		<tr>
-		                			<th>1</th>
-				                  	<th>数字音乐在数字娱乐中的重要地位</th>
-				                  	<th>57</th>
-		                		</tr>
-		                		<tr>
-									<th>2</th>
-				                  	<th>数字音乐在数字娱乐中的重要地位</th>
-				                  	<th>57</th>
-		                		</tr>
-		                		<tr>
-									<th>3</th>
-				                  	<th>数字音乐在数字娱乐中的重要地位</th>
-				                  	<th>57</th>
-		                		</tr>
-		                		<tr>
-									<th>4</th>
-				                  	<th>数字音乐在数字娱乐中的重要地位</th>
-				                  	<th>57</th>
-		                		</tr>
-		                		<tr>
-									<th>5</th>
-				                  	<th>数字音乐在数字娱乐中的重要地位</th>
-				                  	<th>57</th>
-		                		</tr>
-
-		                	</tbody>
-	              		</table>
+	                  	<div class="chart">
+	                   		 <!--  Chart  -->
+	                    	<div id="TeaCharts4"  :style="{height:'250px'}"></div>
+                  		</div>
 	            	</div>
 	    		</div>
 	    	</div>
@@ -621,6 +588,7 @@
 			// this.drawTeaCharts1();
 		    // this.drawTeaCharts2();
 		    this.drawTeaCharts3();
+		    this.drawTeaCharts4();
 		},
 		methods:{
 			drawTeaCharts1(){
@@ -911,7 +879,82 @@
 	              ]
 	            };
 	            myChart3.setOption(option3);
-	          },
+	        },
+	        drawTeaCharts4(){
+				var myChart4 = echarts.init(document.getElementById('TeaCharts4'));
+				var option4 = {
+					tooltip : {
+				        trigger: 'axis'
+				    },
+				    legend: {
+				        data:['教学工作','科研投入','讲师','助教','教授'],
+				        top:220
+
+				    },
+				    grid: {
+				        left: '3%',
+				        right: '4%',
+				        top: '5%',
+				        containLabel: true
+				    },
+				    xAxis : [
+				        {
+				            type : 'category',
+				            boundaryGap : false,
+				            data : ['2013','2014','2015','2016','2017','2018']
+				        }
+				    ],
+				    yAxis : [
+				        {
+				            type : 'value',
+				        }
+				    ],
+				    series : [
+				        {
+				            name:'教学工作',
+				            type:'line',
+				            stack: '总量',
+				            areaStyle: {normal: {}},
+				            data:[0.2, 0.3, 0.5, 0.6, 0.4, 0.6]
+				        },
+				        {
+				            name:'科研投入',
+				            type:'line',
+				            stack: '总量',
+				            areaStyle: {normal: {}},
+				            data:[0.4, 0.6, 0.4, 0.7, 0.3, 0.2]
+				        },
+				        {
+				            name:'讲师',
+				            type:'line',
+				            stack: '总量',
+				            areaStyle: {normal: {}},
+				            data:[0.5, 0.2, 0.7, 0.5, 0.3, 0.6]
+				        },
+				        {
+				            name:'助教',
+				            type:'line',
+				            stack: '总量',
+				            areaStyle: {normal: {}},
+				            data:[0.2, 0.3, 0.5, 0.7, 0.4, 0.8]
+				        },
+				        {
+				            name:'教授',
+				            type:'line',
+				            stack: '总量',
+				            // label: {
+				            //     normal: {
+				            //         show: true,
+				            //         position: 'top'
+				            //     }
+				            // },
+				            areaStyle: {normal: {}},
+				            data:[0.1, 0.4, 0.6, 0.8, 0.2, 0.5]
+				        }
+				    ]
+				};
+				myChart4.setOption(option4);
+			},
 			searchEvent(data1,data2,data3){
 				console.log(data1+','+data2+','+data3);
 				this.drawTeaCharts2();

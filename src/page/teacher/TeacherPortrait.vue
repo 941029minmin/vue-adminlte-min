@@ -122,10 +122,11 @@
                 <!-- /.box-header -->
                 <div class="box-body">
                   <div class="row">
-                        <div class="chart">
-                           <!--  Chart  -->
-                          <div id="TeaCharts2"  :style="{height:'250px'}"></div>
-                        </div>
+                    <i-button class="backbtn" @click="goBack(2)" v-show="isShow[0]">返回</i-button>
+                    <div class="chart">
+                       <!--  Chart  -->
+                      <div id="TeaCharts2"  :style="{height:'250px'}"></div>
+                    </div>
                   </div>
                 </div>
           </div>
@@ -142,10 +143,11 @@
                 <!-- /.box-header -->
                 <div class="box-body">
                   <div class="row">
-                        <div class="chart">
-                           <!--  Chart  -->
-                          <div id="TeaCharts3"  :style="{height:'250px'}"></div>
-                        </div>
+                   <i-button class="backbtn" @click="goBack(3)" v-show="isShow[1]">返回</i-button>
+                    <div class="chart">
+                       <!--  Chart  -->
+                      <div id="TeaCharts3"  :style="{height:'250px'}"></div>
+                    </div>
                   </div>
                 </div>
           </div>
@@ -165,10 +167,11 @@
                 <!-- /.box-header -->
                 <div class="box-body">
                   <div class="row">
-                        <div class="chart">
-                           <!--  Chart  -->
-                          <div id="TeaCharts4"  :style="{height:'250px'}"></div>
-                        </div>
+                    <i-button class="backbtn" @click="goBack(4)" v-show="isShow[2]">返回</i-button>
+                    <div class="chart">
+                       <!--  Chart  -->
+                      <div id="TeaCharts4"  :style="{height:'250px'}"></div>
+                    </div>
                   </div>
                 </div>
           </div>
@@ -185,10 +188,11 @@
                 <!-- /.box-header -->
                 <div class="box-body">
                   <div class="row">
-                        <div class="chart">
-                           <!--  Chart  -->
-                          <div id="TeaCharts5"  :style="{height:'250px'}"></div>
-                        </div>
+                    <i-button class="backbtn" @click="goBack(5)" v-show="isShow[3]">返回</i-button>
+                    <div class="chart">
+                       <!--  Chart  -->
+                      <div id="TeaCharts5"  :style="{height:'250px'}"></div>
+                    </div>
                   </div>
                 </div>
           </div>
@@ -251,10 +255,11 @@
                 <!-- /.box-header -->
                 <div class="box-body">
                   <div class="row">
-                        <div class="chart">
-                           <!--  Chart  -->
-                          <div id="TeaCharts8"  :style="{height:'250px'}"></div>
-                        </div>
+                    <i-button class="backbtn" @click="goBack(8)" v-show="isShow[4]">返回</i-button>
+                    <div class="chart">
+                       <!--  Chart  -->
+                      <div id="TeaCharts8"  :style="{height:'250px'}"></div>
+                    </div>
                   </div>
                 </div>
           </div>
@@ -274,30 +279,14 @@
                 <!-- /.box-header -->
                 <div class="box-body">
                   <div class="row">
-                        <div class="chart">
-                           <!--  Chart  -->
-                          <div id="TeaCharts9"  :style="{height:'300px'}"></div>
-                        </div>
+                    <div class="chart">
+                       <!--  Chart  -->
+                      <div id="TeaCharts9"  :style="{height:'300px'}"></div>
+                    </div>
+                    <Modal v-model="modal1" title="任课信息详情" >
+                      <Table stripe :columns="columnsT" :data="dataT"></Table>
+                    </Modal>
                   </div>
-                </div>
-          </div>
-        </div>
-      </div> 
-      <!-- 教师业绩排名 -->
-      <div class="row">
-        <div class="col-md-12">
-          <div class="box box-success">
-            <div class="box-header with-border">
-                  <h3 class="box-title">教师业绩排名</h3>
-                    <div class="box-tools pull-right">
-                      <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>
-                      <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
-                  </div>
-                </div>
-                <!-- /.box-header -->
-                <div class="box-body">
-                    <Table stripe :columns="columns1" :data="data1"></Table>
-
                 </div>
           </div>
         </div>
@@ -315,6 +304,34 @@
                 name:"",
                 biaoqian: ['老当益壮', '发明家','青年才俊','雷厉风行','硕学通儒','交际能手','完美主义'],
                 biaoqianArr:[],
+                isShow:[false,false,false,false,false,false],
+                modal1: false,
+                columnsT: [
+                    {
+                        title: '排名',
+                        key: 'pm',
+                        "sortable": true
+                    },
+                    {
+                        title: '任课时长',
+                        key: 'rksc'
+                    },
+                    {
+                        title: '姓名',
+                        key: 'xm'
+                    },
+                    {
+                        title: '教职工号',
+                        key: 'gh'
+                    }
+                ],
+                dataT: [
+                    {"pm":1,"rksc":102,"xm":"王力","gh":"69873"},
+                    {"pm":2,"rksc":100,"xm":"范弥","gh":"85123"},
+                    {"pm":3,"rksc":98,"xm":"张凯","gh":"76921"},
+                    {"pm":4,"rksc":90,"xm":"陆峰","gh":"258369"},
+                    {"pm":5,"rksc":85,"xm":"李承","gh":"951357"}
+                ],
                 // 列表
                 columns1: [
                     {
@@ -376,13 +393,7 @@
                     {"jsyj":"90","bdwpm":"11","qxpm":"35","rzdw":"动画学院","xm":"范弥","gh":"85123","lxrq":"2012/7/1","zgxl":"硕士研究生","bzlx":"在编在岗","lxfs":"13890758975","dwbh":22627},
                     {"jsyj":"95","bdwpm":"8","qxpm":"18","rzdw":"文学院","xm":"张凯","gh":"76921","lxrq":"2011/2/5","zgxl":"博士研究生","bzlx":"在编在岗","lxfs":"13290758977","dwbh":55627},
                     {"jsyj":"85","bdwpm":"15","qxpm":"38","rzdw":"理学院","xm":"陆峰","gh":"258369","lxrq":"2003/4/25","zgxl":"硕士研究生","bzlx":"在编在岗","lxfs":"15890758975","dwbh":35627},
-                    {"jsyj":"80","bdwpm":"20","qxpm":"40","rzdw":"创意学院","xm":"李承","gh":"951357","lxrq":"2007/4/2","zgxl":"硕士研究生","bzlx":"在编在岗","lxfs":"15990758975","dwbh":25627},
-                    {"jsyj":"96","bdwpm":"7","qxpm":"11","rzdw":"电子学院","xm":"李华","gh":"453691","lxrq":"2011/3/6","zgxl":"硕士研究生","bzlx":"在编在岗","lxfs":"13890758971","dwbh":15627},
-                    {"jsyj":"92","bdwpm":"9","qxpm":"15","rzdw":"机械学院","xm":"袁志","gh":"145987","lxrq":"2001/4/14","zgxl":"博士研究生","bzlx":"在编在岗","lxfs":"15890758975","dwbh":65627},
-                    {"jsyj":"97","bdwpm":"5","qxpm":"8","rzdw":"计算机学院","xm":"张超超","gh":"347758","lxrq":"2011/8/17","zgxl":"硕士研究生","bzlx":"在编在岗","lxfs":"13890758974","dwbh":75627},
-                    {"jsyj":"99","bdwpm":"2","qxpm":"2","rzdw":"管理学院","xm":"吴明","gh":"697821","lxrq":"2006/1/7","zgxl":"博士研究生","bzlx":"在编在岗","lxfs":"13890758965","dwbh":85627},
-                    {"jsyj":"88","bdwpm":"13","qxpm":"37","rzdw":"外语学院","xm":"李治","gh":"1024684","lxrq":"2004/4/7","zgxl":"硕士研究生","bzlx":"在编在岗","lxfs":"15890758927","dwbh":95627},
-                    {"jsyj":"82","bdwpm":"17","qxpm":"43","rzdw":"文学院","xm":"赵丽欢","gh":"4076185","lxrq":"2003/7/13","zgxl":"硕士研究生","bzlx":"在编在岗","lxfs":"13890738925","dwbh":88627}
+                    {"jsyj":"80","bdwpm":"20","qxpm":"40","rzdw":"创意学院","xm":"李承","gh":"951357","lxrq":"2007/4/2","zgxl":"硕士研究生","bzlx":"在编在岗","lxfs":"15990758975","dwbh":25627}
                 ],
                 data1: []
             }
@@ -412,76 +423,92 @@
                     this.data1.push(this.datas[tt])
                 }
           },
+          goBack(methodsName){
+            switch(methodsName) {
+                case 2: this.drawTeaCharts2(); this.isShow[0] = false; break;
+                case 3: this.drawTeaCharts3(); this.isShow[1] = false; break;
+                case 4: this.drawTeaCharts4(); this.isShow[2] = false; break;
+                case 5: this.drawTeaCharts5(); this.isShow[3] = false; break;
+                case 8: this.drawTeaCharts8(); this.isShow[4] = false; break;
+                // case 9: this.drawMyCharts9(); this.isShow[1] = false; break;
+                // case 1: this.drawMyCharts1(); this.isShow[2] = false; break;
+                // case 2: this.drawMyCharts2(); this.isShow[3] = false; break;
+                // case 4: this.drawMyCharts4(); this.isShow[4] = false; break;
+                // case 5: this.drawMyCharts5(); this.isShow[5] = false; break;
+            }
+            this.isShow.push(true)
+            this.isShow.pop()
+          },
           drawTeaCharts1(){
             var myChart1 = echarts.init(document.getElementById('TeaCharts1'));
             var option1 = {
-                color: ['#3398DB','#675bba'],
-                tooltip : {
-                    trigger: 'axis',
-                    formatter: "{a}<br>{b} : {c}人",
-                    axisPointer: {
-                        type: 'cross',
-                    }
-                },
-                grid: {
-                    left: '3%',
-                    right: '4%',
-                    top: '5%',
-                    bottom: '10%',
-                    containLabel: true
-                },
-                xAxis : [
-                    {
-                      type : 'category',
-                      name: '',
-                      data : ['播音主持艺术学院','电视艺术学院','电影学院','电子信息学院','动画学院','管理学院','国际文化传播学院','设计艺术学院','文化创意学院','文学院'],
-                      axisTick: {
-                          alignWithLabel: true
-                      },
-                      axisLabel:{
-                        interval: 0,
-                        // rotate: 30,
-                      }
+              color: ['#3398DB','#675bba'],
+              tooltip : {
+                  trigger: 'axis',
+                  formatter: "{a}<br>{b} : {c}人",
+                  axisPointer: {
+                      type: 'cross',
                   }
-                ],
-                yAxis : [
-                    {
-                      type : 'value',
-                      name:'教师人数',
-                      nameTextStyle:{
-                        // color:"#dfdfdf",
-                      },
-                      axisLabel:{
+              },
+              grid: {
+                  left: '3%',
+                  right: '4%',
+                  top: '5%',
+                  bottom: '10%',
+                  containLabel: true
+              },
+              xAxis : [
+                  {
+                    type : 'category',
+                    name: '',
+                    data : ['播音主持艺术学院','电视艺术学院','电影学院','电子信息学院','动画学院','管理学院','国际文化传播学院','设计艺术学院','文化创意学院','文学院'],
+                    axisTick: {
+                        alignWithLabel: true
+                    },
+                    axisLabel:{
+                      interval: 0,
+                      // rotate: 30,
+                    }
+                }
+              ],
+              yAxis : [
+                  {
+                    type : 'value',
+                    name:'教师人数',
+                    nameTextStyle:{
+                      // color:"#dfdfdf",
+                    },
+                    axisLabel:{
 
-                      },
-                      splitLine: {
-                        lineStyle: {
-                          color: '#ccc',
-                          // type: 'dashed'
-                        }
+                    },
+                    splitLine: {
+                      lineStyle: {
+                        color: '#ccc',
+                        // type: 'dashed'
                       }
                     }
-                ],
-                series : [
-                    {
-                        name:'教师人数',
-                        type:'bar',
-                        barWidth: '20',
-                        data:[10, 52, 100, 60, 50,58,69,35,96,100],
-                        itemStyle: {
-                            normal: {
-                                color: new echarts.graphic.LinearGradient(
-                                    0, 0, 0, 1,
-                                    [
-                                        {offset: 0, color: '#eb65f9'},
-                                        {offset: 1, color: '#8417bd'}
-                                    ]
-                                ),
+                  }
+              ],
+              series : [
+                  {
+                      name:'教师人数',
+                      type:'bar',
+                      barWidth: '20',
+                      data:[10, 52, 100, 60, 50,58,69,35,96,100],
+                      itemStyle: {
+                          normal: {
+                              color: new echarts.graphic.LinearGradient(
+                                  0, 0, 0, 1,
+                                  [
+                                      {offset: 0, color: '#eb65f9'},
+                                      {offset: 1, color: '#8417bd'}
+                                  ]
+                              ),
 
-                            }
-                        },
-                    }
-                ]
+                          }
+                      },
+                  }
+              ]
             };
             myChart1.setOption(option1);
           },
@@ -489,94 +516,104 @@
           drawTeaCharts2(){
             var myChart2 = echarts.init(document.getElementById('TeaCharts2'));
             var option2 = {
-                grid: {
-                    containLabel: true,
-                    top: '15%',
-                    bottom:'15%'
-                },
-                tooltip: {
-                    trigger: 'axis',
-                    axisPointer: {
-                        type: 'cross',
-                        crossStyle: {
-                            color: '#222b73'
-                        }
-                    }
-                },
-                xAxis: [{
-                    type: 'category',
-                    axisTick: {
-                        alignWithLabel: true
-                    },
-                    axisLabel:{
-                    interval: 0,
-                },
-                    data: ['在编在岗','校聘人员','外籍教师','院聘人员'],
-                }],
-                yAxis: [{
-
-                }, {
-                    type: 'value',
-                    min: 0,
-                    name: '人数',
-                    position: 'left',
-                    axisLabel:{
-                    interval: 0,
-                },
-                splitLine: {
-                    lineStyle: {
-                    color: '#ccc',
-                    type: 'dashed'
+              grid: {
+                  containLabel: true,
+                  top: '15%',
+                  bottom:'15%'
+              },
+              tooltip: {
+                  trigger: 'axis',
+                  axisPointer: {
+                      type: 'cross',
+                      crossStyle: {
+                          color: '#222b73'
+                      }
                   }
+              },
+              xAxis: [{
+                  type: 'category',
+                  axisTick: {
+                      alignWithLabel: true
+                  },
+                  axisLabel:{
+                  interval: 0,
+              },
+                  data: ['在编在岗','校聘人员','外籍教师','院聘人员'],
+              }],
+              yAxis: [{
+
+              }, {
+                  type: 'value',
+                  min: 0,
+                  name: '人数',
+                  position: 'left',
+                  axisLabel:{
+                  interval: 0,
+              },
+              splitLine: {
+                  lineStyle: {
+                  color: '#ccc',
+                  type: 'dashed'
                 }
-                }],
-                series: [ {
-                    name: '编制类别分类',
-                    type: 'bar',
-                    barWidth: '30',
-                    yAxisIndex: 1,
-                    label: {
-                        normal: {
-                            show: true,
-                            position: 'top'
-                        }
-                    },
-                    data: [
-                    {
-                       value: 22,
-                       itemStyle:{
-                        normal:{
-                          color:'#e8f018'
-                        }
-                       }
-                    },
-                    {
-                       value: 33,
-                       itemStyle:{
-                        normal:{
-                          color:'#7060b8'
-                        }
-                       }
-                    },
-                    {
-                       value: 44,
-                       itemStyle:{
-                        normal:{
-                          color:'#f8a0ff'
-                        }
-                       }
-                    },
-                    {
-                       value: 55,
-                       itemStyle:{
-                        normal:{
-                          color:'#90b0e0'
-                        }
-                       }
-                    }]
-                }]
+              }
+              }],
+              series: [ {
+                  name: '编制类别分类',
+                  type: 'bar',
+                  barWidth: '30',
+                  yAxisIndex: 1,
+                  label: {
+                      normal: {
+                          show: true,
+                          position: 'top'
+                      }
+                  },
+                  data: [
+                  {
+                     value: 22,
+                     itemStyle:{
+                      normal:{
+                        color:'#e8f018'
+                      }
+                     }
+                  },
+                  {
+                     value: 33,
+                     itemStyle:{
+                      normal:{
+                        color:'#7060b8'
+                      }
+                     }
+                  },
+                  {
+                     value: 44,
+                     itemStyle:{
+                      normal:{
+                        color:'#f8a0ff'
+                      }
+                     }
+                  },
+                  {
+                     value: 55,
+                     itemStyle:{
+                      normal:{
+                        color:'#90b0e0'
+                      }
+                     }
+                  }]
+              }]
             };
             myChart2.setOption(option2);
+            var self = this;
+            myChart2.on('click', function (param) {
+              name = param.name;
+              self.isShow[0] = true;
+              self.isShow.push(true)
+              self.isShow.pop();
+              option2.series[0].data=[{value: 122,itemStyle:{normal:{color:'#e8f018'}}},{value: 62,itemStyle:{normal:{color:'#90b0e0'}}},{value: 212,itemStyle:{normal:{color:'#f8a0ff'}}},{value: 92,itemStyle:{normal:{color:'#7060b8'}}}];
+              option2.xAxis[0].data = ['文学院','新闻与传播学院','文化创意学院','管理学院']
+              myChart2.setOption(option2);
+            });
           },
           drawTeaCharts3(){
             var myChart3 = echarts.init(document.getElementById('TeaCharts3'));
@@ -587,8 +624,9 @@
               },
               legend: {
                   data:['男','女','null'],
-                      height:"40",
-                      top:"190"
+                  top:"190",
+                  type:"scroll",
+                  width:'90%'
               },
               series : [
                   {
@@ -645,6 +683,17 @@
               ]
             };
             myChart3.setOption(option3);
+            var self = this;
+            myChart3.on('click', function (param) {
+              name = param.name;
+              self.isShow[1] = true;
+              self.isShow.push(true)
+              self.isShow.pop();
+              option3.series[0].data=[{value: 100,name: "播音主持艺术学院"}, {value: 100,name: "电视艺术学院"}, {value: 100,name: "电影学院"}, {value: 100,name: "电子信息学院"}, {value: 100,name: "动画学院"}, {value: 100,name: "管理学院"}, {value: 100,name: "国际文化传播学院"}, {value: 100,name: "设计艺术学院"}, {value: 100,name: "文化创意学院"}, {value: 100,name: "文学院"}];
+              option3.legend.data=['播音主持艺术学院', '电视艺术学院', '电影学院', '电子信息学院', '动画学院', '管理学院', '国际文化传播学院', '设计艺术学院', '文化创意学院', '文学院'];
+             
+              myChart3.setOption(option3);
+            });
           },
           drawTeaCharts4(){
             var myChart4 = echarts.init(document.getElementById('TeaCharts4'));
@@ -743,6 +792,17 @@
               ]
             };
             myChart4.setOption(option4);
+            var self = this;
+            myChart4.on('click', function (param) {
+              name = param.name;
+              self.isShow[2] = true;
+              self.isShow.push(true)
+              self.isShow.pop();
+              option4.series[0].data=[{value: 100,name: "播音主持艺术学院"}, {value: 100,name: "电视艺术学院"}, {value: 100,name: "电影学院"}, {value: 100,name: "电子信息学院"}, {value: 100,name: "动画学院"}, {value: 100,name: "管理学院"}, {value: 100,name: "国际文化传播学院"}, {value: 100,name: "设计艺术学院"}, {value: 100,name: "文化创意学院"}, {value: 100,name: "文学院"}];
+              option4.legend.data=['播音主持艺术学院', '电视艺术学院', '电影学院', '电子信息学院', '动画学院', '管理学院', '国际文化传播学院', '设计艺术学院', '文化创意学院', '文学院'];
+             
+              myChart4.setOption(option4);
+            });
           },
           drawTeaCharts5(){
             var myChart5 = echarts.init(document.getElementById('TeaCharts5'));
@@ -821,6 +881,17 @@
               ]
             };
             myChart5.setOption(option5);
+            var self = this;
+            myChart5.on('click', function (param) {
+              name = param.name;
+              self.isShow[3] = true;
+              self.isShow.push(true)
+              self.isShow.pop();
+              option5.series[0].data=[{value: 100,name: "播音主持艺术学院"}, {value: 100,name: "电视艺术学院"}, {value: 100,name: "电影学院"}, {value: 100,name: "电子信息学院"}, {value: 100,name: "动画学院"}, {value: 100,name: "管理学院"}, {value: 100,name: "国际文化传播学院"}, {value: 100,name: "设计艺术学院"}, {value: 100,name: "文化创意学院"}, {value: 100,name: "文学院"}];
+              option5.legend.data=['播音主持艺术学院', '电视艺术学院', '电影学院', '电子信息学院', '动画学院', '管理学院', '国际文化传播学院', '设计艺术学院', '文化创意学院', '文学院'];
+             
+              myChart5.setOption(option5);
+            });
           },
           drawTeaCharts6(){
             var myChart6 = echarts.init(document.getElementById('TeaCharts6'));
@@ -836,6 +907,13 @@
                   return [p[0] + 10, p[1] - 80];
                 }
 
+              },
+              dataZoom: {
+                type: 'inside',
+                filterMode: 'filter',
+                start: 100,
+                end: 0,
+                xAxisIndex: 0
               },
               grid: {
                 top:30,
@@ -1136,6 +1214,17 @@
                 ]
             };
             myChart8.setOption(option8);
+            var self = this;
+            myChart8.on('click', function (param) {
+              name = param.name;
+              self.isShow[4] = true;
+              self.isShow.push(true)
+              self.isShow.pop();
+              option8.series[0].data=[{value: 100,name: "高级教师"}, {value: 100,name: "一级教师"}, {value: 100,name: "二级教师"}, {value: 100,name: "三级教师"}];
+              option8.legend.data=['高级教师', '一级教师', '二级教师', '三级教师'];
+             
+              myChart8.setOption(option8);
+            });
           },
           drawTeaCharts9(){
             var myChart9 = echarts.init(document.getElementById('TeaCharts9'));
@@ -1209,6 +1298,11 @@
                 ]
             };
             myChart9.setOption(option9);
+            var self = this;
+            myChart9.on('click', function (param) {
+              name = param.name;
+              self.modal1 = true;
+            });
           },
         }
          
